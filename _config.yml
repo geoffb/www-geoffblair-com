@@ -1,0 +1,6 @@
+exclude: [README.md]
+
+# Local server settings
+auto: true
+server: true
+server_port: 5500
