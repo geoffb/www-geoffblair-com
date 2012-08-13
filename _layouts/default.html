@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="keywords" content="Geoff, Blair, Geoffrey Blair">
+	<meta name="keywords" content="Geoff, Blair, Geoff Blair, Geoffrey Blair">
 	<meta name="description" content="Geoff Blair">
 	<meta name="author" content="Geoff Blair">
-	<title>{{ page.title }}</title>
+	<title>Geoff Blair : {{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="/media/css/combo.css">
 </head>
 <body>
 
-	<div>
-		{{ content }}
+	<div class="page-main">
+		<div class="">
+			{{ content }}
+		</div>
 	</div>
 
+	{{ % include ga.html }}
 </body>
 </html>
