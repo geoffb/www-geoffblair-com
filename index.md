@@ -16,7 +16,7 @@ Before starting [LDG][2], I used to write JavaScript/HTML/web apps for [Game Clo
 
 Sometimes I leave the house and go [snowboarding][5] or hiking.
 
-Follow me on [Twitter][13] and [GitHub][14].
+Follow me on [Twitter][13] and [GitHub][14] or drop me an [email][15].
 
 [1]: http://treasuregoblin.lostdecadegames.com/?geoff=1
 [2]: http://www.lostdecadegames.com
@@ -32,3 +32,4 @@ Follow me on [Twitter][13] and [GitHub][14].
 [12]: http://www.mdsuite.com/
 [13]: https://twitter.com/geoffblair
 [14]: https://github.com/geoffb
+[15]: mailto:geoff@lostdecadegames.com
