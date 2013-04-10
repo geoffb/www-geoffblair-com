@@ -1,11 +1,20 @@
 @import "effects";
 
 html, body {
-	background: url(/media/images/backgrounds/lowContrastLinen.png);
+	background: #666;
 }
 
 .page-main {
 	background: #fff;
-	.shadow(2px, 2px, 3px, 3px, #222);
-	border-top: solid 12px #666;
+	color: #333;
+	border: solid 4px #222;
+}
+
+a {
+	color: #0096ff;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
