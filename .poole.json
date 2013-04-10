@@ -1,0 +1,17 @@
+{
+	"targets": {
+		"production": {
+			"auth": "geoffblair",
+			"bucket": "www.geoffblair.com",
+			"region": "us-west-2"
+		}
+	},
+	"headers": {
+		"(jpg|jpeg|png|mp3)$": {
+			"Cache-control": "max-age=31536000"
+		},
+		"(html|htm)$": {
+			"Cache-control": "max-age=172800, must-revalidate"
+		}
+	}
+}
