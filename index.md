@@ -4,7 +4,7 @@ title: About
 ---
 Hello!
 
-My name is Geoff. I love [treasure][1]. I live in the San Francisco bay area with my girlfriend, Melissa, and our three cats.
+My name is Geoff. I love [treasure][1]. I live in the San Francisco bay area with my girlfriend, Melissa, and our cats.
 
 There's not much here because I spend all my time working on my HTML5 game studio, [Lost Decade Games][2], which I co-founded with [Matt Hackett][7].
 
