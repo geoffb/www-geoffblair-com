@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="description", content="desc")
+		meta(name="keywords", content=keywords)
+		title=title
+		link(href="/media/stylesheets/combo.css", rel="stylesheet", type="text/css")
+	body
+		include includes/header
+		div.body!=contents
+		include includes/google-analytics
