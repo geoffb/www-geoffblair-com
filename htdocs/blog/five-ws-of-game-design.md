@@ -3,7 +3,9 @@ title: Five Ws of Game Design
 date: 5/13/2014
 template: article.jade
 ---
-## **Who** is the intended audience?
+During the course of trying to improve my game design chops, I came up with these five Ws in order to help guide my thoughts:
+
+## Who is the intended audience?
 
 Think about who will be playing your game. Games are a product, and products need an audience. Some of the other Ws will influence this answer, specifically "What", "When", and "Where".
 
@@ -21,4 +23,4 @@ Think about the places where your game is meant to be played. It could be a mobi
 
 ## Why is the game unique and interesting?
 
-Think about the reasons why players would want to spend their time
+Think about the reasons why players would want to spend their time playing *your* game.
