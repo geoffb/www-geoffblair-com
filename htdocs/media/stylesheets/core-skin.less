@@ -1,6 +1,22 @@
-main {
+body {
 	font-family: sans-serif;
+}
 
+header {
+	background: #000;
+	color: #fff;
+	nav {
+		a {
+			color: #fff;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+main {
 	h1 {
 		font-size: 26px;
 		font-weight: bold;
@@ -14,5 +30,9 @@ main {
 		font-size: 18px;
 		line-height: 22px;
 		text-align: justify;
+	}
+
+	.comments {
+		border-top: solid 1px #000;
 	}
 }
