@@ -1,8 +1,7 @@
 ---
+title: Error
 template: base.jade
-title: Geoff Blair - 404
 ---
-# throw new Exception("Not Found");
+# throw new Exception();
 
 Oops! Whatever you were looking for isn't here.
-

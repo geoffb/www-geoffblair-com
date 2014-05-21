@@ -1,6 +1,5 @@
 var minimist = require("minimist");
 var Metalsmith = require("metalsmith");
-//var metadata = require("metalsmith-metadata");
 var permalinks = require("metalsmith-permalinks");
 var templates = require("metalsmith-templates");
 var markdown = require("metalsmith-markdown");
@@ -27,14 +26,7 @@ ms.use(permalinks({
 	relative: false
 }));
 
-
-// ms.use(metadata({
-// 	meta: "data/meta.json"
-// }));
-
 ms.use(templates("jade"));
-
-
 
 ms.use(less({
 	pattern: "**/combo.less",

@@ -3,5 +3,8 @@ html(lang="en")
 	include includes/head
 	body
 		include includes/header
-		main!=contents
+		main
+			h1=title
+			span=date
+			!=contents
 		include includes/footer

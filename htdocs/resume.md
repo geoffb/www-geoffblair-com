@@ -1,7 +1,7 @@
 ---
-template: base.jade
-title: Geoff Blair - Resume
+title: Resume
 keywords: geoff blair, resume, game developer, web developer, html, html5, css, javascript, code, programmer, full stack, node.js
+template: base.jade
 ---
 <div style="text-align: center;">
 	<h1>Geoff Blair</h1>
