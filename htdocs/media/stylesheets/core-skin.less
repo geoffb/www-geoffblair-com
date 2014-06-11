@@ -1,13 +1,17 @@
+@black: #000;
+@white: #fff;
+@blue: #00f;
+
 body {
 	font-family: sans-serif;
 }
 
 header {
-	background: #000;
-	color: #fff;
+	background: @black;
+	color: @white;
 	nav {
 		a {
-			color: #fff;
+			color: @white;
 			text-decoration: none;
 			&:hover {
 				text-decoration: underline;
@@ -26,13 +30,17 @@ main {
 		font-size: 24px;
 	}
 
+	a {
+		color: @blue;
+	}
+
 	p {
 		font-size: 18px;
-		line-height: 22px;
+		line-height: 24px;
 		text-align: justify;
 	}
 
 	.comments {
-		border-top: solid 1px #000;
+		border-top: solid 1px @black;
 	}
 }
