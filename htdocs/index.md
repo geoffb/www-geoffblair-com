@@ -4,7 +4,7 @@ title: Geoff Blair - Indie Game Developer
 ---
 # About Geoff
 
-Geoff Blair is an independent game developer and co-founder of [Lost Decade Games][ldg]. He currently resides in the San Francisco Bay area with his fiancé, Melissa, and their cats.
+Geoff Blair is an independent game developer and co-founder of [Lost Decade Games][ldg]. He currently resides in the San Diego area with his wife, Melissa, and their cats.
 
 After spending nearly a decade developing for the web at companies such as [Yahoo! Games][yahoo-games] and [Raptr][raptr], Geoff decided to focus on his lifelong obsession with game development by founding [Lost Decade Games][ldg] with [Matt Hackett][matt] in 2010.
 
