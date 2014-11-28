@@ -1,5 +1,6 @@
 var minimist = require("minimist");
 var Metalsmith = require("metalsmith");
+var collections = require("metalsmith-collections");
 var permalinks = require("metalsmith-permalinks");
 var templates = require("metalsmith-templates");
 var markdown = require("metalsmith-markdown");
@@ -18,6 +19,14 @@ var argv = minimist(process.argv.slice(2), {
 var ms = Metalsmith(__dirname);
 
 ms.source("./htdocs").destination("./_site");
+
+ms.use(collections({
+	blog: {
+		pattern: "blog/*.md",
+		sortBy: "date",
+		reverse: true
+	}
+}));
 
 ms.use(markdown());
 

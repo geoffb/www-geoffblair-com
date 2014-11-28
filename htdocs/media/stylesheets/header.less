@@ -1,0 +1,33 @@
+header {
+	overflow: hidden;
+	padding: @padding 0;
+
+	background: @black;
+	color: @white;
+
+	.content {
+		width: @body-width;
+		margin: 0 auto;
+	}
+
+	a {
+		color: @white;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	nav {
+		overflow: hidden;
+		float: right;
+
+		li {
+			float: left;
+			margin-right: @padding * 2;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}

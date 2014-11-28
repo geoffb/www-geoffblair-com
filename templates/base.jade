@@ -3,5 +3,6 @@ html(lang="en")
 	include includes/head
 	body
 		include includes/header
-		main!=contents
+		block content
+			main!=contents
 		include includes/footer

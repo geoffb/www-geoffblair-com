@@ -1,10 +1,7 @@
-doctype html
-html(lang="en")
-	include includes/head
-	body
-		include includes/header
-		main
-			h1=title
-			div!=contents
-			include includes/comments
-		include includes/footer
+extends ./base.jade
+
+block content
+	main
+		h1=title
+		div!=contents
+	include includes/comments
