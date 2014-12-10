@@ -1,6 +1,6 @@
 ---
 title: "Order matters: Tile map collision response"
-date: 2014-6-11
+date: 2014-06-11
 template: article.jade
 ---
 Perfecting the collision response in a game can be tricky. I've personally made several iterations on the collision detection and response in [A Wizard's Lizard][1].

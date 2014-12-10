@@ -1,6 +1,6 @@
 ---
 title: Five Ws of Game Design
-date: 2014-5-21
+date: 2014-05-21
 template: article.jade
 ---
 During the course of trying to improve my game design chops, I came up with these five Ws in order to help guide my thoughts:

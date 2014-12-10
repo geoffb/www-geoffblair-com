@@ -4,34 +4,21 @@ title: About Geoff
 ---
 # About Geoff
 
-Geoff Blair is an independent game developer and co-founder of [Lost Decade Games][ldg]. He currently resides in the San Diego area with his wife, Melissa Iris, and their cats.
+Geoff Blair is an independent game developer and co-founder of [Lost Decade Games][1]. He currently resides in the San Diego area with his wife, Melissa Iris, and their cats.
 
-After spending nearly a decade developing for the web at companies such as [Yahoo! Games][yahoo-games] and [Raptr][raptr], Geoff decided to focus on his lifelong obsession with game development by founding [Lost Decade Games][ldg] with [Matt Hackett][matt] in 2010.
+After spending nearly a decade developing for the web at companies such as [Yahoo! Games][4] and [Raptr][5], Geoff decided to focus on his lifelong obsession with game development by founding [Lost Decade Games][1] with [Matt Hackett][6] in 2010.
 
-When not stuck behind a computer screen, Geoff likes to [snowboard][snowboard-video], hike, and play board games.
+When not stuck behind a computer screen, Geoff likes to [snowboard][7], hike, and play board games.
 
-Keep up with Geoff by following him on [Twitter][geoff-twitter] or [reach out via email][geoff-email].
+Keep up with Geoff by following him on [Twitter][2] or [reach out via email][3].
 
-[ldg]: http://www.lostdecadegames.com
-[geoff-twitter]: https://twitter.com/geoffblair
-[geoff-email]: mailto:geoff@lostdecadegames.com
-[yahoo-games]: http://games.yahoo.com/
-[raptr]: http://raptr.com/
-[matt]: http://www.richtaur.com/
-[snowboard-video]: http://youtu.be/jr2jaxn9Ups?t=2m46s
+Interested in the technology behind this site? Check out the [source on GitHub][8].
 
-[1]: http://treasuregoblin.lostdecadegames.com/?geoff=1
-[3]: /sandbox/shapes/
-[4]: /sandbox/html5logo/
-[5]: http://www.youtube.com/watch?v=jr2jaxn9Ups
-[6]: http://www.lostdecadegames.com/games/
-[7]: http://www.richtaur.com/
-[8]: http://www.gameclosure.com/
-[9]: http://raptr.com/
-[10]: http://games.yahoo.com/
-[11]: http://www.overnightprints.com/
-[12]: http://www.mdsuite.com/
-[13]: https://twitter.com/geoffblair
-[14]: https://github.com/geoffb
-[15]: mailto:geoff@lostdecadegames.com
-
+[1]: http://www.lostdecadegames.com
+[2]: https://twitter.com/geoffblair
+[3]: mailto:geoff@lostdecadegames.com
+[4]: http://games.yahoo.com/
+[5]: http://raptr.com/
+[6]: http://www.richtaur.com/
+[7]: http://youtu.be/jr2jaxn9Ups?t=2m46s
+[8]: https://github.com/geoffb/www.geoffblair.com
