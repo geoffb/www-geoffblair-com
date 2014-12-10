@@ -4,7 +4,7 @@ date: 2014-12-08
 template: article.jade
 ---
 
-*Melissa and I are on vaction in New Zealand! We wanted to document our experiences in order to share them with friends and family, as well as help us remember this trip years from now. We'll each be recounting the events of the day in our own words and styles. Enjoy!*
+*Melissa and I are on vacation/honeymoon in New Zealand! We wanted to document our experiences in order to share them with friends and family, as well as help us remember this trip years from now. We'll each be recounting the events of the day in our own words and styles. Enjoy!*
 
 ## Geoff says:
 
@@ -16,7 +16,7 @@ When we finally landed in Auckland, we picked up our bags, made our way through 
 
 ![Neat archway at Auckland airport][5]
 
-The flight Queenstown was quite a bit easier. Two hours after already doing tweleve is cake. The views from the plane of the snow covered mountains were spectacular. After we descended through the cloud layer, we were treated to more amazing views of Queenstown and the bay.
+The flight Queenstown was quite a bit easier. Two hours after already doing twelve is cake. The views from the plane of the snow-covered mountains were spectacular. After we descended through the cloud layer, we were treated to more amazing views of Queenstown and the bay.
 
 Next, we picked up our rental car, a Hyundai Accent. In New Zealand, you drive on the left side of the road AND the steering wheel is on the right side of the car. It's a little tricky at first, but luckily I had previous experience with this driving situation in Tazmania. Melissa was sure that her life was about to end as we made our way from the airport to our hotel.
 
@@ -26,7 +26,7 @@ Our accomodations for next few days is [Brown's Boutique Hotel][2], a plesent be
 
 ![View of Queenstown from Brown's Boutique Hotel][12]
 
-After unloading at the hotel, we walked to downtown and [Steamer Wharf][3]. Scarcely had we visited a few shops when hunger pangs and delicious aromas convinced us it was time to eat. Unfortunatly, we learned that many restaurants don't open until 4 or 5pm. Our first choice, [The Find][4], was one such establishment but we plan on eating there before we leave Queenstown. We wound up eating at a nice seafood and grill place overlooking the bay.
+After unloading at the hotel, we walked to downtown and [Steamer Wharf][3]. Scarcely had we visited a few shops when hunger pangs and delicious aromas convinced us it was time to eat. Unfortunately, we learned that many restaurants don't open until 4 or 5pm. Our first choice, [The Find][4], was one such establishment but we plan on eating there before we leave Queenstown. We wound up eating at a nice seafood and grill place overlooking the bay.
 
 Window shopping ensued for several hours after dinner as we hunted for souveniers and potential Christmas gifts. Shopping takes its toll and soon we stopped in at Patagonia Chocolate for a HoCho and churros dipped in chocolate.
 
