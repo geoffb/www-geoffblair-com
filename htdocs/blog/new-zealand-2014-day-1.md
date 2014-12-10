@@ -32,7 +32,7 @@ Window shopping ensued for several hours after dinner as we hunted for souvenier
 
 ![Delicious churros with chocolate and dulce de leche][9]
 
-While delicious, the chocolate overload was the last straw in an exhausting 32 hours since we left San Diego. Since we didn't sleep much on the plane and we have an 8:30am tour of scenice LotR locations, we're calling it an early-ish night!
+While delicious, the chocolate overload was the last straw in an exhausting 32 hours since we left San Diego. Since we didn't sleep much on the plane and we have an 8:30am tour of scenic LotR locations, we're calling it an early-ish night!
 
 ## Melissa says:
 
