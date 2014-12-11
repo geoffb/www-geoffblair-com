@@ -51,6 +51,8 @@ We thankfully arrived at our lodging, unscathed. It is the cutest B&B. Great vie
 
 Realizing we have stuffed ourselves beyond humanly possible, we headed back to the hotel, and got ready for bed while the sun is still up. In my defense, it's 9:10 pm and the sun is still up. Plus, early and busy day tomorrow!
 
+*For more New Zealand adventures, check out the [next day][13].*
+
 [1]: http://en.wikipedia.org/wiki/Kia_ora
 [2]: http://www.brownshotel.co.nz/
 [3]: http://steamerwharf.com/
@@ -63,3 +65,4 @@ Realizing we have stuffed ourselves beyond humanly possible, we headed back to t
 [10]: /media/images/nz14/day1/zqn-1.jpg
 [11]: /media/images/nz14/day1/queenstown-1.jpg
 [12]: /media/images/nz14/day1/queenstown-2.jpg
+[13]: /blog/new-zealand-2014-day-2/
