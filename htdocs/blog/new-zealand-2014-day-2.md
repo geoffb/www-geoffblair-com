@@ -73,6 +73,8 @@ When the sun came back out at 6ish, we headed downtown again to shop for present
 
 Tonight we are turning in at a more respectable time. Tomorrow, happy sore trails!
 
+*For more New Zealand adventures, check out the [next day][22].*
+
 [1]: /blog/new-zealand-2014-day-1/
 [2]: http://en.wikipedia.org/wiki/The_Remarkables
 [3]: https://vine.co/v/O6zhvVenYP6
@@ -94,3 +96,4 @@ Tonight we are turning in at a more respectable time. Tomorrow, happy sore trail
 [19]: /media/images/nz14/day2/lotr-water.jpg
 [20]: /media/images/nz14/day2/picnic.jpg
 [21]: /media/images/nz14/day2/valley.jpg
+[22]: /blog/new-zealand-2014-day-3/
