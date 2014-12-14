@@ -31,6 +31,8 @@ We hiked eight miles. I am sore. On the plus side, I had Golden Gnocchi and Ging
 
 ![Golden Gnocchi at finz][10]
 
+*For more New Zealand adventures, check out the [next day][11].*
+
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-2/
 [3]: http://en.wikipedia.org/wiki/Routeburn_Track
@@ -41,3 +43,4 @@ We hiked eight miles. I am sore. On the plus side, I had Golden Gnocchi and Ging
 [8]: /media/images/nz14/day3/routeburn-3.jpg
 [9]: /media/images/nz14/day3/salmon.jpg
 [10]: /media/images/nz14/day3/gnocchi.jpg
+[11]: /blog/new-zealand-2014-day-4/
