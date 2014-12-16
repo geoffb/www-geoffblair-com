@@ -33,6 +33,8 @@ We watched a slide show in the evening and then promptly fell asleep after an am
 
 ![Our cabin abord the Fjordland Navigator][7]
 
+*For more New Zealand adventures, check out the [next day][13].*
+
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-3/
 [3]: http://en.wikipedia.org/wiki/Fiordland_National_Park
@@ -45,3 +47,4 @@ We watched a slide show in the evening and then promptly fell asleep after an am
 [10]: /media/images/nz14/day4/penguins.jpg
 [11]: /media/images/nz14/day4/seals.jpg
 [12]: /media/images/nz14/day4/tinder-boat.jpg
+[13]: /blog/new-zealand-2014-day-5/
