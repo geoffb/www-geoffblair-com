@@ -25,6 +25,8 @@ Sunday evening is pretty dead in Dunedin, which was a bit nice as it allowed us 
 
 After eating we returned to our hotel for the first night where we wouldn't have to wake up at 6am the next morning. I've heard that you're supposed to relax on vaction, too.
 
+*For more New Zealand adventures, check out the [next day][9].*
+
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-4/
 [3]: http://en.wikipedia.org/wiki/Dunedin
@@ -33,3 +35,4 @@ After eating we returned to our hotel for the first night where we wouldn't have
 [6]: /media/images/nz14/day5/doubtful-sound.jpg
 [7]: /media/images/nz14/day5/dolphin.jpg
 [8]: /media/images/nz14/day5/dunedin.jpg
+[9]: /blog/new-zealand-2014-day-6/
