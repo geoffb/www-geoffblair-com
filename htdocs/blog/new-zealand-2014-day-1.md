@@ -1,5 +1,6 @@
 ---
 title: New Zealand 2014 - Day 1
+keywords: new zealand, vaction, travel, auckland, queenstown, steamer wharf
 date: 2014-12-10
 template: article.jade
 ---

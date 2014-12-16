@@ -1,5 +1,6 @@
 ---
 title: New Zealand 2014 - Day 5
+keywords: new zealand, vaction, travel, fiordland national park, fiord, doubtful sound, dolphins, dunedin, speeding, the octagon, scottish
 date: 2014-12-14
 template: article.jade
 ---

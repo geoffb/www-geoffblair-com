@@ -1,15 +1,16 @@
 ---
 title: New Zealand 2014 - Day 4
+keywords: new zealand, vaction, travel, queenstown, fiordland national park, fiordland, manapouri, deep cove, fiordland navigator, captain cook, doubtful sound, fiordland crested penguin, penguin, fur seal
 date: 2014-12-13
 template: article.jade
 ---
 *This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2].*
 
-We left Queenstown this morning, after our last delicous breakfast at Brown's Boutique. Our destination was Manapouri, a small town on the eastern side of [Fjordland National Park][3]. However, Manapouri was just a jumping off point to the big event: an overnight cruise in [Doubtful Sound][4]. Doubtful Sound, as we later learned, is so named because Captain Cook was doubtful that he could get his ship back out to sea if he were to harbor there.
+We left Queenstown this morning, after our last delicous breakfast at Brown's Boutique. Our destination was Manapouri, a small town on the eastern side of [Fiordland National Park][3]. However, Manapouri was just a jumping off point to the big event: an overnight cruise in [Doubtful Sound][4]. Doubtful Sound, as we later learned, is so named because Captain Cook was doubtful that he could get his ship back out to sea if he were to harbor there.
 
 ![Beautiful views of Doubtful Sound][8]
 
-Doubtful Sound is a bit complicated to get at. After a boat ride across Lake Manapouri and a bus ride across some mountains, we arrived in Deep Cove, where our cruise ship, the Fjordland Navigator, was anchored. We had a private cabin which was small, but surprisingly comfortable for a being on a ship.
+Doubtful Sound is a bit complicated to get at. After a boat ride across Lake Manapouri and a bus ride across some mountains, we arrived in Deep Cove, where our cruise ship, the Fiordland Navigator, was anchored. We had a private cabin which was small, but surprisingly comfortable for a being on a ship.
 
 ![Beautiful views of Doubtful Sound][9]
 
@@ -19,9 +20,9 @@ We slowly made our way out to the Tasman sea, stopping at various island and arm
 
 Our trip couldn't have been timed more perfectly. The fjordlands gets a lot of rain (6-9 meters a year, if I recall), however we were treated to blue skies and warm weather throughout the voyage.
 
-We were hoping to catch a glimse of the rare [Fjordland Crested Penguin][5] and we got really lucky. A penguin couple were spotted hanging out on some rocks. Melissa was very excited, as she loves penguins!
+We were hoping to catch a glimse of the rare [Fiordland Crested Penguin][5] and we got really lucky. A penguin couple were spotted hanging out on some rocks. Melissa was very excited, as she loves penguins!
 
-![Fjordland Crested Penguins][10]
+![Fiordland Crested Penguins][10]
 
 As we got closer to the open waters, we made a stop at an island where [New Zealand Fur Seals][6] sleep and sun themselves during the day.
 
@@ -31,7 +32,7 @@ Around dinner time we came back into the calmer waters and were treated to an am
 
 We watched a slide show in the evening and then promptly fell asleep after an amazing and tiring day on the water.
 
-![Our cabin abord the Fjordland Navigator][7]
+![Our cabin abord the Fiordland Navigator][7]
 
 *For more New Zealand adventures, check out the [next day][13].*
 
