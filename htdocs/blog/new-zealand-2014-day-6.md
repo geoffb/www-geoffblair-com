@@ -38,6 +38,8 @@ Our tour ended quite late, around half past 9, so Geoff and I decided to order i
 
 Tomorrow, we go to the Castle!
 
+*For more New Zealand adventures, check out the [next day][12].*
+
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-5/
 [3]: http://en.wikipedia.org/wiki/Otago_Museum
@@ -49,3 +51,4 @@ Tomorrow, we go to the Castle!
 [9]: /media/images/nz14/day6/fur-seal.jpg
 [10]: /media/images/nz14/day6/penguins-sealion.jpg
 [11]: http://en.wikipedia.org/wiki/Yellow-eyed_penguin
+[12]: /blog/new-zealand-2014-day-7/
