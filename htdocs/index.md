@@ -5,4 +5,6 @@ description: Read Geoff's blog for articles about independent game development, 
 collectionKey: blog
 template: article-list.jade
 ---
-Welcome!
+Welcome! Geoff blogs about life as an indie game developer, running a small business, and his travels. Find out more [about Geoff][1].
+
+[1]: /about/
