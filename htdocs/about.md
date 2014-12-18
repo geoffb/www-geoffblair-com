@@ -1,6 +1,8 @@
 ---
-template: base.jade
 title: About Geoff
+keywords: Geoff Blair, indie, games, gamedev, Lost Decade Games, Yahoo!, Raptr, snowboarding
+description: Geoff is an independent game developer and co-founder of Lost Decade Games.
+template: base.jade
 ---
 # About Geoff
 
