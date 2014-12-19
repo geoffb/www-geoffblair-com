@@ -6,7 +6,7 @@ template: article.jade
 ---
 *This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*
 
-Tonight was our last night in Dunedin and pretty special as we dined and stayed the night at Larnach Castle on Otago Peninsula.
+Tonight was our last night in Dunedin and pretty special as we dined and stayed the night at [Larnach Castle][1] on Otago Peninsula.
 
 In the morning we had our last breakfast at the Scenic, checked out, and headed downtown for a little shopping before driving to the castle. We stopped at the Scottish Shop, and found a few fun trinkets.
 
@@ -20,7 +20,7 @@ The castle grounds are well-kept and bursting with colorful flowers and plants f
 
 Before heading into the castle proper, we took a quick break and ate at the cafe which used to be the castle's ballroom.
 
-Larnach Castle is quite impressive, and the only castle from that era that exists in New Zealand. It's original owner, William Larnach, was a wealthy banker from the gold rush era. We investigated each room in the castle and peeked out from the main tower. In the states, a castle like this would have all its rooms roped off, but we were free to enter every and enjoy the history up close.
+Larnach Castle is quite impressive, and the only castle from that era that exists in New Zealand. It's original owner, [William Larnach][2], was a wealthy banker from the gold rush era. We investigated each room in the castle and peeked out from the main tower. In the states, a castle like this would have all its rooms roped off, but we were free to enter every and enjoy the history up close.
 
 Finishing up our tour of the castle, we went back to our room, relaxed, and caught up on blog posts. Just before dinner time we made our way back into the main castle.
 
@@ -37,6 +37,9 @@ We sat and chatted with the other guests for a while before turning in for the n
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-6/
 [next]: /blog/new-zealand-2014-day-8/
+
+[1]: http://en.wikipedia.org/wiki/Larnach_Castle
+[2]: http://en.wikipedia.org/wiki/William_Larnach
 
 [p1]: /media/images/nz14/day7/larnach-castle.jpg
 [t1]: /media/images/nz14/day7/thumb-larnach-castle.jpg
