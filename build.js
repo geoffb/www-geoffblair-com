@@ -51,6 +51,7 @@ ms.use(less({
 
 // Don't copy certain files to the destination
 ms.use(ignore([
+	"**/.DS_Store",
 	"**/*.less"
 ]));
 
