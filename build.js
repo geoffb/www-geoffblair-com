@@ -1,5 +1,6 @@
 var minimist = require("minimist");
 var Metalsmith = require("metalsmith");
+var drafts = require("metalsmith-drafts");
 var collections = require("metalsmith-collections");
 var permalinks = require("metalsmith-permalinks");
 var templates = require("metalsmith-templates");
@@ -12,6 +13,7 @@ var argv = minimist(process.argv.slice(2), {
 	default: {
 		watch: false,
 		serve: false,
+		drafts: false,
 		port: 8080
 	}
 });
@@ -19,6 +21,9 @@ var argv = minimist(process.argv.slice(2), {
 var ms = Metalsmith(__dirname);
 
 ms.source("./htdocs").destination("./_site");
+
+// Optionally include drafts
+if (!argv.drafts) { ms.use(drafts()); }
 
 ms.use(collections({
 	blog: {
