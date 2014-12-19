@@ -34,8 +34,6 @@ Shortly, we moved into the dining room for dinner. We ate a delicious three cour
 
 We sat and chatted with the other guests for a while before turning in for the night. Tomorrow we fly to Auckland and spend the rest of our trip on the North Island.
 
-*For more New Zealand adventures, check out the [next day][next].*
-
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-6/
 [next]: /blog/new-zealand-2014-day-8/
