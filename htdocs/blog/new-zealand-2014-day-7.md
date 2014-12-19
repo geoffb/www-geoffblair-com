@@ -4,7 +4,7 @@ keywords: new zealand, dunedin, larnach castle, dinner, william larnach, garden
 date: 2014-12-16
 template: article.jade
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2].*
+*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*
 
 Tonight was our last night in Dunedin and pretty special as we dined and stayed the night at Larnach Castle on Otago Peninsula.
 
@@ -34,8 +34,11 @@ Shortly, we moved into the dining room for dinner. We ate a delicious three cour
 
 We sat and chatted with the other guests for a while before turning in for the night. Tomorrow we fly to Auckland and spend the rest of our trip on the North Island.
 
-[1]: /blog/new-zealand-2014-day-1/
-[2]: /blog/new-zealand-2014-day-6/
+*For more New Zealand adventures, check out the [next day][next].*
+
+[first]: /blog/new-zealand-2014-day-1/
+[prev]: /blog/new-zealand-2014-day-6/
+[next]: /blog/new-zealand-2014-day-8/
 
 [p1]: /media/images/nz14/day7/larnach-castle.jpg
 [t1]: /media/images/nz14/day7/thumb-larnach-castle.jpg
