@@ -34,8 +34,11 @@ Around 3pm we boarded the ferry back to Auckland. Once ashore, we stopped at a T
 
 Tonight was another early night since we booked a really early tour for the following day.
 
+*For more New Zealand adventures, check out the [next day][next].*
+
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-8/
+[next]: /blog/new-zealand-2014-day-10/
 
 [1]: http://en.wikipedia.org/wiki/Tiritiri_Matangi_Island
 
