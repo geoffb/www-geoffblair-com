@@ -22,8 +22,11 @@ We returned to the hotel to relax and plan out the remainder of our trip. Feelin
 
 The weather in Auckland should improve tomorrow, just in time for our outdoor activities!
 
+*For more New Zealand adventures, check out the [next day][next].*
+
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-7/
+[next]: /blog/new-zealand-2014-day-9/
 
 [p1]: /media/images/nz14/day8/auckland.jpg
 [t1]: /media/images/nz14/day8/thumb-auckland.jpg
