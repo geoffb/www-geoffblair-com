@@ -1,7 +1,7 @@
 ---
 title: New Zealand 2014 - Day 2
 keywords: new zealand, vaction, travel, queenstown, tour, remarkables, arrowtown, 4wd, lord of the rings
-date: 2014-12-11
+date: 2014-12-11 12:00:00
 template: article.jade
 ---
 *This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1].*

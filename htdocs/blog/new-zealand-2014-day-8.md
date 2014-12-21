@@ -1,7 +1,7 @@
 ---
 title: New Zealand 2014 - Day 8
 keywords: new zealand, vacation, travel, dunedin, auckland
-date: 2014-12-17
+date: 2014-12-17 12:00:00
 template: article.jade
 ---
 *This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*

@@ -1,7 +1,7 @@
 ---
 title: New Zealand 2014 - Day 4
 keywords: new zealand, vaction, travel, queenstown, fiordland national park, fiordland, manapouri, deep cove, fiordland navigator, captain cook, doubtful sound, fiordland crested penguin, penguin, fur seal
-date: 2014-12-13
+date: 2014-12-13 12:00:00
 template: article.jade
 ---
 *This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2].*
