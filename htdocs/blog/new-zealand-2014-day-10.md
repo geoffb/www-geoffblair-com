@@ -1,7 +1,7 @@
 ---
 title: New Zealand 2014 - Day 10
 keywords: new zealand, vacation, travel, auckland, waitomo, glowworm, hobbiton, lord of the rings, green dragon inn
-date: 2014-12-19
+date: 2014-12-19 12:00:00
 template: article.jade
 ---
 *This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*
@@ -35,6 +35,8 @@ You'll never guess what happened next. We got back. on. the. bus. Two and a half
 [![Hobbiton movie set][t5]][p5]
 
 Back at the hotel and exhausted, we ordered in and went to sleep.
+
+*For more New Zealand adventures, check out the [next day][next].*
 
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-9/
