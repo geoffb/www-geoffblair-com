@@ -1,6 +1,6 @@
 header {
 	overflow: hidden;
-	padding: @padding 0;
+	padding: 4px 0;
 
 	background: @light-blue;
 	color: @white;
@@ -9,6 +9,20 @@ header {
 	.content {
 		width: @body-width;
 		margin: 0 auto;
+		height: 44px;
+	}
+
+	a.home {
+		display: inline-block;
+		overflow: hidden;
+		img {
+			display: block;
+			float: left;
+			margin-right: 10px;
+		}
+		span {
+			line-height: 44px;
+		}
 	}
 
 	a {
@@ -27,6 +41,7 @@ header {
 		li {
 			float: left;
 			margin-right: @padding * 2;
+			line-height: 44px;
 			&:last-child {
 				margin-right: 0;
 			}
