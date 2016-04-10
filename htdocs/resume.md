@@ -1,6 +1,6 @@
 ---
 title: Resume
-keywords: geoff blair, resume, game developer, web developer, html, html5, css, javascript, code, programmer, full stack, node.js
+keywords: geoff blair, resume, game developer, web developer, html, html5, css, css3, javascript, code, programmer, full stack, node.js, less, jade, c#, unity, sql, front end
 template: base.jade
 ---
 <div style="text-align: center;">
@@ -8,7 +8,7 @@ template: base.jade
 	<a href="mailto:geoff@lostdecadegames.com">geoff@lostdecadegames.com</a>
 </div>
 
-With over a decade of experience developing full-stack, web-based applications, Geoff is an expert in HTML, CSS and JavaScript.
+With over a decade of experience developing full-stack, web-based applications, Geoff is an expert in HTML5, CSS3, and JavaScript.
 
 ## Lost Decade Games
 
