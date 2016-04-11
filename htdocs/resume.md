@@ -22,6 +22,14 @@ More technologies in which Geoff has experience: C#, PHP, Unity, 2D Games, HTML5
 
 - - -
 
+## Highlights
+
+* Founded [Lost Decade Games](http://www.lostdecadegames.com/), an independent game studio which released [A Wizard's Lizard](http://store.steampowered.com/app/280040), one of the first HTML5 games on Steam, and was featured on [TechCrunch](http://techcrunch.com/2011/07/11/html5-game-maker-looks-to-transcend-sleepy-chrome-web-store-sales-on-ios/).
+* Featured in Intel's [HTML5Hub Developer Roundtable](https://www.youtube.com/user/HTML5Hub), including a live panel at GDC 2014, [The Future of Cross-platform Game Development](https://www.youtube.com/watch?v=BVdKCdOP51A).
+* Hosts [Lostcast](http://www.lostdecadegames.com/lostcast/), a long-running, weekly HTML5 and independent game development podcast.
+
+- - -
+
 ## Experience
 <div class="work-head">
 	<h3><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></h3>
