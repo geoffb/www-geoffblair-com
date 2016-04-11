@@ -10,7 +10,7 @@ Geoff Blair is an independent game developer and co-founder of [Lost Decade Game
 
 After spending nearly a decade as a full stack web developer at companies such as [Yahoo! Games][4] and [Raptr][5], Geoff decided to focus on his lifelong obsession with game development by founding [Lost Decade Games][1] with [Matt Hackett][6] in 2010.
 
-When not stuck behind a computer screen, Geoff likes to [snowboard][7], hike, and play board games.
+When not stuck behind a computer screen, Geoff likes to [snowboard][7], [travel][10], and play board games.
 
 For a more professional look, see [Geoff's Resume][9].
 
@@ -23,7 +23,8 @@ Interested in the technology behind this site? Check out the [source on GitHub][
 [3]: mailto:geoff@lostdecadegames.com
 [4]: http://games.yahoo.com/
 [5]: http://raptr.com/
-[6]: http://www.richtaur.com/
+[6]: https://twitter.com/richtaur
 [7]: http://youtu.be/jr2jaxn9Ups?t=2m46s
 [8]: https://github.com/geoffb/www.geoffblair.com
 [9]: /resume/
+[10]: /blog/new-zealand-2014-day-1/
