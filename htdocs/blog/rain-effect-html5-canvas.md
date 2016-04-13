@@ -28,7 +28,7 @@ By varying the velocity, length, and opacity, we get drops that aren't completel
 
 Let's take a look at how we initialize our drops:
 
-```
+```javascript
 // Collection of rain drops
 var drops = [];
 
@@ -67,7 +67,7 @@ In order for the rain effect to animate we need to update the drops each frame. 
 
 The `updateDrops` function is very simple. Loop over each drop and update its position based on velocity. If the drop is off the screen, reset it.
 
-```
+```javascript
 var updateDrops = function (dt) {
   for (var i = drops.length - 1; i >= 0; --i) {
     var drop = drops[i];
@@ -87,7 +87,7 @@ var updateDrops = function (dt) {
 
 The final step is to render the drops to the canvas. We loop over the drops again and use the [canvas line drawing APIs][5] draw them.
 
-```
+```javascript
 var renderDrops = function (ctx) {
   ctx.save();
   ctx.strokeStyle = DROP_COLOR;

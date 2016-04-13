@@ -7,6 +7,7 @@ var templates = require("metalsmith-templates");
 var markdown = require("metalsmith-markdown");
 var less = require("metalsmith-less");
 var ignore = require("metalsmith-ignore");
+var metallic = require("metalsmith-metallic");
 var dev = require("metalsmith-dev");
 
 var argv = minimist(process.argv.slice(2), {
@@ -36,6 +37,8 @@ ms.use(collections({
 		reverse: true
 	}
 }));
+
+ms.use(metallic());
 
 ms.use(markdown());
 
