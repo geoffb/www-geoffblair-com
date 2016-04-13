@@ -47,11 +47,11 @@ main {
 
 	ul {
 		list-style: circle outside;
-		margin-left: 40px;
+		margin-left: @padding * 2;
 		li {
 			font-size: 18px;
 			line-height: 24px;
-			margin-bottom: @padding;
+			margin-bottom: @padding / 2;
 		}
 	}
 
@@ -59,6 +59,7 @@ main {
 		background: @tan;
 		padding: @padding / 2;
 		margin: 0 @padding;
+		overflow-x: scroll;
 	}
 
 	code {
@@ -66,5 +67,10 @@ main {
 		font-size: 18px;
 		color: @dark-blue;
 		line-height: 24px;
+	}
+
+	iframe {
+		display: block;
+		margin: 0 auto;
 	}
 }

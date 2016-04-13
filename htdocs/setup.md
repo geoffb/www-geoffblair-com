@@ -1,7 +1,7 @@
 ---
 title: "Geoff's Development Setup"
 keywords: development, dev, setup, hardware, software, game development, gamedev, indie
-template: article.jade
+template: base.jade
 ---
 ## Hardware
 

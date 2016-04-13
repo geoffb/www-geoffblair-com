@@ -25,6 +25,10 @@ ms.source("./htdocs").destination("./_site");
 // Optionally include drafts
 if (!argv.drafts) { ms.use(drafts()); }
 
+ms.use(ignore([
+	"**/README.*"
+]));
+
 ms.use(collections({
 	blog: {
 		pattern: "blog/*.md",

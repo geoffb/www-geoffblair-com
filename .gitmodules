@@ -1,0 +1,3 @@
+[submodule "htdocs/sandbox/canvas-rain-demo"]
+	path = htdocs/sandbox/canvas-rain-demo
+	url = git@github.com:geoffb/canvas-rain-demo.git
