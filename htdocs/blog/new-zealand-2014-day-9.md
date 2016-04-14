@@ -3,6 +3,7 @@ title: New Zealand 2014 - Day 9
 keywords: new zealand, vacation, travel, auckland, tirtiri, birds, lighthouse, birthday, ferry, thai
 date: 2014-12-18 12:00:00
 template: article.jade
+tags: travel
 ---
 *This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*
 

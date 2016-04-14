@@ -8,6 +8,7 @@ var markdown = require("metalsmith-markdown");
 var less = require("metalsmith-less");
 var ignore = require("metalsmith-ignore");
 var metallic = require("metalsmith-metallic");
+var tags = require("metalsmith-tags");
 var dev = require("metalsmith-dev");
 
 var argv = minimist(process.argv.slice(2), {
@@ -29,6 +30,13 @@ if (!argv.drafts) { ms.use(drafts()); }
 ms.use(ignore([
 	"**/README.*"
 ]));
+
+ms.use(tags({
+	path: "tags/:tag/index.html",
+	template: "tag-list.jade",
+	sortBy: "date",
+	reverse: true
+}));
 
 ms.use(collections({
 	blog: {

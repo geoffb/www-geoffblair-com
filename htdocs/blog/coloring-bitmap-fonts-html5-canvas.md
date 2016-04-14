@@ -2,6 +2,7 @@
 title: Coloring Bitmap Fonts in HTML5 Canvas
 date: 2016-04-10 12:00:00
 template: article.jade
+tags: html5, canvas, javascript, gamedev
 ---
 When rendering text in HTML5 canvas, I mostly use the [native text drawing methods](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text) like `fillText`. However, a question came up on the [LDG forum](http://forum.lostdecadegames.com/) a while back about rendering bitmap fonts with varying colors.
 

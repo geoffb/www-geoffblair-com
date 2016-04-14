@@ -8,5 +8,8 @@ block content
 	main.article
 		h1=title
 		p.date=displayDate
+		ul.tags
+			each tag in tags
+				li: a(href="/tags/" + tag + "/") #{tag}
 		div!=contents
 	include includes/comments
