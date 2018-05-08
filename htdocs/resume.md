@@ -6,7 +6,7 @@ template: base.jade
 <div class="resume-head">
 	<h1>Geoff Blair</h1>
 	<p>Full Stack Web Developer</p>
-	<p>San Diego, CA</p>
+	<p>Colorado Springs, CO</p>
 	<a href="mailto:geoff@lostdecadegames.com">geoff@lostdecadegames.com</a>
 </div>
 
