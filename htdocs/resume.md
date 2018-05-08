@@ -10,8 +10,6 @@ template: base.jade
 	<a href="mailto:geoff@lostdecadegames.com">geoff@lostdecadegames.com</a>
 </div>
 
-*Geoff is actively looking for a full-time, remote position. Please [contact him](mailto:geoff@lostdecadegames.com).*
-
 - - -
 
 ## Skills
