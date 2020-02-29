@@ -1,7 +1,13 @@
 {
   "name": "www-geoffblair-com",
   "private": true,
-  "dependencies": {
+  "scripts": {
+    "build": "node build.js",
+    "clean": "rm -rf _site",
+    "deploy": "aws s3 sync _site s3://www.geoffblair.com --cache-control max-age=86400 --size-only --acl public-read --delete --profile geoffblair",
+    "develop": "node build.js --watch --serve --drafts"
+  },
+  "devDependencies": {
     "jade": "^1.3.1",
     "markdown-js": "0.0.3",
     "metalsmith": "^0.7.0",
