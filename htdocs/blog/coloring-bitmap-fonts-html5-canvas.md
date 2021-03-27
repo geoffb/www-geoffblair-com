@@ -27,7 +27,7 @@ The basic concept is to first draw the letters to an off-screen buffer canvas an
 
 Here's a snippet of JavaScript demonstrating how the compositing works:
 
-```
+```js
 // Draw mask to buffer
 ctx.clearRect(0, 0, buffer.width, buffer.height);
 ctx.drawImage(font, 0, 0, 256, 64, 0, 0, 256, 64);

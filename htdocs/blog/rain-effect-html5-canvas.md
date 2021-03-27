@@ -28,13 +28,11 @@ The basic concept is to manage a collection of drops which have a few properties
 
 By varying the velocity, length, and opacity, we get drops that aren't completely uniform and feel a bit more natural. For each drop, these same properties are scaled together so that drops with higher velocity are also longer and less transparent which gives the illusion of depth.
 
-- - -
-
 ## Initializing Drops
 
 Let's take a look at how we initialize our drops:
 
-```javascript
+```js
 // Collection of rain drops
 var drops = [];
 
@@ -65,15 +63,13 @@ During init, we also randomize the drop's Y value so that the drops are spread o
 
 We have a couple math helper functions here, too. `math.randomInteger` is pretty straight-forward and simply returns an integer between a min and max. We use this to randomize the placement of the drop along the X axis. `math.lerp` is a [linear interpolation][3] function and is used to scale a drop's velocity, length, and opacity by some normal value (between 0 and 1).
 
-- - -
-
 ## Updating Drops
 
 In order for the rain effect to animate we need to update the drops each frame. We use [`requestAnimationFrame`][4] to receive a callback to update and render our drops.
 
 The `updateDrops` function is very simple. Loop over each drop and update its position based on velocity. If the drop is off the screen, reset it.
 
-```javascript
+```js
 var updateDrops = function (dt) {
   for (var i = drops.length - 1; i >= 0; --i) {
     var drop = drops[i];
@@ -87,13 +83,11 @@ var updateDrops = function (dt) {
 };
 ```
 
-- - -
-
 ## Rendering Drops
 
 The final step is to render the drops to the canvas. We loop over the drops again and use the [canvas line drawing APIs][5] draw them.
 
-```javascript
+```js
 var renderDrops = function (ctx) {
   ctx.save();
   ctx.strokeStyle = DROP_COLOR;
@@ -125,8 +119,6 @@ var renderDrops = function (ctx) {
 ```
 
 The only tricky thing going on here is the calculation of the drop's start end end points. We use a little bit of vector math to accomplish this by creating a vector which represents the drop's velocity then normalizing it and scaling it by the drop's length. A normalized vector (or [unit vector][6]) is a vector with magnitude of 1.
-
-- - -
 
 ## Wrapping Up
 

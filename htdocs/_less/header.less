@@ -1,12 +1,13 @@
 header {
 	overflow: hidden;
 	padding: 4px 0;
+	margin-bottom: (@padding * 2);
 	color: @white;
 	background: @blue;
 
 	.content {
 		max-width: @body-width;
-		padding: 0 20px;
+		padding: (@padding / 2) @padding;
 		margin: 0 auto;
 		height: 44px;
 	}
@@ -35,8 +36,8 @@ header {
 	}
 
 	nav {
-		overflow: hidden;
-		float: right;
+		// overflow: hidden;
+		// float: right;
 
 		li {
 			float: left;

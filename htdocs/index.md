@@ -11,7 +11,7 @@ I'm a [game developer](/games/) (sometimes indie, sometimes not), focused on web
 
 I'm currently working on [Plato](https://www.platoapp.com), a messenger + games app.
 
-I occasionally write about game development, running a small business, and my travels.
+I occasionally write about game development, traveling, and other topics.
 
 Find out more [about me](/about/).
 
