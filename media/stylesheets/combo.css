@@ -139,8 +139,8 @@ table {
   src: url(http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
 }
 body {
-  color: #000;
-  background-color: #fff;
+  color: #000000;
+  background-color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
 }
 hr {
@@ -152,12 +152,13 @@ hr {
 header {
   overflow: hidden;
   padding: 4px 0;
+  margin-bottom: 40px;
   color: #FFFFFF;
   background: #006AB4;
 }
 header .content {
   max-width: 700px;
-  padding: 0 20px;
+  padding: 10px 20px;
   margin: 0 auto;
   height: 44px;
 }
@@ -181,10 +182,6 @@ header a {
 }
 header a:hover {
   text-decoration: underline;
-}
-header nav {
-  overflow: hidden;
-  float: right;
 }
 header nav li {
   float: left;
@@ -272,7 +269,7 @@ main iframe {
   color: #3E606F;
 }
 .article .date {
-  color: #91AA9D;
+  color: #707070;
   font-size: 14px;
   display: inline-block;
   margin: 0 20px 0 0;
@@ -286,9 +283,10 @@ main iframe {
   display: inline-block;
   margin: 0 10px 0 0;
   font-size: 12px;
+  font-weight: bold;
 }
 .article .tags a {
-  color: #91AA9D;
+  color: #707070;
 }
 .article-list {
   list-style: none;
@@ -335,96 +333,4 @@ main iframe {
   margin-top: 5px;
   color: #707070;
   white-space: nowrap;
-}
-/*!
- * Agate by Taufik Nurrohman <https://github.com/tovic>
- * ----------------------------------------------------
- *
- * #ade5fc
- * #a2fca2
- * #c6b4f0
- * #d36363
- * #fcc28c
- * #fc9b9b
- * #ffa
- * #fff
- * #333
- * #62c8f3
- * #888
- *
- */
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #333;
-  color: white;
-}
-.hljs-name,
-.hljs-strong {
-  font-weight: bold;
-}
-.hljs-code,
-.hljs-emphasis {
-  font-style: italic;
-}
-.hljs-tag {
-  color: #62c8f3;
-}
-.hljs-variable,
-.hljs-template-variable,
-.hljs-selector-id,
-.hljs-selector-class {
-  color: #ade5fc;
-}
-.hljs-string,
-.hljs-bullet {
-  color: #a2fca2;
-}
-.hljs-type,
-.hljs-title,
-.hljs-section,
-.hljs-attribute,
-.hljs-quote,
-.hljs-built_in,
-.hljs-builtin-name {
-  color: #ffa;
-}
-.hljs-number,
-.hljs-symbol,
-.hljs-bullet {
-  color: #d36363;
-}
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-literal {
-  color: #fcc28c;
-}
-.hljs-comment,
-.hljs-deletion,
-.hljs-code {
-  color: #888;
-}
-.hljs-regexp,
-.hljs-link {
-  color: #c6b4f0;
-}
-.hljs-meta {
-  color: #fc9b9b;
-}
-.hljs-deletion {
-  background-color: #fc9b9b;
-  color: #333;
-}
-.hljs-addition {
-  background-color: #a2fca2;
-  color: #333;
-}
-.hljs a {
-  color: inherit;
-}
-.hljs a:focus,
-.hljs a:hover {
-  color: inherit;
-  text-decoration: underline;
 }
