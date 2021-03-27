@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm-run-all clean build:less build:11ty",
+    "build": "npm-run-all build:less build:11ty",
     "build:11ty": "eleventy",
     "build:less": "lessc htdocs/_less/combo.less htdocs/media/stylesheets/combo.css",
     "watch:11ty": "eleventy --serve",
