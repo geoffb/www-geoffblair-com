@@ -27,7 +27,7 @@ With over two decades of experience developing full-stack, web-based games & app
 	<span>Lead Game Developer, 2012 - Present</span>
 </div>
 
-Make games
+Lead development of the Plato game platform, including back-end game servers, game libraries, and individual games.
 
 <div class="work-head">
 	<h3><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></h3>
