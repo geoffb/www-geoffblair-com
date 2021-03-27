@@ -1,34 +1,34 @@
 ---
-title: Geoff Blair's Resume
-keywords: geoff blair, resume, game developer, web developer, html, html5, css, css3, javascript, code, programmer, full stack, node.js, less, jade, c#, unity, sql, front end
-template: base.jade
+title: Resume - Geoff Blair
+keywords: geoff blair, resume, game developer, web developer, html, html5, css, css3, javascript, code, programmer, full stack, node.js, c#, unity, sql, front end, typescript, games, game development
+layout: base.pug
 ---
 <div class="resume-head">
 	<h1>Geoff Blair</h1>
-	<p>Full Stack Web Developer</p>
+	<p>Full Stack Game & Web Developer</p>
 	<p>Colorado Springs, CO</p>
-	<a href="mailto:geoff@lostdecadegames.com">geoff@lostdecadegames.com</a>
 </div>
 
-- - -
+With over two decades of experience developing full-stack, web-based games & applications, Geoff is a natural leader and committed to creating clean, extensible code. He is an expert in web technologies such as HTML5, CSS3, JavaScript, and Node.js.
 
-## Skills
+---
 
-With well over a decade of experience developing full-stack, web-based applications, Geoff is a natural leader and committed to creating clean, extensible code. He is an expert in web technologies such as HTML5, CSS3, JavaScript, and Node.js.
-
-More technologies in which Geoff has experience: C#, PHP, Unity, 2D Games, HTML5 Canvas, Mobile, LESS, Jade, Git, AWS, NW.js, SQL, Apache, Windows, OS X, Linux
-
-- - -
-
-## Highlights
+# ✨ Highlights
 
 * Founded [Lost Decade Games](http://www.lostdecadegames.com/), an independent game studio which released [A Wizard's Lizard](http://store.steampowered.com/app/280040), one of the first HTML5 games on Steam, and was featured on [TechCrunch](http://techcrunch.com/2011/07/11/html5-game-maker-looks-to-transcend-sleepy-chrome-web-store-sales-on-ios/).
 * Featured in Intel's [HTML5Hub Developer Roundtable](https://www.youtube.com/user/HTML5Hub), including a live panel at GDC 2014, [The Future of Cross-platform Game Development](https://www.youtube.com/watch?v=BVdKCdOP51A).
 * Hosts [Lostcast](http://www.lostdecadegames.com/lostcast/), a long-running, weekly HTML5 and independent game development podcast.
 
-- - -
+---
 
-## Experience
+# 🛠️ Experience
+<div class="work-head">
+	<h3><a href="http://www.platoapp.com/">Plato</a></h3>
+	<span>Lead Game Developer, 2012 - Present</span>
+</div>
+
+Make games
+
 <div class="work-head">
 	<h3><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></h3>
 	<span>Co-founder, 2012 - Present</span>

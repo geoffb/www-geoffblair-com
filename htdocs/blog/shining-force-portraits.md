@@ -3,8 +3,10 @@ title: Shining Force Character Portraits
 description: Shining Force Character Portraits
 keywords: art, shining force
 date: 2017-11-30 12:00:00
-template: article.jade
-tags: art
+layout: article.pug
+tags:
+  - post
+  - art
 ---
 As a big fan of [Shining Force](https://en.wikipedia.org/wiki/Shining_Force), I took a stab at drawing the [character portraits](http://fantasyanime.com/shiningforce/sflist.htm) back in early 2016.
 
@@ -16,34 +18,34 @@ I had intended to complete the entire set, but motivation lacks and life happens
 
 Maybe I'll finish them one day.
 
----
+## Domingo
 
 <img src="/media/images/sf/domingo.png" width="500" alt="Domingo" />
 
----
+## Gong
 
 <img src="/media/images/sf/gong.png" width="500" alt="Gong" />
 
----
+## Hanzou
 
 <img src="/media/images/sf/hanzou.png" width="500" alt="Hanzou" />
 
----
+## Jogurt
 
 <img src="/media/images/sf/jogurt.png" width="500" alt="Jogurt" />
 
----
+## Lowe
 
 <img src="/media/images/sf/lowe.png" width="500" alt="Lowe" />
 
----
+## Mae
 
 <img src="/media/images/sf/mae.png" width="500" alt="Mae" />
 
----
+## Torasu
 
 <img src="/media/images/sf/torasu.png" width="500" alt="Torasu" />
 
----
+## Zylo
 
 <img src="/media/images/sf/zylo.png" width="500" alt="Zylo" />

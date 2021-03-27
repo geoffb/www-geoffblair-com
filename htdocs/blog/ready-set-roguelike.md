@@ -1,8 +1,12 @@
 ---
 title: Ready, set, roguelike!
 date: 2020-02-29 12:00:00
-template: article.jade
-tags: gamedev, roguelike, 7DRL
+layout: article.pug
+tags:
+ - post
+ - gamedev
+ - roguelike
+ - 7DRL
 ---
 As a big fan of "roguelite" games ([Spelunky](https://spelunkyworld.com), [Dead Cells](https://dead-cells.com),  [Invisible, Inc.](https://www.klei.com/games/invisible-inc), and [Intro the Breach](http://subsetgames.com/itb.html) are a few of my favorites), I've often appreciated more traditional roguelikes; even though I don't play them quite as much.
 

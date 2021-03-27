@@ -2,8 +2,10 @@
 title: New Zealand 2014 - Day 1
 keywords: new zealand, vaction, travel, auckland, queenstown, steamer wharf
 date: 2014-12-10 12:00:00
-template: article.jade
-tags: travel
+layout: article.pug
+tags:
+  - post
+  - travel
 ---
 *Melissa and I are on vacation/honeymoon in New Zealand! We wanted to document our experiences in order to share them with friends and family, as well as help us remember this trip years from now. We'll each be recounting the events of the day in our own words and styles. Enjoy!*
 

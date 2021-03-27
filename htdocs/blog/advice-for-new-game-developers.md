@@ -1,8 +1,10 @@
 ---
 title: Advice for Aspiring Game Developers
 date: 2016-10-10 12:00:00
-template: article.jade
-tags: gamedev
+layout: article.pug
+tags:
+  - post
+  - gamedev
 ---
 *This post is an excerpt from an email I wrote to an aspiring game developer. Posting here in the event that it's useful to others.*
 
