@@ -24,7 +24,7 @@ With over two decades of experience developing full-stack, web-based games & app
 # 🛠️ Experience
 <div class="work-head">
 	<h3><a href="http://www.platoapp.com/">Plato</a></h3>
-	<span>Lead Game Developer, 2012 - Present</span>
+	<span>Lead Game Developer, 2016 - Present</span>
 </div>
 
 Lead development of the Plato game platform, including back-end game servers, game libraries, and individual games.
