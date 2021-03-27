@@ -7,16 +7,14 @@ layout: article-list.pug
 ---
 # 👋🏻 Hi, I'm Geoff
 
-I'm a game developer (sometimes indie, sometimes not), focused on web technologies.
+I'm a [game developer](/games/) (sometimes indie, sometimes not), focused on web technologies.
 
 I'm currently working on [Plato](https://www.platoapp.com), a messenger + games app.
 
 I occasionally write about game development, running a small business, and my travels.
 
-Find out more [about me][1].
+Find out more [about me](/about/).
 
 ---
 
 # 📝 Posts
-
-[1]: /about/
