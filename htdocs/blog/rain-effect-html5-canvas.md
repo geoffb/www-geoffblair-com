@@ -10,6 +10,7 @@ tags:
   - canvas
   - javascript
   - gamedev
+  - feature
 ---
 While developing an outdoor environment for [A Wizard's Lizard: Soul Thief][1], I wanted to create a rain effect to give the area a distinct feel.
 

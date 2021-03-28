@@ -7,6 +7,7 @@ layout: article.pug
 tags:
   - post
   - art
+  - feature
 ---
 As a big fan of [Shining Force](https://en.wikipedia.org/wiki/Shining_Force), I took a stab at drawing the [character portraits](http://fantasyanime.com/shiningforce/sflist.htm) back in early 2016.
 

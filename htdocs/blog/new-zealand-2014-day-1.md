@@ -6,6 +6,7 @@ layout: article.pug
 tags:
   - post
   - travel
+  - feature
 ---
 *Melissa and I are on vacation/honeymoon in New Zealand! We wanted to document our experiences in order to share them with friends and family, as well as help us remember this trip years from now. We'll each be recounting the events of the day in our own words and styles. Enjoy!*
 

@@ -5,6 +5,7 @@ layout: article.pug
 tags:
   - post
   - gamedev
+  - feature
 ---
 *This post is an excerpt from an email I wrote to an aspiring game developer. Posting here in the event that it's useful to others.*
 
