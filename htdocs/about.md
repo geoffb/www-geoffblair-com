@@ -6,9 +6,9 @@ layout: base.pug
 ---
 # 👨‍💻 About Me
 
-I'm a [game developer](/games/) and co-founder of [Lost Decade Games][1]. I currently reside in the Colorado Springs area with my wife, Melissa Iris, and our cats.
+I'm a [game developer](/games/) and co-founder of [Lost Decade Games][1]. I currently reside in [Colorado Springs](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado) with my wife, Melissa Iris, and our cats.
 
-After spending nearly a decade as a full stack web developer at companies such as [Yahoo! Games][4] and [Raptr][5], I decided to focus on my lifelong obsession with game development by founding [Lost Decade Games][1] with [Matt Hackett][6] in 2010.
+After spending nearly a decade as a full stack web developer at companies such as [Yahoo! Games][4] and [Raptr][5], I decided to focus on my lifelong obsession with game development by founding [Lost Decade Games][1] with [Matt Hackett][6] in 2010. Matt and I hosted [Lostcast](http://www.lostdecadegames.com/lostcast/episodes/), a long-running podcast about indie game development, with an [HTML5](https://en.wikipedia.org/wiki/HTML5) slant.
 
 When not stuck behind a computer screen, I like to [snowboard][7], [travel][10], and [play board games][11].
 
