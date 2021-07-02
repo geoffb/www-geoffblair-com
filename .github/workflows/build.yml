@@ -16,7 +16,6 @@ jobs:
       - name: 🔧 Install/Audit
         run: |
           yarn
-          yarn audit
 
       - name: 🏗️ Build
         run: |
