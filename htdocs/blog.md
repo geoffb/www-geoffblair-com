@@ -7,3 +7,5 @@ layout: article-list.pug
 ---
 
 # 📝 All Posts
+
+<blockquote class="callout">🗞️ Subscribe to <a href="/feed.xml">all posts via RSS</a>. (Learn more <a href="https://en.wikipedia.org/wiki/RSS">about RSS</a>.)</blockquote>

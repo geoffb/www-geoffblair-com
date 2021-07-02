@@ -259,6 +259,13 @@ main iframe {
   display: block;
   margin: 0 auto;
 }
+main blockquote.callout {
+  background-color: #d6f2f8;
+  border: solid 2px #27badb;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 2em 0;
+}
 .comments {
   width: 700px;
   margin: 0 auto;
