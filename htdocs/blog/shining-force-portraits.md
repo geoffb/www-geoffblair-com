@@ -15,7 +15,7 @@ Portraits were drawn on my Samsung Galaxy S6 Edge in [SketchBook by Autodesk](ht
 
 Overall I'm pretty happy with the style and results. However, drawing eyes seems to be an area for improvement.
 
-I had intended to complete the entire set, but motivation lacks and life happens! Regardless, I wanted to get them off [Twitter](https://twitter.com/geoffblair/media) and into a more permanent home.
+I had intended to complete the entire set, but motivation lacks and life happens!
 
 Maybe I'll finish them one day.
 

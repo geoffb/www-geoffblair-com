@@ -46,14 +46,14 @@ Handled business related tasks including marketing, sales, and business developm
 Designed and developed cross-platform mobile games using custom tools based in HTML5/JavaScript. Rapidly prototyped game concepts, tested in various markets, and improved games based upon user data.
 
 <div class="work-head">
-	<h3><a href="http://raptr.com/">Raptr</a></h3>
+	<h3>Raptr</h3>
 	<span>Senior Front End Engineer, 2010-2011</span>
 </div>
 
 Developed a custom front end framework using PHP and JavaScript which improved site performance drastically. Responsible for technology decisions and deployment.
 
 <div class="work-head">
-	<h3><a href="https://games.yahoo.com/">Yahoo! Games</a></h3>
+	<h3>Yahoo! Games</h3>
 	<span>Senior Front End Engineer, 2007-2010</span>
 </div>
 
