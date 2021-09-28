@@ -13,7 +13,7 @@ jobs:
       - name: 🛎️ Checkout
         uses: actions/checkout@v2
 
-      - name: 🔧 Install/Audit
+      - name: 🔧 Install
         run: |
           yarn
 
