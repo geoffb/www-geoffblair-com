@@ -10,7 +10,7 @@
     "develop": "npm-run-all clean build:less watch:11ty"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "less": "^4.1.1",
