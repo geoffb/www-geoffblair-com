@@ -1,4 +1,4 @@
-name: Build
+name: Continuous Deployment
 
 on:
   push:
@@ -7,23 +7,23 @@ on:
     branches: [ master ]
 
 jobs:
-  Build:
+  BuildAndDeploy:
     runs-on: ubuntu-latest
     steps:
       - name: 🛎️ Checkout
         uses: actions/checkout@v2
 
-      - name: 🔧 Install
-        run: |
-          yarn
+      - name: 🔧 Install dependencies
+        run: yarn
+
+      - name: 🧼 Clean build artifacts
+        run: yarn clean
 
       - name: 🏗️ Build
-        run: |
-          yarn clean
-          yarn build
+        run: yarn build
 
       - name: 🚀 Deploy
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: github.ref == 'refs/heads/master'
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
