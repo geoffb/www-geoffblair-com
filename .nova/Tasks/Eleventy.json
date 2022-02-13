@@ -1,5 +1,9 @@
 {
   "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nyarn build"
+    },
     "run" : {
       "enabled" : true,
       "script" : "#!\/bin\/sh\nyarn develop"
