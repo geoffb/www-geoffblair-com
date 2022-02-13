@@ -1,6 +1,6 @@
 # www.geoffblair.com
 
-Personal site of Geoff Blair, hosted at [www.geoffblair.com](http://www.geoffblair.com).
+Personal website of Geoff Blair, hosted at [www.geoffblair.com](https://www.geoffblair.com).
 
 ## 🏗 Tech
 
