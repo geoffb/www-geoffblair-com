@@ -15,4 +15,4 @@ Run the `yarn develop` command which will build, watch for changes, and serve th
 
 ## 🚀 Deployment
 
-The site is automatically built and published to [GitHub Pages](https://pages.github.com) using [GitHub Actions](https://github.com/features/actions) whenever commits are pushed to `master`. See workflows in `.github/workflows`.
+The site is automatically built and published to [GitHub Pages](https://pages.github.com) using [GitHub Actions](https://github.com/features/actions) whenever commits are pushed to `main`. See workflows in `.github/workflows`.

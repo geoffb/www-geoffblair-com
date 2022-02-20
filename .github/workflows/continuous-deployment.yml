@@ -2,9 +2,9 @@ name: Continuous Deployment
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   BuildAndDeploy:
@@ -23,7 +23,7 @@ jobs:
         run: yarn build
 
       - name: 🚀 Deploy
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
