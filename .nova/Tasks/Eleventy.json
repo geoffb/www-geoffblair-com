@@ -4,6 +4,10 @@
       "enabled" : true,
       "script" : "#!\/bin\/sh\nyarn build"
     },
+    "clean" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nyarn clean"
+    },
     "run" : {
       "enabled" : true,
       "script" : "#!\/bin\/sh\nyarn develop"

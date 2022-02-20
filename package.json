@@ -2,10 +2,10 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist static/media/stylesheets/combo.css",
     "build": "npm-run-all build:less build:11ty",
     "build:11ty": "eleventy",
-    "build:less": "lessc htdocs/_less/combo.less htdocs/media/stylesheets/combo.css",
+    "build:less": "lessc htdocs/_less/combo.less static/media/stylesheets/combo.css",
     "watch:11ty": "eleventy --serve",
     "develop": "npm-run-all clean build:less watch:11ty"
   },
