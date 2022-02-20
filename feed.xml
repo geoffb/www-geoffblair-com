@@ -4,7 +4,7 @@
 	<subtitle>Read Geoff&#39;s blog for articles about independent game development, running a small business, his travels, and interests.</subtitle>
 	<link href="http://www.geoffblair.com/feed.xml" rel="self"/>
 	<link href="http://www.geoffblair.com"/>
-	<updated>2020-03-03T23:59:59Z</updated>
+	<updated>2020-03-07T17:00:00Z</updated>
 	<id>http://www.geoffblair.com</id>
 	<author>
 		<name>Geoff Blair</name>
@@ -473,12 +473,11 @@
 		<link href="http://www.geoffblair.com/blog/7drl-2020-day-1/"/>
 		<updated>2020-02-29T23:59:59Z</updated>
 		<id>http://www.geoffblair.com/blog/7drl-2020-day-1/</id>
-		<content type="html">&lt;p&gt;Day 1 progress on my 7DRL 2020 game:&lt;/p&gt;
-&lt;p&gt;I had an existing turn-based tile engine prototype collecting dust, so I started with that as a base. The graphics are from &lt;a href=&quot;https://kenney.nl/assets/bit-pack&quot;&gt;Kenney&#39;s 1-Bit Pack&lt;/a&gt;.&lt;/p&gt;
+		<content type="html">&lt;p&gt;I had an existing turn-based tile engine prototype collecting dust, so I started with that as a base. The graphics are from &lt;a href=&quot;https://kenney.nl/assets/bit-pack&quot;&gt;Kenney&#39;s 1-Bit Pack&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/cemetery.png&quot; alt=&quot;Cemetery&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;You start off as a skeleton, in a static cemetery &amp;quot;intro&amp;quot; floor. In the cemetery is an exit to the procedurally generated crypt. As you descend, new floors are (dumbly) generated. You can traverse back up to previously generated floors, which retain their state as you left them.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/crypt.png&quot; alt=&quot;Crypt&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;As of now, you can descend floors forever, but there&#39;s not much else to do. :)&lt;/p&gt;
+&lt;p&gt;As of now, you can descend floors forever, but there&#39;s not much else to do.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -487,8 +486,7 @@
 		<link href="http://www.geoffblair.com/blog/7drl-2020-day-2/"/>
 		<updated>2020-03-01T23:59:59Z</updated>
 		<id>http://www.geoffblair.com/blog/7drl-2020-day-2/</id>
-		<content type="html">&lt;p&gt;Day 2 progress on my 7DRL 2020 game:&lt;/p&gt;
-&lt;p&gt;Today was all about some infrastructure and playing with the core mechanics.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Today was all about some infrastructure and playing with the core mechanics.&lt;/p&gt;
 &lt;p&gt;I ported over some sprite font rendering and put in the game&#39;s core flow: Title =&amp;gt; Play =&amp;gt; Game Over =&amp;gt; Repeat. The goal is to keep the game in an end-to-end playable state, and continually add content/mechanics to flesh out the experience.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/title.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I experimented with a couple core mechanics: permadeath and &amp;quot;hunger&amp;quot; (e.g. movement costs a resource). Instead of &amp;quot;hunger&amp;quot;, the player has a &amp;quot;life force&amp;quot; resource (indicated by the purple hourglass).&lt;/p&gt;
@@ -499,7 +497,7 @@
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/cemetery3.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I spent a little bit of time on the level generation, adding in some Zombie monsters and spawning them around the map. The Zombies are pretty dumb, and only wander around randomly, but provide at least &lt;em&gt;some&lt;/em&gt; hazard for the player to overcome.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/crypt1.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Back on the infrastructure side, I pushed the game to itch.io and set up a quick and easy deploy script so I can &amp;quot;move fast and break things&amp;quot;. :)&lt;/p&gt;
+&lt;p&gt;Back on the infrastructure side, I pushed the game to itch.io and set up a quick and easy deploy script so I can &amp;quot;move fast and break things&amp;quot;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;Give the current prototype a whirl&lt;/a&gt;. I&#39;ll be pushing new (and hopefully unbroken) builds throughout the week.&lt;/p&gt;
 </content>
 	</entry>
@@ -509,8 +507,7 @@
 		<link href="http://www.geoffblair.com/blog/7drl-2020-day-3/"/>
 		<updated>2020-03-02T23:59:59Z</updated>
 		<id>http://www.geoffblair.com/blog/7drl-2020-day-3/</id>
-		<content type="html">&lt;p&gt;Day 3 progress on my 7DRL 2020 game:&lt;/p&gt;
-&lt;p&gt;Limited time today so here&#39;s a quick run-down of what changed:&lt;/p&gt;
+		<content type="html">&lt;p&gt;Limited time today so here&#39;s a quick run-down of what changed:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Added food items to the game which can only be collected while alive&lt;/li&gt;
 &lt;li&gt;Added pots and chests which contain randomized loot drops (hearts, food items, keys, etc)&lt;/li&gt;
@@ -526,7 +523,7 @@
 		<link href="http://www.geoffblair.com/blog/7drl-2020-day-4/"/>
 		<updated>2020-03-03T23:59:59Z</updated>
 		<id>http://www.geoffblair.com/blog/7drl-2020-day-4/</id>
-		<content type="html">&lt;p&gt;Day 4 progress on my 7DRL 2020 game:&lt;/p&gt;
+		<content type="html">&lt;p&gt;Day 4 progress:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Added gold a resource to gather&lt;/li&gt;
 &lt;li&gt;Added shops to consume gold / resource trade&lt;/li&gt;
@@ -541,6 +538,78 @@
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day4-b.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day4-c.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day4-d.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>7DRL 2020 - Day 5</title>
+		<link href="http://www.geoffblair.com/blog/7drl-2020-day-5/"/>
+		<updated>2020-03-05T17:00:00Z</updated>
+		<id>http://www.geoffblair.com/blog/7drl-2020-day-5/</id>
+		<content type="html">&lt;p&gt;A cool new feature landed today: &lt;strong&gt;Affixes&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day5-a.png&quot; alt=&quot;Combustible affix&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Affixes are floor-wide modifiers which, when active, increase the difficulty in some way. Two affixes currently exist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Combustible&lt;/strong&gt;: Monsters burst into flame when the die, leaving a hazard behind for several turns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vengeful&lt;/strong&gt;: Monsters leave behind a vengeful ghost when they die&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Affixes are currently applied every so many floors and are announced via some flavor text.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day5-b.png&quot; alt=&quot;Vengeful affix&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Other changes of note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Skeleton form can no longer benefit from Heart pickups; in fact it&#39;s best to avoid them...&lt;/li&gt;
+&lt;li&gt;When Human form reaches 0 Food (aka starving) they no longer lose 1HP each step. Instead, a forced resource trade is made of 1HP for 25 food.&lt;/li&gt;
+&lt;li&gt;Sounds! Added a few sounds here and there. More to come. (HTML5 Audio objects seem to cause bad lag in Safari, so consider another browser)&lt;/li&gt;
+&lt;li&gt;Next up on the agenda is pivoting to content: Adding more floors, variations, monsters, trap, affixes, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;Play the latest!&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>7DRL 2020 - Day 6</title>
+		<link href="http://www.geoffblair.com/blog/7drl-2020-day-6/"/>
+		<updated>2020-03-06T17:00:00Z</updated>
+		<id>http://www.geoffblair.com/blog/7drl-2020-day-6/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day6-a.png&quot; alt=&quot;Combustible affix&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Some light changes today:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Skeleton form cannot consume health restore or food pickups&lt;/li&gt;
+&lt;li&gt;3 new monsters: Bat, Ghoul, and Giant Skeleton (the latter 2 appear after floors 5 and 10 respectively)&lt;/li&gt;
+&lt;li&gt;Loot table tweaks&lt;/li&gt;
+&lt;li&gt;Sound effects and animation polish&lt;/li&gt;
+&lt;li&gt;Some new items&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>7DRL 2020 - Day 7</title>
+		<link href="http://www.geoffblair.com/blog/7drl-2020-day-7/"/>
+		<updated>2020-03-07T17:00:00Z</updated>
+		<id>http://www.geoffblair.com/blog/7drl-2020-day-7/</id>
+		<content type="html">&lt;p&gt;My 7DRL 2020 game, Catacombs, is done!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day7-a.png&quot; alt=&quot;Rise!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Overall I feel pretty good about the challenge, and the game. I kept the game within scope, and delivered a small, decently polished experience.&lt;/p&gt;
+&lt;p&gt;First, a couple shout-outs to other creators whose assets I used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://kenney.nl/assets/bit-pack&quot;&gt;Kenney&#39;s 1-bit Pack&lt;/a&gt; (I recolored using the &lt;a href=&quot;https://lospec.com/palette-list/dawnbringer-32&quot;&gt;DawnBringer 32&lt;/a&gt; palette to give it my own feel)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://opengameart.org/content/512-sound-effects-8-bit-style&quot;&gt;The Essential Retro Video Game Sound Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.geoffblair.com/media/images/7drl2020/day7-b.png&quot; alt=&quot;Humanity Restored!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Let&#39;s do a mini post-mortem!&lt;/p&gt;
+&lt;p&gt;Things that went pretty well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Started with an existing turn-based prototype, in my custom HTML5 stack. This really let me hit the ground running in terms of going straight to gameplay and content.&lt;/li&gt;
+&lt;li&gt;Leveraged existing tools, like &lt;a href=&quot;https://www.mapeditor.org/&quot;&gt;Tiled&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Simple tweaks to standard rogue-like mechanics (permadeath, hunger clock)&lt;/li&gt;
+&lt;li&gt;Arcade style, endless meta game (easy to implement, no bosses, etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Things that didn&#39;t go so well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Procedural generation. I didn&#39;t end up with as much variety/emergence as I would have liked because of an overly simple procedural generator. (Floors are static with 1-4 object layout variants, and I only made 5 floors)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feels good to ship something small and complete. Looking forward to doing this again in 2021!&lt;/p&gt;
 </content>
 	</entry>
 </feed>
