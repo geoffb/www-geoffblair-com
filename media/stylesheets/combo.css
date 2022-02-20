@@ -254,15 +254,6 @@ main blockquote.callout {
   padding: 1.5em;
   margin: 2em 0;
 }
-.comments {
-  width: 700px;
-  margin: 0 auto;
-  padding-top: 20px;
-  border-top: solid 1px #000000;
-}
-.comments a {
-  color: #3e606f;
-}
 .article .date {
   color: #707070;
   font-size: 14px;
