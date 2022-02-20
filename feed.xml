@@ -364,8 +364,7 @@
 		<updated>2016-04-13T12:00:00Z</updated>
 		<id>http://www.geoffblair.com/blog/rain-effect-html5-canvas/</id>
 		<content type="html">&lt;p&gt;While developing an outdoor environment for &lt;a href=&quot;http://store.steampowered.com/app/373470&quot;&gt;A Wizard&#39;s Lizard: Soul Thief&lt;/a&gt;, I wanted to create a rain effect to give the area a distinct feel.&lt;/p&gt;
-&lt;p&gt;Check out the video below to see the rain effect in action:&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EhVvrf5ahew&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=EhVvrf5ahew&quot;&gt;this video&lt;/a&gt; to see the rain effect in action.&lt;/p&gt;
 &lt;p&gt;This effect is fairly simple to create so let&#39;s dive in to how it works. We&#39;re not going to cover every single line of code in this post, but you can check out the &lt;a href=&quot;https://github.com/geoffb/canvas-rain-demo&quot;&gt;full source on GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The basic concept is to manage a collection of drops which have a few properties:&lt;/p&gt;
 &lt;ul&gt;
