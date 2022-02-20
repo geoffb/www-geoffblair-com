@@ -119,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -128,21 +128,21 @@ table {
 }
 body {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-family: sans-serif;
 }
 hr {
   border: 0;
   height: 2px;
   margin: 40px 0;
-  background: #C8C8C8;
+  background: #c8c8c8;
 }
 header {
   overflow: hidden;
   padding: 4px 0;
   margin-bottom: 40px;
-  color: #FFFFFF;
-  background: #006AB4;
+  color: #ffffff;
+  background: #006ab4;
 }
 header .content {
   max-width: 700px;
@@ -163,7 +163,7 @@ header a.home span {
   line-height: 44px;
 }
 header a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   text-shadow: 1px 1px #202040;
@@ -185,10 +185,10 @@ footer {
 }
 footer p {
   text-align: center;
-  color: #C8C8C8;
+  color: #c8c8c8;
 }
 footer a {
-  color: #006AB4;
+  color: #006ab4;
 }
 main {
   max-width: 700px;
@@ -213,7 +213,7 @@ main h2 {
   margin-top: 50px;
 }
 main a {
-  color: #006AB4;
+  color: #006ab4;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -261,7 +261,7 @@ main blockquote.callout {
   border-top: solid 1px #000000;
 }
 .comments a {
-  color: #3E606F;
+  color: #3e606f;
 }
 .article .date {
   color: #707070;
@@ -294,11 +294,11 @@ main blockquote.callout {
   display: block;
   font-size: 20px;
   padding: 5px 0;
-  color: #006AB4;
+  color: #006ab4;
 }
 .article-list .date {
   display: block;
-  color: #C8C8C8;
+  color: #c8c8c8;
   font-weight: bold;
   text-transform: uppercase;
 }
