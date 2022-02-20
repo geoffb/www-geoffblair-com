@@ -1,19 +1,19 @@
 {
-  "private": true,
-  "license": "UNLICENSED",
-  "scripts": {
-    "clean": "rm -rf dist static/media/stylesheets/combo.css",
-    "build": "npm-run-all build:less build:11ty",
-    "build:11ty": "eleventy",
-    "build:less": "lessc htdocs/_less/combo.less static/media/stylesheets/combo.css",
-    "watch:11ty": "eleventy --serve",
-    "develop": "npm-run-all clean build:less watch:11ty"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
-    "less": "^4.1.1",
-    "npm-run-all": "^4.1.5"
-  }
+	"private": true,
+	"license": "UNLICENSED",
+	"scripts": {
+		"clean": "rm -rf dist static/media/stylesheets/combo.css",
+		"build": "npm-run-all build:less build:11ty",
+		"build:11ty": "eleventy",
+		"build:less": "lessc htdocs/_less/combo.less static/media/stylesheets/combo.css",
+		"watch:11ty": "eleventy --serve",
+		"develop": "npm-run-all clean build:less watch:11ty"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^1.0.0",
+		"@11ty/eleventy-plugin-rss": "^1.1.1",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+		"less": "^4.1.1",
+		"npm-run-all": "^4.1.5"
+	}
 }
