@@ -15,9 +15,7 @@ tags:
 
 While developing an outdoor environment for [A Wizard's Lizard: Soul Thief][1], I wanted to create a rain effect to give the area a distinct feel.
 
-Check out the video below to see the rain effect in action:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EhVvrf5ahew" frameborder="0" allowfullscreen></iframe>
+Check out [this video](https://www.youtube.com/watch?v=EhVvrf5ahew) to see the rain effect in action.
 
 This effect is fairly simple to create so let's dive in to how it works. We're not going to cover every single line of code in this post, but you can check out the [full source on GitHub][2].
 
