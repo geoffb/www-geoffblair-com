@@ -4,10 +4,10 @@ Personal website of Geoff Blair, hosted at [www.geoffblair.com](https://www.geof
 
 ## 🏗 Tech
 
-* [Eleventy](https://www.11ty.dev) - Static site generation
-* [Less](http://lesscss.org) - CSS preprocessing
-* [Pug](https://pugjs.org/api/getting-started.html) - Templating
-* [Prism](https://prismjs.com) - Syntax highlighting
+- [Eleventy](https://www.11ty.dev) - Static site generation
+- [Less](http://lesscss.org) - CSS preprocessing
+- [Pug](https://pugjs.org/api/getting-started.html) - Templating
+- [Prism](https://prismjs.com) - Syntax highlighting
 
 ## 🔨 Development
 

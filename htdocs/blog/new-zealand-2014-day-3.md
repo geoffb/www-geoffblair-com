@@ -7,7 +7,8 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2].*
+
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2]._
 
 ## Geoff says:
 
@@ -35,7 +36,7 @@ We hiked eight miles. I am sore. On the plus side, I had Golden Gnocchi and Ging
 
 ![Golden Gnocchi at finz][10]
 
-*For more New Zealand adventures, check out the [next day][11].*
+_For more New Zealand adventures, check out the [next day][11]._
 
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-2/

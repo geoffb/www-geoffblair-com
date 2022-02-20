@@ -12,6 +12,7 @@ tags:
   - gamedev
   - feature
 ---
+
 While developing an outdoor environment for [A Wizard's Lizard: Soul Thief][1], I wanted to create a rain effect to give the area a distinct feel.
 
 Check out the video below to see the rain effect in action:
@@ -22,10 +23,10 @@ This effect is fairly simple to create so let's dive in to how it works. We're n
 
 The basic concept is to manage a collection of drops which have a few properties:
 
-* A point in 2D space (x, y)
-* Velocity
-* Length
-* Opacity
+- A point in 2D space (x, y)
+- Velocity
+- Length
+- Opacity
 
 By varying the velocity, length, and opacity, we get drops that aren't completely uniform and feel a bit more natural. For each drop, these same properties are scaled together so that drops with higher velocity are also longer and less transparent which gives the illusion of depth.
 
@@ -38,23 +39,23 @@ Let's take a look at how we initialize our drops:
 var drops = [];
 
 var initDrops = function () {
-  for (var i = 0; i < DROP_COUNT; i++) {
-    var drop = {};
-    resetDrop(drop);
-    drop.y = math.randomInteger(0, stage.height);
-    drops.push(drop);
-  }
+	for (var i = 0; i < DROP_COUNT; i++) {
+		var drop = {};
+		resetDrop(drop);
+		drop.y = math.randomInteger(0, stage.height);
+		drops.push(drop);
+	}
 };
 
 // Reset a drop to the top of the canvas
 var resetDrop = function (drop) {
-  var scale = Math.random();
-  drop.x = math.randomInteger(-DROP_X_BUFFER, stage.width + DROP_X_BUFFER);
-  drop.vx = WIND_VELOCITY;
-  drop.vy = math.lerp(DROP_MIN_VELOCITY, DROP_MAX_VELOCITY, scale);
-  drop.l = math.lerp(DROP_MIN_LENGTH, DROP_MAX_LENGTH, scale);
-  drop.a = math.lerp(DROP_MIN_ALPHA, DROP_MAX_ALPHA, scale);
-  drop.y = math.randomInteger(-drop.l, 0);
+	var scale = Math.random();
+	drop.x = math.randomInteger(-DROP_X_BUFFER, stage.width + DROP_X_BUFFER);
+	drop.vx = WIND_VELOCITY;
+	drop.vy = math.lerp(DROP_MIN_VELOCITY, DROP_MAX_VELOCITY, scale);
+	drop.l = math.lerp(DROP_MIN_LENGTH, DROP_MAX_LENGTH, scale);
+	drop.a = math.lerp(DROP_MIN_ALPHA, DROP_MAX_ALPHA, scale);
+	drop.y = math.randomInteger(-drop.l, 0);
 };
 ```
 
@@ -72,15 +73,15 @@ The `updateDrops` function is very simple. Loop over each drop and update its po
 
 ```js
 var updateDrops = function (dt) {
-  for (var i = drops.length - 1; i >= 0; --i) {
-    var drop = drops[i];
-    drop.x += drop.vx * dt;
-    drop.y += drop.vy * dt;
+	for (var i = drops.length - 1; i >= 0; --i) {
+		var drop = drops[i];
+		drop.x += drop.vx * dt;
+		drop.y += drop.vy * dt;
 
-    if (drop.y > stage.height + drop.l) {
-      resetDrop(drop);
-    }
-  }
+		if (drop.y > stage.height + drop.l) {
+			resetDrop(drop);
+		}
+	}
 };
 ```
 
@@ -90,32 +91,32 @@ The final step is to render the drops to the canvas. We loop over the drops agai
 
 ```js
 var renderDrops = function (ctx) {
-  ctx.save();
-  ctx.strokeStyle = DROP_COLOR;
-  ctx.lineWidth = DROP_WIDTH;
-  ctx.compositeOperation = "lighter";
+	ctx.save();
+	ctx.strokeStyle = DROP_COLOR;
+	ctx.lineWidth = DROP_WIDTH;
+	ctx.compositeOperation = "lighter";
 
-  for (var i = 0; i < drops.length; ++i) {
-    var drop = drops[i];
+	for (var i = 0; i < drops.length; ++i) {
+		var drop = drops[i];
 
-    var x1 = Math.round(drop.x);
-    var y1 = Math.round(drop.y);
+		var x1 = Math.round(drop.x);
+		var y1 = Math.round(drop.y);
 
-    var v = { x: drop.vx, y: drop.vy };
-    math.normalizeVector(v);
-    math.scaleVector(v, -drop.l);
+		var v = { x: drop.vx, y: drop.vy };
+		math.normalizeVector(v);
+		math.scaleVector(v, -drop.l);
 
-    var x2 = Math.round(x1 + v.x);
-    var y2 = Math.round(y1 + v.y);
+		var x2 = Math.round(x1 + v.x);
+		var y2 = Math.round(y1 + v.y);
 
-    ctx.globalAlpha = drop.a;
-    ctx.beginPath();
-    ctx.moveTo(x1, y1);
-    ctx.lineTo(x2, y2);
-    ctx.stroke();
-    ctx.closePath();
-  }
-  ctx.restore();
+		ctx.globalAlpha = drop.a;
+		ctx.beginPath();
+		ctx.moveTo(x1, y1);
+		ctx.lineTo(x2, y2);
+		ctx.stroke();
+		ctx.closePath();
+	}
+	ctx.restore();
 };
 ```
 

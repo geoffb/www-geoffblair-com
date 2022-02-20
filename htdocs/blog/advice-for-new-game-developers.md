@@ -7,7 +7,8 @@ tags:
   - gamedev
   - feature
 ---
-*This post is an excerpt from an email I wrote to an aspiring game developer. Posting here in the event that it's useful to others.*
+
+_This post is an excerpt from an email I wrote to an aspiring game developer. Posting here in the event that it's useful to others._
 
 Video games started out as passion and hobby of mine when I was in school. I made simple games to show off to my friends. When I did start programming professionally, it wasn't in game development. However, I kept working on my games as a hobby. A game I had made for a contest ended up landing me my first real job in game development. Since then I've worked for several game development studios as well as developing and publishing my own independent games.
 
@@ -33,10 +34,10 @@ Here's a list of things you can do to get started:
 
 **Consume as much game development information as possible.** When you're getting started with game development, you'll come across many common problems that have been discussed in depth by veteran game developers. Learn how to use search engines to find answers to your problems.
 
-* Read articles and blogs on [Gamasutra][1].
-* Search for specific game development advice on [Game Development Stack Exchange][2].
-* Watch game development web series such as [Extra Credits][3] and [Game Maker's Toolkit][4].
-* Learn (or brush up on) various math subjects such as Linear Algebra, Physics, and Trigonometry.
+- Read articles and blogs on [Gamasutra][1].
+- Search for specific game development advice on [Game Development Stack Exchange][2].
+- Watch game development web series such as [Extra Credits][3] and [Game Maker's Toolkit][4].
+- Learn (or brush up on) various math subjects such as Linear Algebra, Physics, and Trigonometry.
 
 Game development is a highly competitive, hit driven business and many ways. There are endless stories about game developers working long hours to ship games on time. I don't say this to discourage you, but rather to encourage you to think about learning broad skills that can apply to game development AND more traditional software development. I spent many years writing non-game software and it gave me a very marketable skill set and lots of experience and practice with writing and shipping code.
 

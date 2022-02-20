@@ -6,6 +6,8 @@
 		"build": "npm-run-all build:less build:11ty",
 		"build:11ty": "eleventy",
 		"build:less": "lessc htdocs/_less/combo.less static/media/stylesheets/combo.css",
+		"format": "prettier --write .",
+		"lint": "prettier --check .",
 		"watch:11ty": "eleventy --serve",
 		"develop": "npm-run-all clean build:less watch:11ty"
 	},
@@ -15,6 +17,7 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
 		"html-minifier": "^4.0.0",
 		"less": "^4.1.1",
-		"npm-run-all": "^4.1.5"
+		"npm-run-all": "^4.1.5",
+		"prettier": "2.5.1"
 	}
 }

@@ -6,6 +6,7 @@ tags:
   - post
   - gamedev
 ---
+
 During the course of trying to improve my game design chops, I came up with these five Ws in order to help guide my thoughts:
 
 ## Who is the intended audience?
@@ -26,4 +27,4 @@ Think about the places where your game is meant to be played. It could be a mobi
 
 ## Why is the game unique and interesting?
 
-Think about the reasons why players would want to spend their time playing *your* game.
+Think about the reasons why players would want to spend their time playing _your_ game.

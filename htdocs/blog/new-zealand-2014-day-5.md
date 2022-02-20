@@ -7,7 +7,8 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2].*
+
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2]._
 
 We awoke this morning to the Fiordland Navigator's two "alarms". The engines starting at 6:20am and the anchor being brought up shortly thereafter. We quickly showered and headed up for breakfast. Baked beans is a breakfast staple here (as in Australia) and I've begun to enjoy them alongside my eggs. Still not a fan of Vegemite or Marmite, though.
 
@@ -29,7 +30,7 @@ Sunday evening is pretty dead in Dunedin, which was a bit nice as it allowed us 
 
 After eating we returned to our hotel for the first night where we wouldn't have to wake up at 6am the next morning. I've heard that you're supposed to relax on vaction, too.
 
-*For more New Zealand adventures, check out the [next day][9].*
+_For more New Zealand adventures, check out the [next day][9]._
 
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-4/

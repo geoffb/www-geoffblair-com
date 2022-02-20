@@ -8,7 +8,8 @@ tags:
   - travel
   - feature
 ---
-*Melissa and I are on vacation/honeymoon in New Zealand! We wanted to document our experiences in order to share them with friends and family, as well as help us remember this trip years from now. We'll each be recounting the events of the day in our own words and styles. Enjoy!*
+
+_Melissa and I are on vacation/honeymoon in New Zealand! We wanted to document our experiences in order to share them with friends and family, as well as help us remember this trip years from now. We'll each be recounting the events of the day in our own words and styles. Enjoy!_
 
 ## Geoff says:
 
@@ -56,7 +57,7 @@ We thankfully arrived at our lodging, unscathed. It is the cutest B&B. Great vie
 
 Realizing we have stuffed ourselves beyond humanly possible, we headed back to the hotel, and got ready for bed while the sun is still up. In my defense, it's 9:10 pm and the sun is still up. Plus, early and busy day tomorrow!
 
-*For more New Zealand adventures, check out the [next day][13].*
+_For more New Zealand adventures, check out the [next day][13]._
 
 [1]: http://en.wikipedia.org/wiki/Kia_ora
 [2]: http://www.brownshotel.co.nz/

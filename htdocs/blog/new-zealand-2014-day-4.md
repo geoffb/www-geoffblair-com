@@ -7,7 +7,8 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2].*
+
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2]._
 
 We left Queenstown this morning, after our last delicous breakfast at Brown's Boutique. Our destination was Manapouri, a small town on the eastern side of [Fiordland National Park][3]. However, Manapouri was just a jumping off point to the big event: an overnight cruise in [Doubtful Sound][4]. Doubtful Sound, as we later learned, is so named because Captain Cook was doubtful that he could get his ship back out to sea if he were to harbor there.
 
@@ -37,7 +38,7 @@ We watched a slide show in the evening and then promptly fell asleep after an am
 
 ![Our cabin abord the Fiordland Navigator][7]
 
-*For more New Zealand adventures, check out the [next day][13].*
+_For more New Zealand adventures, check out the [next day][13]._
 
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-3/

@@ -4,6 +4,7 @@ keywords: Geoff Blair, indie, games, gamedev, Lost Decade Games, Yahoo!, Raptr, 
 description: Geoff is an independent game developer and co-founder of Lost Decade Games.
 layout: base.pug
 ---
+
 # 👨‍💻 About Me
 
 I'm a [game developer](/games/) and co-founder of [Lost Decade Games](http://www.lostdecadegames.com). I currently reside in [Colorado Springs](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado) with my wife, Melissa Iris, and our cats.
@@ -17,4 +18,3 @@ For a more professional look, see [my resume](/resume/).
 Keep up with my (infrequent) posts by [subscribing via RSS](/feed.xml) or [reach out via email](mailto:geoff@mousepox.io).
 
 Interested in the technology behind this site? Check out the [source on GitHub](https://github.com/geoffb/www.geoffblair.com).
-

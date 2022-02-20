@@ -9,6 +9,7 @@ tags:
   - javascript
   - gamedev
 ---
+
 When rendering text in HTML5 canvas, I mostly use the [native text drawing methods](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text) like `fillText`. However, a question came up on the LDG forum (now offline) a while back about rendering bitmap fonts with varying colors.
 
 Bitmap fonts are simply images of text characters which are then rendered to the screen the same way you might render game sprites, with `drawImage`.
@@ -23,7 +24,7 @@ In order to render this font using different colors, we can take advantage of th
 
 The basic concept is to first draw the letters to an off-screen buffer canvas and then use the `source-in` composite operation to draw over just the black pixels with a different color.
 
-*Note: This example doesn't cover how to render a string of text by mapping each character to a position in the image.*
+_Note: This example doesn't cover how to render a string of text by mapping each character to a position in the image._
 
 Here's a snippet of JavaScript demonstrating how the compositing works:
 

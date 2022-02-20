@@ -5,6 +5,7 @@ description: Read Geoff's blog for articles about independent game development, 
 collectionKey: feature
 layout: article-list.pug
 ---
+
 # 👋🏻 Hi, I'm Geoff
 
 I'm a [game developer](/games/) (sometimes indie, sometimes not), focused on web technologies.

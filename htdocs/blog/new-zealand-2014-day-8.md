@@ -7,7 +7,8 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*
+
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev]._
 
 Today was another travel day as we flew from Dunedin to Auckland. This also marks the end of our travels in the South Island and the final leg of our trip.
 
@@ -25,12 +26,11 @@ We returned to the hotel to relax and plan out the remainder of our trip. Feelin
 
 The weather in Auckland should improve tomorrow, just in time for our outdoor activities!
 
-*For more New Zealand adventures, check out the [next day][next].*
+_For more New Zealand adventures, check out the [next day][next]._
 
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-7/
 [next]: /blog/new-zealand-2014-day-9/
-
 [p1]: /media/images/nz14/day8/auckland.jpg
 [t1]: /media/images/nz14/day8/thumb-auckland.jpg
 [p2]: /media/images/nz14/day8/heritage-hotel.jpg

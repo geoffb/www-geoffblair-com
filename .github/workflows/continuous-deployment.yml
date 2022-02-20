@@ -2,9 +2,9 @@ name: Continuous Deployment
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   BuildAndDeploy:
@@ -15,6 +15,9 @@ jobs:
 
       - name: 🔧 Install dependencies
         run: yarn
+
+      - name: 🚨 Lint source
+        run: yarn lint
 
       - name: 🧼 Clean build artifacts
         run: yarn clean

@@ -7,7 +7,8 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*
+
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev]._
 
 Sadly, today was our last day in New Zealand. We didn't have anything in particular planned so we slept in a bit, checked out of our hotel, and had breakfast.
 
@@ -35,11 +36,9 @@ Happy holidays!
 
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-10/
-
 [1]: http://en.wikipedia.org/wiki/Kiwi
 [2]: http://en.wikipedia.org/wiki/Auckland_Zoo
 [3]: http://en.wikipedia.org/wiki/Little_penguin
-
 [p1]: /media/images/nz14/day11/red-panda.jpg
 [t1]: /media/images/nz14/day11/thumb-red-panda.jpg
 [p2]: /media/images/nz14/day11/little-penguins.jpg

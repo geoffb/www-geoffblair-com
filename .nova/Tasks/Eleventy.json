@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nyarn build"
+      "script" : "#!\/bin\/sh\nyarn lint\nyarn build"
     },
     "clean" : {
       "enabled" : true,

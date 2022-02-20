@@ -6,6 +6,7 @@ tags:
   - post
   - gamedev
 ---
+
 Perfecting the collision response in a game can be tricky. I've personally made several iterations on the collision detection and response in [A Wizard's Lizard][1].
 
 Most recently, I've found that order matters when responding to multiple tile map collisions. I talked about this issue in [Lostcast 78][2], but I wanted to expand upon the idea and provide a diagram to better convey what's happening.

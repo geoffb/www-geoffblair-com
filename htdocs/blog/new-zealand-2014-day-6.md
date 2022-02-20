@@ -7,9 +7,10 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2].*
 
-*Today's blog is brought to you by Melissa since Geoff fell asleep immediately upon returning to the hotel.*
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1] or the [previous day][2]._
+
+_Today's blog is brought to you by Melissa since Geoff fell asleep immediately upon returning to the hotel._
 
 Today was our first "late" morning day. We had the morning free to roam around Dunedin and so we did!
 
@@ -41,7 +42,7 @@ Our tour ended quite late, around half past 9, so Geoff and I decided to order i
 
 Tomorrow, we go to the Castle!
 
-*For more New Zealand adventures, check out the [next day][12].*
+_For more New Zealand adventures, check out the [next day][12]._
 
 [1]: /blog/new-zealand-2014-day-1/
 [2]: /blog/new-zealand-2014-day-5/

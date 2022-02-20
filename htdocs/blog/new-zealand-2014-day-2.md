@@ -7,7 +7,8 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1].*
+
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][1]._
 
 ## Geoff says:
 
@@ -23,7 +24,7 @@ The next destination was along the [Kawarau River][5]. Several scenes from LotR 
 
 ![Kawarau River][16]
 
-Next, we drove to [Arrowtown][6], a former mining town during the gold rush of the 1860s. We only stayed long enough for a quick pit stop before heading out into the nearby river. It's worth mentioning here that neither Melissa or I had *really* looked into the details of this tour. Andres had mentioned a couple of times that we'd be driving on a river. In my head, I pictured us driving next to the river. It turned out that he meant [*in* the river][3]!
+Next, we drove to [Arrowtown][6], a former mining town during the gold rush of the 1860s. We only stayed long enough for a quick pit stop before heading out into the nearby river. It's worth mentioning here that neither Melissa or I had _really_ looked into the details of this tour. Andres had mentioned a couple of times that we'd be driving on a river. In my head, I pictured us driving next to the river. It turned out that he meant [_in_ the river][3]!
 
 We stopped at a scenic spot on the river which Melissa immediately recognized as the location of the horse chase through the river scene from Lord of the Rings. Our guide was impressed and I was, once again, out-geeked.
 
@@ -47,7 +48,7 @@ We've got another early morning booking tomorrow so we're off to bed to rest up 
 
 ## Melissa says:
 
-Day 2 in Queenstown started off right only snoozing once and promptly getting ready at 6:40 am.  Broke our fasts with 2 eggs, 2 pieces of bacon, and a fried tomato cooked by our hosts. Met a colorful couple from Memphis who were on their last day in NZ. We swapped stories and found that they used the same travel agent that we did! They gave us some nice tips from their trip which we greatly appreciated!
+Day 2 in Queenstown started off right only snoozing once and promptly getting ready at 6:40 am. Broke our fasts with 2 eggs, 2 pieces of bacon, and a fried tomato cooked by our hosts. Met a colorful couple from Memphis who were on their last day in NZ. We swapped stories and found that they used the same travel agent that we did! They gave us some nice tips from their trip which we greatly appreciated!
 
 ![Misty Mountains][12]
 
@@ -77,7 +78,7 @@ When the sun came back out at 6ish, we headed downtown again to shop for present
 
 Tonight we are turning in at a more respectable time. Tomorrow, happy sore trails!
 
-*For more New Zealand adventures, check out the [next day][22].*
+_For more New Zealand adventures, check out the [next day][22]._
 
 [1]: /blog/new-zealand-2014-day-1/
 [2]: http://en.wikipedia.org/wiki/The_Remarkables

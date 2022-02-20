@@ -7,7 +7,8 @@ tags:
   - post
   - travel
 ---
-*This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev].*
+
+_This is a series of posts chronicling our New Zealand trip. For more context, check out the [first day][first] or the [previous day][prev]._
 
 Today was Melissa's birthday! The weather in Auckland mostly cooperated, too.
 
@@ -37,14 +38,12 @@ Around 3pm we boarded the ferry back to Auckland. Once ashore, we stopped at a T
 
 Tonight was another early night since we booked a really early tour for the following day.
 
-*For more New Zealand adventures, check out the [next day][next].*
+_For more New Zealand adventures, check out the [next day][next]._
 
 [first]: /blog/new-zealand-2014-day-1/
 [prev]: /blog/new-zealand-2014-day-8/
 [next]: /blog/new-zealand-2014-day-10/
-
 [1]: http://en.wikipedia.org/wiki/Tiritiri_Matangi_Island
-
 [p1]: /media/images/nz14/day9/wharf.jpg
 [t1]: /media/images/nz14/day9/thumb-wharf.jpg
 [p2]: /media/images/nz14/day9/bird-1.jpg

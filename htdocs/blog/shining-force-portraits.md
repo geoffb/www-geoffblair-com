@@ -9,6 +9,7 @@ tags:
   - art
   - feature
 ---
+
 As a big fan of [Shining Force](https://en.wikipedia.org/wiki/Shining_Force), I took a stab at drawing the [character portraits](http://fantasyanime.com/shiningforce/sflist.htm) back in early 2016.
 
 Portraits were drawn on my Samsung Galaxy S6 Edge in [SketchBook by Autodesk](https://play.google.com/store/apps/details?id=com.adsk.sketchbook&hl=en) using a cheap touch pen.
