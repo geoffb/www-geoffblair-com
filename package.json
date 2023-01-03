@@ -21,6 +21,7 @@
 		"prettier": "^2.7.1"
 	},
 	"resolutions": {
+		"liquidjs": "^10.0.0",
 		"qs": "^6.2.4"
 	}
 }
