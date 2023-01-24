@@ -22,6 +22,7 @@
 	},
 	"resolutions": {
 		"liquidjs": "^10.0.0",
-		"qs": "^6.2.4"
+		"qs": "^6.2.4",
+		"ua-parser-js": "1.0.33"
 	}
 }
