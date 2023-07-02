@@ -23,17 +23,17 @@ When we finally landed in Auckland, we picked up our bags, made our way through 
 
 The flight to Queenstown was quite a bit easier. Two hours after already doing twelve is cake. The views from the plane of the snow-covered mountains were spectacular. After we descended through the cloud layer, we were treated to more amazing views of Queenstown and the bay.
 
-Next, we picked up our rental car, a Hyundai Accent. In New Zealand, you drive on the left side of the road AND the steering wheel is on the right side of the car. It's a little tricky at first, but luckily I had previous experience with this driving situation in Tazmania. Melissa was sure that her life was about to end as we made our way from the airport to our hotel.
+Next, we picked up our rental car, a Hyundai Accent. In New Zealand, you drive on the left side of the road AND the steering wheel is on the right side of the car. It's a little tricky at first, but luckily I had previous experience with this driving situation in Tasmania. Melissa was sure that her life was about to end as we made our way from the airport to our hotel.
 
 ![Signs to everywhere, Queenstown airport][7]
 
-Our accomodations for next few days is [Brown's Boutique Hotel][2], a pleasant bed and breakfast nestled in the hills of Queenstown. Our third floor balcony offers an [excellent view of the city and bay][6].
+Our accommodations for next few days is [Brown's Boutique Hotel][2], a pleasant bed and breakfast nestled in the hills of Queenstown. Our third floor balcony offers an [excellent view of the city and bay][6].
 
 ![View of Queenstown from Brown's Boutique Hotel][12]
 
 After unloading at the hotel, we walked to downtown and [Steamer Wharf][3]. Scarcely had we visited a few shops when hunger pangs and delicious aromas convinced us it was time to eat. Unfortunately, we learned that many restaurants don't open until 4 or 5pm. Our first choice, [The Find][4], was one such establishment but we plan on eating there before we leave Queenstown. We wound up eating at a nice seafood and grill place overlooking the bay.
 
-Window shopping ensued for several hours after dinner as we hunted for souveniers and potential Christmas gifts. Shopping takes its toll and soon we stopped in at Patagonia Chocolate for a HoCho and churros dipped in chocolate.
+Window shopping ensued for several hours after dinner as we hunted for souvenirs and potential Christmas gifts. Shopping takes its toll and soon we stopped in at Patagonia Chocolate for a HoCho and churros dipped in chocolate.
 
 ![Delicious churros with chocolate and dulce de leche][9]
 
@@ -45,7 +45,7 @@ Kia Ora from the future!
 
 Geoff and I time-travelled, sardine-style, and have finally arrived in Kiwi-land! My first impression? It is surreal! Zooming through fluffy clouds to a stunning vista of snow-capped mounts yet lush greenery felt unbelievable. We picked out some islands for the future from afar.
 
-![Interesting sculpture, Queentown airport][10]
+![Interesting sculpture, Queenstown airport][10]
 
 After surviving the baggage claim without Geoff threatening to put me in one for smart-mouthing, we braved the outside, tourist-like, stopping at weird times to take pictures. As we are currently in Queenstown, the adventure capital of NZ, we embarked on the scariest ride of all: Geoff driving on the left side of the road, whilst steering from the right side of the car, traversing numerous traffic circles, all the while telling me to take in the honeymoon, while I yelled "eyes on the road!" Thrilling indeed. Especially, when the windshield wipers suddenly turn on when we needed to turn right or left. Strange.
 
