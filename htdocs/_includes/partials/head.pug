@@ -3,6 +3,13 @@ head
 	meta(name="description", content=description)
 	meta(name="keywords", content=keywords)
 	meta(name="viewport" content="width=device-width, initial-scale=1")
+	meta(property="og:site_name" content="Geoff Blair")
+	meta(property="og:title" content=title)
+	meta(property="og:type" content=`${og_type || "website"}`)
+	meta(property="og:description" content=description)
+	meta(property="og:url" content=`https://www.geoffblair.com${page.url}`)
+	if image
+		meta(property="og:image" contents=`https://www.geoffblair.com${image}`)
 	title=title
 	block stylesheets
 		link(href="/media/stylesheets/combo.css", rel="stylesheet", type="text/css")

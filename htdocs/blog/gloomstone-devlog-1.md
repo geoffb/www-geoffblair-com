@@ -1,6 +1,8 @@
 ---
 title: "Gloomstone Devlog #1"
+description: "Introducing Gloomstone, my first-person dungeon crawling game engine."
 keywords: gloomestone, gamedev, devlog
+image: /media/images/gloomstone/gloomstone.png
 date: 2023-07-02 12:00:00
 layout: article.pug
 tags:
