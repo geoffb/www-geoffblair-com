@@ -1,5 +1,7 @@
 # www.geoffblair.com
 
+[![Continuous Deployment](https://github.com/geoffb/www-geoffblair-com/actions/workflows/continuous-deployment.yml/badge.svg)](https://github.com/geoffb/www-geoffblair-com/actions/workflows/continuous-deployment.yml)
+
 Personal website of Geoff Blair, hosted at [www.geoffblair.com](https://www.geoffblair.com).
 
 ## 🏗 Tech
