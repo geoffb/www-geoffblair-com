@@ -13,6 +13,6 @@
       "script" : "#!\/bin\/sh\nyarn develop"
     }
   },
-  "identifier" : "8FBA9096-27C5-4BB8-A4A9-F32AB1AD9739",
-  "openLogOnRun" : "start"
+  "openLogOnRun" : "start",
+  "persistent" : true
 }
