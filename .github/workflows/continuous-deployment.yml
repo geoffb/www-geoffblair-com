@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: 🔧 Install dependencies
-        run: yarn
+        run: yarn --immutable
 
       - name: ✅ Dedupe dependencies
         run: yarn dedupe -c
