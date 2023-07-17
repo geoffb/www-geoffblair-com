@@ -5,7 +5,7 @@ description: Games created by Geoff Blair
 layout: base.njk
 ---
 
-# 🕹️ Games
+# Games
 
 A sampling of games I've created, either alone, with friends, or as part of a company.
 

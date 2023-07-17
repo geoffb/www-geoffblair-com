@@ -1,6 +1,12 @@
 {% extends "base.njk" %}
 
+{% block page_meta %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="/css/prism.css" />
+{% endblock %}
+
 {% block page_main %}
 <h1>{{ title }}</h1>
+<time>{{ date | format_date }}</time>
 {{ super() }}
 {% endblock %}

@@ -4,6 +4,7 @@
 		{# Core metadata #}
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% block page_meta %}
 		<meta name="description" content="{{ description }}">
 		<meta name="keywords" content="{{ keywords }}">
 		<title>{{ title }}</title>
@@ -24,7 +25,8 @@
 		#}
 
 		{# Stylesheets #}
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css" />
+		{% endblock %}
 	</head>
 	<body>
 		{# Header #}

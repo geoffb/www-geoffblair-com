@@ -5,13 +5,13 @@ description: Geoff is an independent game developer and co-founder of Lost Decad
 layout: base.njk
 ---
 
-# ℹ️ About
+# About
 
 I'm a [game developer](/games/) and co-founder of [Lost Decade Games](http://www.lostdecadegames.com). I currently reside in [Colorado Springs](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado) with my wife, Melissa Iris, and our cats.
 
 After spending nearly a decade as a full stack web developer at companies such as Yahoo! Games (now defunct) and Raptr (also defunct), I decided to focus on my lifelong obsession with game development by founding Lost Decade Games with [Matt Hackett](http://www.richtaur.com) in 2010. Matt and I hosted [Lostcast](http://www.lostdecadegames.com/lostcast/episodes/), a long-running podcast about indie game development, with an [HTML5](https://en.wikipedia.org/wiki/HTML5) slant.
 
-When not stuck behind a computer screen, I like to snowboard, [travel](/blog/new-zealand-2014-day-1/), and play board games.
+When not stuck behind a computer screen, I like to play disc golf, snowboard, [travel](/blog/new-zealand-2014-day-1/), and play board games.
 
 Take a look at the [hardware and software I use](/uses/) to get the job done.
 

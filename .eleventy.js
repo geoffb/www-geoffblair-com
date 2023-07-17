@@ -5,17 +5,41 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const less = require("less");
 const htmlmin = require("html-minifier");
 
-module.exports = function (config) {
-	// Add plugins
-	config.addPlugin(rss);
-	// config.addPlugin(syntaxHighlight);
+const staticAssets = ["htdocs/*.ico", "htdocs/*.txt"];
 
-	// Copy static assets
+module.exports = function (config) {
+	// Plugins
+	config.addPlugin(rss);
+	config.addPlugin(syntaxHighlight);
+
+	// Static assets
+	for (const asset of staticAssets) {
+		config.addPassthroughCopy(asset);
+	}
 	config.addPassthroughCopy({
 		static: ".",
 	});
 
-	console.log(config);
+	// Quick and dirty date formatting
+	config.addNunjucksFilter("format_date", function (value) {
+		const monthNames = [
+			"Jan",
+			"Feb",
+			"Mar",
+			"Apr",
+			"May",
+			"Jun",
+			"Jul",
+			"Aug",
+			"Sep",
+			"Oct",
+			"Nov",
+			"Dec",
+		];
+		const date = new Date(value);
+		const month = monthNames[date.getMonth()];
+		return `${month} ${date.getDate()}, ${date.getFullYear()}`;
+	});
 
 	// Less templates: https://lesscss.org
 	config.addExtension("less", {

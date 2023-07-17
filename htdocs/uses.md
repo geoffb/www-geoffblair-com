@@ -5,7 +5,7 @@ description: What I use to make things
 layout: base.njk
 ---
 
-# 🧑🏻‍💻 Uses
+# Uses
 
 What I use to get the job done. Inspired by [Uses This](https://usesthis.com).
 

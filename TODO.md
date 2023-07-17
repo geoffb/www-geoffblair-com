@@ -2,12 +2,7 @@
 
 ## Engine
 
-- Add dark/light modes
-- Write Eleventy plugin for Less
 - Style block quotes nicely
-- Replace Pug with Nunjucks
-- Move templates out of "htdocs" and into a root level folder “templates”
-- Evaluate Less (replace with SASS, or plain CSS?)
 
 ## Content
 
