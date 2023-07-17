@@ -3,7 +3,7 @@ title: Shining Force Character Portraits
 description: Shining Force Character Portraits
 keywords: art, shining force
 date: 2017-11-30 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - art

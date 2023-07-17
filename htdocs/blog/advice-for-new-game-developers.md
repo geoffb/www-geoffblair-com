@@ -1,7 +1,7 @@
 ---
 title: Advice for Aspiring Game Developers
 date: 2016-10-10 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - gamedev

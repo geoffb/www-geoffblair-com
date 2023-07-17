@@ -2,14 +2,11 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		"clean": "rm -rf dist static/media/stylesheets/combo.css",
-		"build": "yarn build:less && yarn build:11ty",
-		"build:11ty": "eleventy",
-		"build:less": "lessc htdocs/_less/combo.less static/media/stylesheets/combo.css",
+		"clean": "rm -rf dist",
+		"build": "eleventy",
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
-		"watch:11ty": "eleventy --serve",
-		"develop": "yarn clean && yarn build:less && yarn watch:11ty"
+		"develop": "eleventy --serve"
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",

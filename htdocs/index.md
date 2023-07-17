@@ -3,7 +3,7 @@ title: Geoff Blair - Game Developer
 keywords: Geoff Blair, indie, games, gamedev, game developer, Lost Decade Games, LDG, blog
 description: Read Geoff's blog for articles about independent game development, running a small business, his travels, and interests.
 collectionKey: feature
-layout: article-list.pug
+layout: post-list.njk
 ---
 
 # 👋🏻 Hi, I'm Geoff
@@ -16,6 +16,4 @@ I [occasionally write](/blog/) about game development, traveling, and other topi
 
 Find out more [about me](/about/).
 
----
-
-# ⭐ Featured Posts
+## ⭐ Featured Posts

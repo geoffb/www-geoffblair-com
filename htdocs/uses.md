@@ -1,8 +1,8 @@
 ---
-title: Uses - Geoff Blair
+title: Uses
 keywords: Geoff Blair, indie, games, gamedev, game developer, Lost Decade Games, LDG, blog
 description: What I use to make things
-layout: base.pug
+layout: base.njk
 ---
 
 # 🧑🏻‍💻 Uses

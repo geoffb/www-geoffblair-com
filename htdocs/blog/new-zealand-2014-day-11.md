@@ -2,7 +2,7 @@
 title: New Zealand 2014 - Day 11
 keywords: new zealand, vacation, travel, auckland, zoo, kiwi, rain
 date: 2014-12-20 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - travel

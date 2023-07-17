@@ -1,6 +1,17 @@
-extends ./base
+{% extends "base.njk" %}
 
-block content
+{% set posts = collections[collectionKey].slice().reverse() %}
+
+{% block page_main %}
+{{ super() }}
+<ul>
+	{% for post in posts %}
+	<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+	{% endfor %}
+</ul>
+{% endblock %}
+
+{# block content
 	main
 		div!=content
 			ul.article-list
@@ -11,4 +22,4 @@ block content
 					- var month = monthNames[date.getMonth()];
 					li
 						a(href=post.url)= post.data.title
-						span.date=month + " " + date.getDate() + ", " + date.getFullYear()
+						span.date=month + " " + date.getDate() + ", " + date.getFullYear() #}

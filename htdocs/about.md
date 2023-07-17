@@ -1,11 +1,11 @@
 ---
-title: About Me - Geoff Blair
+title: About
 keywords: Geoff Blair, indie, games, gamedev, Lost Decade Games, Yahoo!, Raptr, snowboarding, full stack web developer, html5, css3, javascript
 description: Geoff is an independent game developer and co-founder of Lost Decade Games.
-layout: base.pug
+layout: base.njk
 ---
 
-# ℹ️ About Me
+# ℹ️ About
 
 I'm a [game developer](/games/) and co-founder of [Lost Decade Games](http://www.lostdecadegames.com). I currently reside in [Colorado Springs](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado) with my wife, Melissa Iris, and our cats.
 

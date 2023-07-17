@@ -3,7 +3,7 @@ title: Rain Effect in HTML5 Canvas
 description: Create a rain effect with drops and splashes using the HTML5 canvas element and JavaScript.
 keywords: html5, canvas, rain, effect, drops, splash, games, gamedev, game development, javascript
 date: 2016-04-13 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - html5

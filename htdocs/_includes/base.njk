@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		{# Core metadata #}
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="{{ description }}">
+		<meta name="keywords" content="{{ keywords }}">
+		<title>{{ title }}</title>
+
+		{# Open Graph metadata #}
+		<meta property="og:site_name" content="Geoff Blair">
+		<meta property="og:title" content="{{ title }}">
+
+		{# TODO: Convert this metadata #}
+		{#
+		meta(property="og:type" content=`${og_type || "website"}`)
+		meta(property="og:description" content=description)
+		meta(property="og:url" content=`https://www.geoffblair.com${page.url}`)
+		if image
+			meta(property="og:image" content=`https://www.geoffblair.com${image}`)
+			meta(property="og:image:width" content="1200")
+			meta(property="og:image:height" content="630")
+		#}
+
+		{# Stylesheets #}
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		{# Header #}
+		<header>
+			<nav>
+				<ul>
+					{% for nav in site.navigation %}
+					<li><a href="{{ nav.url }}">{{ nav.label }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</header>
+
+		{# Main #}
+		<main>
+			{% block page_main %}
+			{{ content | safe }}
+			{% endblock %}
+		</main>
+
+		{# Footer #}
+		<footer>
+			© Geoff Blair
+		</footer>
+	</body>
+</html>

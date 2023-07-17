@@ -1,7 +1,7 @@
 ---
 title: Ready, set, roguelike!
 date: 2020-02-29 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - gamedev

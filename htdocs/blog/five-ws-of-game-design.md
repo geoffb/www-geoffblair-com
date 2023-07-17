@@ -1,7 +1,7 @@
 ---
 title: Five Ws of Game Design
 date: 2014-05-21 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - gamedev

@@ -1,0 +1,9 @@
+{
+	"navigation": [
+		{ "label": "Home", "url": "/" },
+		{ "label": "Games", "url": "/games/" },
+		{ "label": "Posts", "url": "/blog/" },
+		{ "label": "About", "url": "/about/" },
+		{ "label": "Resume", "url": "/resume/" }
+	]
+}

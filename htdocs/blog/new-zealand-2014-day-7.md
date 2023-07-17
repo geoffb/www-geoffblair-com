@@ -2,7 +2,7 @@
 title: New Zealand 2014 - Day 7
 keywords: new zealand, dunedin, larnach castle, dinner, william larnach, garden
 date: 2014-12-16 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - travel

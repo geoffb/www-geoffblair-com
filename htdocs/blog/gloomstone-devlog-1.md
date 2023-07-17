@@ -4,7 +4,7 @@ description: "The first development log for Gloomstone, my first-person dungeon 
 keywords: gloomestone, gamedev, devlog
 image: /media/images/gloomstone/gloomstone-1200x630.png
 date: 2023-07-02 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - gamedev

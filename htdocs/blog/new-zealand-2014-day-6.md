@@ -2,7 +2,7 @@
 title: New Zealand 2014 - Day 6
 keywords: new zealand, vaction, travel, dunedin, otago museum, otago peninsula, tropical rainforest, butterflies, tour, royal albatross, albatross, penguin, yellow-eyed penguin, fur seal, sealion
 date: 2014-12-15 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - travel

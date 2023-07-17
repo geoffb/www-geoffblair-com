@@ -2,7 +2,7 @@
 title: New Zealand 2014 - Day 3
 keywords: new zealand, vaction, travel, queenstown, routeburn track, kiwi
 date: 2014-12-12 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - travel

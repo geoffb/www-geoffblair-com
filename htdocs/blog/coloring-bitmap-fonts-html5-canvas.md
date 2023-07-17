@@ -1,7 +1,7 @@
 ---
 title: Coloring Bitmap Fonts in HTML5 Canvas
 date: 2016-04-10 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - html5

@@ -2,7 +2,7 @@
 title: New Zealand 2014 - Day 8
 keywords: new zealand, vacation, travel, dunedin, auckland
 date: 2014-12-17 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - travel

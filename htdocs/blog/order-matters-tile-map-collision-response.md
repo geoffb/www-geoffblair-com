@@ -1,7 +1,7 @@
 ---
 title: "Order matters: Tile map collision response"
 date: 2014-06-11 12:00:00
-layout: article.pug
+layout: post.njk
 tags:
   - post
   - gamedev

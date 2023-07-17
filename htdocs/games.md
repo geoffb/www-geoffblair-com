@@ -1,11 +1,11 @@
 ---
-title: My Games - Geoff Blair
+title: Games
 keywords: Geoff Blair, indie, games, gamedev, game developer, Lost Decade Games, LDG, blog
 description: Games created by Geoff Blair
-layout: base.pug
+layout: base.njk
 ---
 
-# 🕹️ My Games
+# 🕹️ Games
 
 A sampling of games I've created, either alone, with friends, or as part of a company.
 
