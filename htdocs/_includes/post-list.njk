@@ -10,16 +10,3 @@
 	{% endfor %}
 </ul>
 {% endblock %}
-
-{# block content
-	main
-		div!=content
-			ul.article-list
-				- var posts = collections[collectionKey].slice().reverse();
-				each post in posts
-					- var date = new Date(post.date);
-					- var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-					- var month = monthNames[date.getMonth()];
-					li
-						a(href=post.url)= post.data.title
-						span.date=month + " " + date.getDate() + ", " + date.getFullYear() #}

@@ -1,4 +1,10 @@
 {
+	"name": "Geoff Blair",
+	"url": "https://www.geoffblair.com",
+	"author": {
+		"name": "Geoff Blair",
+		"email": "geoff@mousepox.io"
+	},
 	"navigation": [
 		{ "label": "Home", "url": "/" },
 		{ "label": "Games", "url": "/games/" },

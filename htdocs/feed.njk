@@ -4,13 +4,7 @@
 	"eleventyExcludeFromCollections": true,
 	"metadata": {
 		"title": "Geoff Blair - Indie Game Developer",
-		"subtitle": "Read Geoff's blog for articles about independent game development, running a small business, his travels, and interests.",
-		"url": "http://www.geoffblair.com",
-		"feedUrl": "http://www.geoffblair.com/feed.xml",
-		"author": {
-			"name": "Geoff Blair",
-			"email": "geoff@mousepox.io"
-		}
+		"subtitle": "Read Geoff's blog for articles about independent game development, running a small business, his travels, and interests."
 	}
 }
 ---
@@ -18,13 +12,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ metadata.title }}</title>
 	<subtitle>{{ metadata.subtitle }}</subtitle>
-	<link href="{{ metadata.feedUrl }}" rel="self"/>
-	<link href="{{ metadata.url }}"/>
+	<link href="{{ site.url }}{{ page.url }}" rel="self"/>
+	<link href="{{ site.url }}"/>
 	<updated>{{ collections.post | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-	<id>{{ metadata.url }}</id>
+	<id>{{ site.url }}</id>
 	<author>
-		<name>{{ metadata.author.name }}</name>
-		<email>{{ metadata.author.email }}</email>
+		<name>{{ site.author.name }}</name>
+		<email>{{ site.author.email }}</email>
 	</author>
 	{%- for post in collections.post %}
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
