@@ -10,6 +10,7 @@ Personal website of Geoff Blair, hosted at [www.geoffblair.com](https://www.geof
 - [Nunjucks](https://mozilla.github.io/nunjucks/) - Templating
 - [Less](http://lesscss.org) - CSS preprocessing
 - [Prism](https://prismjs.com) - Syntax highlighting
+- [Yarn](https://yarnpkg.com) - Package/dependency management
 
 ## 🔨 Development
 
