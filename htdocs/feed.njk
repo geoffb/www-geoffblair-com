@@ -1,17 +1,11 @@
----json
-{
-	"permalink": "feed.xml",
-	"eleventyExcludeFromCollections": true,
-	"metadata": {
-		"title": "Geoff Blair - Indie Game Developer",
-		"subtitle": "Read Geoff's blog for articles about independent game development, running a small business, his travels, and interests."
-	}
-}
+---
+permalink: feed.xml
+eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>{{ metadata.title }}</title>
-	<subtitle>{{ metadata.subtitle }}</subtitle>
+	<title>{{ site.name }}</title>
+	<subtitle>{{ site.description }}</subtitle>
 	<link href="{{ site.url }}{{ page.url }}" rel="self"/>
 	<link href="{{ site.url }}"/>
 	<updated>{{ collections.post | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
