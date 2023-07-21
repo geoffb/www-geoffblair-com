@@ -5,7 +5,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const less = require("less");
 const htmlmin = require("html-minifier");
 
-const staticAssets = ["htdocs/*.ico", "htdocs/*.txt"];
+const staticAssets = ["htdocs/*.ico", "htdocs/*.txt", "htdocs/media"];
 
 module.exports = function (config) {
 	// Plugins
@@ -16,9 +16,6 @@ module.exports = function (config) {
 	for (const asset of staticAssets) {
 		config.addPassthroughCopy(asset);
 	}
-	config.addPassthroughCopy({
-		static: ".",
-	});
 
 	// Quick and dirty date formatting
 	config.addNunjucksFilter("format_date", function (value) {

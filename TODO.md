@@ -3,7 +3,6 @@
 ## Engine
 
 - Style block quotes nicely
-- Move `static/media` -> `htdocs/images` and make it passthrough copy
 - Add RSS `link` element to base template
 
 ## Content
