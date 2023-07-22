@@ -34,7 +34,7 @@ Here's a list of things you can do to get started:
 
 **Consume as much game development information as possible.** When you're getting started with game development, you'll come across many common problems that have been discussed in depth by veteran game developers. Learn how to use search engines to find answers to your problems.
 
-- Read articles and blogs on [Gamasutra][1].
+- Read articles and blogs on [Game Developer][1].
 - Search for specific game development advice on [Game Development Stack Exchange][2].
 - Watch game development web series such as [Extra Credits][3] and [Game Maker's Toolkit][4].
 - Learn (or brush up on) various math subjects such as Linear Algebra, Physics, and Trigonometry.
@@ -43,7 +43,7 @@ Game development is a highly competitive, hit driven business and many ways. The
 
 I hope all this helps! If you have specific questions for me about game development, I'll try my best to answer them or point you in right direction. Keep in mind that game development is a broad field and my experience only represents a small part. The best service you can do for yourself is to read, watch, and talk about game development as much as possible and use all that information to make decisions on how to approach game development.
 
-[1]: http://www.gamasutra.com/
+[1]: https://www.gamedeveloper.com
 [2]: http://gamedev.stackexchange.com/
 [3]: https://www.youtube.com/user/ExtraCreditz
 [4]: https://www.youtube.com/user/McBacon1337
