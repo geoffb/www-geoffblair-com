@@ -9,7 +9,6 @@
 
 ## Content
 
-- Design new favicon
 - Create a `/now` page (what I'm doing "now", see: https://nownownow.com/about)
 - Add `/humans.txt` (see: https://humanstxt.org)
 - Don’t embed GitHub content?
