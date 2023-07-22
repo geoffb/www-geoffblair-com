@@ -2,10 +2,12 @@
 
 ## Engine
 
+- Version static assets (like CSS bundles)
 - Style block quotes nicely
 - Support draft posts (publish in dev, not in prod)
 - Display tags
 - List posts by tags
+- JavaScript templates? (Like Less, but JS + esbuild -> JS bundle)
 
 ## Content
 
