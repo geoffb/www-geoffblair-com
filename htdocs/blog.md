@@ -7,3 +7,5 @@ layout: post-list.njk
 ---
 
 # Posts
+
+Keep up with the latest posts by [subscribing](/subscribe/).
