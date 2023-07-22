@@ -44,7 +44,7 @@ module.exports = function (config) {
 		compile: async (input) => {
 			return async () => {
 				const output = await less.render(input, {
-					paths: ["htdocs/_includes"],
+					paths: ["htdocs/_stylesheets"],
 				});
 				return output.css;
 			};
