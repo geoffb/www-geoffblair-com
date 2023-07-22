@@ -12,7 +12,7 @@ Personal website of Geoff Blair, hosted at [www.geoffblair.com](https://www.geof
 - [Prism](https://prismjs.com) - Syntax highlighting
 - [Yarn](https://yarnpkg.com) - Package/dependency management
 
-## 🔨 Development
+## 🧰 Development
 
 Run the `yarn develop` command which will build, watch for changes, and serve the site to [localhost:8080](localhost:8080).
 
