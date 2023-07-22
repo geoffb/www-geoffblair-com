@@ -9,7 +9,8 @@
 		<meta name="keywords" content="{{ keywords }}">
 		<title>{{ title }}</title>
 
-		{# TODO: Add RSS feed link #}
+		{# Atom feed #}
+		<link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="{{ site.name }}">
 
 		{# Open Graph metadata #}
 		<meta property="og:site_name" content="{{ site.name }}">

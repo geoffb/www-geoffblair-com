@@ -3,7 +3,8 @@
 ## Engine
 
 - Style block quotes nicely
-- Add RSS `link` element to base template
+- Support draft posts (publish in dev, not in prod)
+- Move njk templates into `_includes/layouts`
 
 ## Content
 
