@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:root {
+  color-scheme: dark light;
+}
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  line-height: 2em;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1em;
+}
+header nav ul {
+  display: flex;
+  gap: 1em;
+}
+main time {
+  font-style: italic;
+}
+main p {
+  margin: 1.5em 0;
+  text-align: justify;
+}
+main ul {
+  margin: 1.5em 0;
+  list-style-type: square;
+  list-style-position: outside;
+  padding-left: 1.5em;
+}
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  margin: 1em 0;
+}
+main h1 {
+  font-size: 2.5em;
+}
+main h2 {
+  font-size: 2em;
+}
+main h3 {
+  font-size: 1.5em;
+}
+main h4,
+main h5,
+main h6 {
+  font-weight: bold;
+}
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+main hr {
+  border: none;
+  border-top: 2px dashed;
+}
+main pre {
+  margin: 1em 0;
+  padding: 1em;
+}
+main code {
+  font-family: Monaco, monospace;
+}
+footer {
+  text-align: center;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+    color: #eee;
+  }
+  a {
+    color: #aa8cff;
+  }
+  main hr {
+    border-color: #444;
+  }
+  footer {
+    color: #444;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background: #eee;
+    color: #111;
+  }
+  a {
+    color: #d2691e;
+  }
+  main hr {
+    border-color: #bbb;
+  }
+  footer {
+    color: #bbb;
+  }
+}

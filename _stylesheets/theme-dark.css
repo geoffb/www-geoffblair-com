@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+    color: #eee;
+  }
+  a {
+    color: #aa8cff;
+  }
+  main hr {
+    border-color: #444;
+  }
+  footer {
+    color: #444;
+  }
+}
