@@ -17,6 +17,6 @@ Take a look at the [hardware and software I use](/uses/) to get the job done.
 
 For a more professional view, see [my resume](/resume/).
 
-Keep up with my (infrequent) posts by [subscribing via RSS](/feed.xml) or [reach out via email](mailto:geoff@mousepox.io).
+Keep up with my (infrequent) posts by [subscribing via RSS](/feed.xml).
 
 Interested in the technology behind this site? Check out the [source on GitHub](https://github.com/geoffb/www.geoffblair.com).
