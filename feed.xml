@@ -12,9 +12,9 @@
 	
 	<entry>
 		<title>Five Ws of Game Design</title>
-		<link href="/blog/five-ws-of-game-design/"/>
+		<link href="https://www.geoffblair.com/blog/five-ws-of-game-design/"/>
 		<updated>2014-05-21T12:00:00Z</updated>
-		<id>/blog/five-ws-of-game-design/</id>
+		<id>https://www.geoffblair.com/blog/five-ws-of-game-design/</id>
 		<content type="html">&lt;p&gt;During the course of trying to improve my game design chops, I came up with these five Ws in order to help guide my thoughts:&lt;/p&gt;
 &lt;h2&gt;Who is the intended audience?&lt;/h2&gt;
 &lt;p&gt;Think about who will be playing your game. Games are a product, and products need an audience. Some of the other Ws will influence this answer, specifically &amp;quot;What&amp;quot;, &amp;quot;When&amp;quot;, and &amp;quot;Where&amp;quot;.&lt;/p&gt;
@@ -31,14 +31,14 @@
 	
 	<entry>
 		<title>Order matters: Tile map collision response</title>
-		<link href="/blog/order-matters-tile-map-collision-response/"/>
+		<link href="https://www.geoffblair.com/blog/order-matters-tile-map-collision-response/"/>
 		<updated>2014-06-11T12:00:00Z</updated>
-		<id>/blog/order-matters-tile-map-collision-response/</id>
+		<id>https://www.geoffblair.com/blog/order-matters-tile-map-collision-response/</id>
 		<content type="html">&lt;p&gt;Perfecting the collision response in a game can be tricky. I&#39;ve personally made several iterations on the collision detection and response in &lt;a href=&quot;http://www.wizardslizard.com/&quot; title=&quot;A Wizard&#39;s Lizard&quot;&gt;A Wizard&#39;s Lizard&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Most recently, I&#39;ve found that order matters when responding to multiple tile map collisions. I talked about this issue in &lt;a href=&quot;http://www.lostdecadegames.com/lostcast-78/&quot; title=&quot;Lostcast 78: Separation Axis Feeling&quot;&gt;Lostcast 78&lt;/a&gt;, but I wanted to expand upon the idea and provide a diagram to better convey what&#39;s happening.&lt;/p&gt;
 &lt;h2&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;In general, I&#39;ve been using the axis of least separation to resolve collisions. For a given collision, the objects will separate along the axis in which the least amount of overlap occurs. This is a technique I found while implementing &lt;a href=&quot;http://gamedevelopment.tutsplus.com/tutorials/collision-detection-using-the-separating-axis-theorem--gamedev-169&quot;&gt;separating axis theorem&lt;/a&gt; (SAT), but can be applied to simple axis-aligned bounding box (AABB) collisions as well.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/misc/sat-collision-diagram.png&quot; alt=&quot;Diagram of a spear colliding with multiple tiles&quot; title=&quot;Problematic collision with multiple tiles&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/misc/sat-collision-diagram.png&quot; alt=&quot;Diagram of a spear colliding with multiple tiles&quot; title=&quot;Problematic collision with multiple tiles&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;In the image above, a spear is moving left and colliding with multiple tiles. Responding to collisions by separating on the axis of least separation may cause unexpected behavior depending on the order in which the tile collisions are resolved.&lt;/p&gt;
 &lt;p&gt;With a simple algorithm, you might check the tiles in natural order. In this case, 0,0 followed by 1,0. The problem with this approach is that when colliding with 0,0, the axis of least separation is the X axis (the spear is colliding more along the Y axis than the X axis). Using this method, the spear would appear to collide with the right-hand side of 0,0 and thus be moved to the right in order to no longer collide.&lt;/p&gt;
 &lt;p&gt;This scenario is very problematic for me because I use the angle of collision when calculating if a projectile should be destroyed (hitting a wall head-on) or remain active (sliding along the wall). Responding to the X axis collision of 0,0 first indicates that the spear hit a wall head-on.&lt;/p&gt;
@@ -53,280 +53,280 @@
 	
 	<entry>
 		<title>New Zealand 2014 - Day 1</title>
-		<link href="/blog/new-zealand-2014-day-1/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-1/"/>
 		<updated>2014-12-10T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-1/</id>
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-1/</id>
 		<content type="html">&lt;p&gt;&lt;em&gt;Melissa and I are on vacation/honeymoon in New Zealand! We wanted to document our experiences in order to share them with friends and family, as well as help us remember this trip years from now. We&#39;ll each be recounting the events of the day in our own words and styles. Enjoy!&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Geoff says:&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Kia_ora&quot;&gt;Kia ora!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Our first day of vacation was quite a bit of traveling. We left from LAX on Dec 8th at 10pm and arrived in Auckland, New Zealand on Dec 10th at 8am. Logging twelve hours on plane is a bit rough. We lucked into an empty seat next to us which made us feel slightly less like a can of sardines. Still, it&#39;s hard to get decent rest on a plane. We watched Frozen in flight (as well as a handful of other movies) and learned that it&#39;s a pretty bad idea to get engaged on the same day you meet a prince.&lt;/p&gt;
 &lt;p&gt;When we finally landed in Auckland, we picked up our bags, made our way through customs, and got checked right back in for our flight to Queenstown (located on the southern island). AKL had a sweet archway after disembarking, but we didn&#39;t see much of anything outside the airport.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day1/akl.jpg&quot; alt=&quot;Neat archway at Auckland airport&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day1/akl.jpg&quot; alt=&quot;Neat archway at Auckland airport&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The flight to Queenstown was quite a bit easier. Two hours after already doing twelve is cake. The views from the plane of the snow-covered mountains were spectacular. After we descended through the cloud layer, we were treated to more amazing views of Queenstown and the bay.&lt;/p&gt;
 &lt;p&gt;Next, we picked up our rental car, a Hyundai Accent. In New Zealand, you drive on the left side of the road AND the steering wheel is on the right side of the car. It&#39;s a little tricky at first, but luckily I had previous experience with this driving situation in Tasmania. Melissa was sure that her life was about to end as we made our way from the airport to our hotel.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day1/zqn-2.jpg&quot; alt=&quot;Signs to everywhere, Queenstown airport&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day1/zqn-2.jpg&quot; alt=&quot;Signs to everywhere, Queenstown airport&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Our accommodations for next few days is &lt;a href=&quot;http://www.brownshotel.co.nz/&quot;&gt;Brown&#39;s Boutique Hotel&lt;/a&gt;, a pleasant bed and breakfast nestled in the hills of Queenstown. Our third floor balcony offers an &lt;a href=&quot;https://vine.co/v/Or26AEwEKZm&quot;&gt;excellent view of the city and bay&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day1/queenstown-2.jpg&quot; alt=&quot;View of Queenstown from Brown&#39;s Boutique Hotel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day1/queenstown-2.jpg&quot; alt=&quot;View of Queenstown from Brown&#39;s Boutique Hotel&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After unloading at the hotel, we walked to downtown and &lt;a href=&quot;http://steamerwharf.com/&quot;&gt;Steamer Wharf&lt;/a&gt;. Scarcely had we visited a few shops when hunger pangs and delicious aromas convinced us it was time to eat. Unfortunately, we learned that many restaurants don&#39;t open until 4 or 5pm. Our first choice, &lt;a href=&quot;http://world-bar.squarespace.com/menu1/&quot;&gt;The Find&lt;/a&gt;, was one such establishment but we plan on eating there before we leave Queenstown. We wound up eating at a nice seafood and grill place overlooking the bay.&lt;/p&gt;
 &lt;p&gt;Window shopping ensued for several hours after dinner as we hunted for souvenirs and potential Christmas gifts. Shopping takes its toll and soon we stopped in at Patagonia Chocolate for a HoCho and churros dipped in chocolate.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day1/churros.jpg&quot; alt=&quot;Delicious churros with chocolate and dulce de leche&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day1/churros.jpg&quot; alt=&quot;Delicious churros with chocolate and dulce de leche&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;While delicious, the chocolate overload was the last straw in an exhausting 32 hours since we left San Diego. Since we didn&#39;t sleep much on the plane and we have an 8:30am tour of scenic LotR locations, we&#39;re calling it an early-ish night!&lt;/p&gt;
 &lt;h2&gt;Melissa says:&lt;/h2&gt;
 &lt;p&gt;Kia Ora from the future!&lt;/p&gt;
 &lt;p&gt;Geoff and I time-travelled, sardine-style, and have finally arrived in Kiwi-land! My first impression? It is surreal! Zooming through fluffy clouds to a stunning vista of snow-capped mounts yet lush greenery felt unbelievable. We picked out some islands for the future from afar.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day1/zqn-1.jpg&quot; alt=&quot;Interesting sculpture, Queenstown airport&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day1/zqn-1.jpg&quot; alt=&quot;Interesting sculpture, Queenstown airport&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After surviving the baggage claim without Geoff threatening to put me in one for smart-mouthing, we braved the outside, tourist-like, stopping at weird times to take pictures. As we are currently in Queenstown, the adventure capital of NZ, we embarked on the scariest ride of all: Geoff driving on the left side of the road, whilst steering from the right side of the car, traversing numerous traffic circles, all the while telling me to take in the honeymoon, while I yelled &amp;quot;eyes on the road!&amp;quot; Thrilling indeed. Especially, when the windshield wipers suddenly turn on when we needed to turn right or left. Strange.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day1/queenstown-1.jpg&quot; alt=&quot;View of Queenstown from Brown&#39;s Boutique Hotel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day1/queenstown-1.jpg&quot; alt=&quot;View of Queenstown from Brown&#39;s Boutique Hotel&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We thankfully arrived at our lodging, unscathed. It is the cutest B&amp;amp;B. Great view of Queenstown from out balcony, french press and tea kettle in our room, and oddly-shaped wall sockets. After a quick freshening up to get the airplane feeling off, we traipsed downtown for some shopping and grub. Downtown felt like a small town version of Fisherman&#39;s wharf. A nice pier where people rode shark-like torpedoes, tourist-friendly, and lots of good places to eat! Inevitably, our growling stomachs forced us to settle for one, keeping in mind others for the next meals. We worked off our fish-and-chips and surf-and-turf shopping around for knick-knacks, making mental notes of things to buy before we leave town. When we&#39;ve made enough room for dessert, we settled on a cute little coffee shop. Honestly, I think Geoff just wanted a reason to call Hot Chocolate his new favorite word: &amp;quot;HoCho.&amp;quot; We convinced ourselves we still had more room in our bellies and polished off some churros with melted chocolate and dulce de leche.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day1/geoff-kiwi.jpg&quot; alt=&quot;Geoff poses with a kiwi&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day1/geoff-kiwi.jpg&quot; alt=&quot;Geoff poses with a kiwi&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Realizing we have stuffed ourselves beyond humanly possible, we headed back to the hotel, and got ready for bed while the sun is still up. In my defense, it&#39;s 9:10 pm and the sun is still up. Plus, early and busy day tomorrow!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-2/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-2/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 2</title>
-		<link href="/blog/new-zealand-2014-day-2/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-2/"/>
 		<updated>2014-12-11T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-2/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-2/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Geoff says:&lt;/h2&gt;
 &lt;p&gt;Today was our first full day in New Zealand. It started off early at 7:30am with breakfast downstairs at the B&amp;amp;B. Melissa and I both had fried eggs with tomatos and bacon. As a big fan of breakfast I have high standards but was not disappointed. Over breakfast we talked with another couple who had booked their vacation through the same travel agent as we did. Small world.&lt;/p&gt;
 &lt;p&gt;At 8:30am our guide, Andres, came to collect us for a &lt;a href=&quot;http://www.nomadsafaris.co.nz/&quot;&gt;four-wheel drive tour&lt;/a&gt; of scenic areas surrounding Queenstown. Quite a few of the locations were used in the Lord of the Rings, and Andres explained how various parts of New Zealand made up a single shot or scene in the movies.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/valley.jpg&quot; alt=&quot;Overlooking the valley&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/valley.jpg&quot; alt=&quot;Overlooking the valley&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Our first trek was up a small mountain overlooking Queenstown and offering great views of &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Remarkables&quot;&gt;The Remarkables&lt;/a&gt; and other peaks. Andres detailed how most of the area was covered in a glacier thousands of years ago, and how various features were carved out as the glacier moved and receeded. Fascinating!&lt;/p&gt;
 &lt;p&gt;The next destination was along the &lt;a href=&quot;http://en.wikipedia.org/wiki/Kawarau_River&quot;&gt;Kawarau River&lt;/a&gt;. Several scenes from LotR were filmed along the this river including &lt;a href=&quot;http://lotr.wikia.com/wiki/Argonath&quot;&gt;Argonath&lt;/a&gt; and the battle where Aragorn falls from the cliffs into the river.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/argonath.jpg&quot; alt=&quot;Kawarau River&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/argonath.jpg&quot; alt=&quot;Kawarau River&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Next, we drove to &lt;a href=&quot;http://en.wikipedia.org/wiki/Arrowtown&quot;&gt;Arrowtown&lt;/a&gt;, a former mining town during the gold rush of the 1860s. We only stayed long enough for a quick pit stop before heading out into the nearby river. It&#39;s worth mentioning here that neither Melissa or I had &lt;em&gt;really&lt;/em&gt; looked into the details of this tour. Andres had mentioned a couple of times that we&#39;d be driving on a river. In my head, I pictured us driving next to the river. It turned out that he meant &lt;a href=&quot;https://vine.co/v/O6zhvVenYP6&quot;&gt;&lt;em&gt;in&lt;/em&gt; the river&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;We stopped at a scenic spot on the river which Melissa immediately recognized as the location of the horse chase through the river scene from Lord of the Rings. Our guide was impressed and I was, once again, out-geeked.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/lotr-water.jpg&quot; alt=&quot;Filming location for Lord of the Rings&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/lotr-water.jpg&quot; alt=&quot;Filming location for Lord of the Rings&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After navigating more of the river, which was up to the windshield at times, we stopped for tea and cookies on the hood of the jeep. Andres joked that our &amp;quot;table&amp;quot; was nice and clean from the river. We learned more about the history of the mining operations, finished our snacks and headed out.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/picnic.jpg&quot; alt=&quot;Picnic&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/picnic.jpg&quot; alt=&quot;Picnic&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Our final destination was &lt;a href=&quot;http://en.wikipedia.org/wiki/Skippers_Canyon&quot;&gt;Skippers Canyon&lt;/a&gt;. While there weren&#39;t any LotR scenes filmed here, the breath-taking views were my favorite of the day. The rock formations and texture of the peaks were amazing.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/glitter-mountains.jpg&quot; alt=&quot;Glittery Mountains&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/glitter-mountains.jpg&quot; alt=&quot;Glittery Mountains&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Our tour was over around 1pm and we headed back into Queenstown for some lunch and a walk through the &lt;a href=&quot;http://en.wikipedia.org/wiki/Queenstown_Gardens&quot;&gt;Queenstown Gardens&lt;/a&gt;. Light showers and full bellies sent us back to the hotel for naptime in short order, however.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/gardens.jpg&quot; alt=&quot;Queenstown Gardens&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/gardens.jpg&quot; alt=&quot;Queenstown Gardens&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Once recharged we went shopping for gifts in downtown and later grabbed dinner at The Find. I had the Mega Burger, which is the meat-lovers pizza of burgers. Beef, bacon, pulled pork, more bacon. Delicious!&lt;/p&gt;
 &lt;p&gt;We&#39;ve got another early morning booking tomorrow so we&#39;re off to bed to rest up for a full day of hiking.&lt;/p&gt;
 &lt;h2&gt;Melissa says:&lt;/h2&gt;
 &lt;p&gt;Day 2 in Queenstown started off right only snoozing once and promptly getting ready at 6:40 am. Broke our fasts with 2 eggs, 2 pieces of bacon, and a fried tomato cooked by our hosts. Met a colorful couple from Memphis who were on their last day in NZ. We swapped stories and found that they used the same travel agent that we did! They gave us some nice tips from their trip which we greatly appreciated!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/misty-mountains.jpg&quot; alt=&quot;Misty Mountains&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/misty-mountains.jpg&quot; alt=&quot;Misty Mountains&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We then embarked on our 4WD tour of Queenstown! We started off going up the aptly named Remarkable Peak. Breathtaking, in more ways than one, considering the switchbacks and hairpin roads. Standing from a cliff of about 1000 meters high, we could see the glacier-carved mountains on every side, some tips covered in fog which Geoff kept calling &amp;quot;the misty mountains&amp;quot; in his most ominous sounding voice. Great views of Lake Wakatipu!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/bungie.jpg&quot; alt=&quot;Bungie jumping&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/bungie.jpg&quot; alt=&quot;Bungie jumping&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We continued our journey onto another site, just above the cliffs lining Kawarau river. From here we saw the turquoise stream on one side, Lake Hayes on another, a winery, and some brave souls bungy jumping from a bridge!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/purple-weeds.jpg&quot; alt=&quot;Purple weeds&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/purple-weeds.jpg&quot; alt=&quot;Purple weeds&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We climbed back in the jeep, drove a few kilometers of purple-weed-lined roads and journeyed back in time again to Arrowtown. This quaint town used to be a mining community during NZ&#39;s gold rush and they have preserved this ambiance! They kept the old-timey feeling downtown and even the houses are kept in check by the city to keep in the spirit of its heritage. Here, we also had the best surprise of all: driving on the river bed!!! Yes, the road is a river and the river is a road! Locals drive through here! Quite a bumpy and wet ride but soooooo worth it! We even stopped at a bank and had a picnic.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/baby-elephant.jpg&quot; alt=&quot;Upside down baby elephant&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/baby-elephant.jpg&quot; alt=&quot;Upside down baby elephant&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;To top off the tour, we finished off on Coronet Peak. From the cliffs we saw down Skipper Canyon where we watched some mountain bikers riding the trails below us and parasailers gliding above us, while we were surrounded by glittery sheet rocks and an upside-down elephant.&lt;/p&gt;
 &lt;p&gt;And that was all before 1pm!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/lake.jpg&quot; alt=&quot;Lake Wakatipu&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/lake.jpg&quot; alt=&quot;Lake Wakatipu&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We grabbed a quick lunch from a very mustache-friendly place, Johnny Barr. Geoff had a lamb wrap and I had a mushroom bisque with Ginger Beer. I think that might be my new drink! We tried to walk off our lunch by Lake Wakatipu beach and Queenstown Garden Trail. Unfortunately, it started sprinkling so we decided to go back to our hotel and catnap the dark clouds away.&lt;/p&gt;
 &lt;p&gt;When the sun came back out at 6ish, we headed downtown again to shop for presents! After looting, we headed to The Find, as Internet-promised. Leave it to us to stumble into a hipster bar. Geoff braved the mega burger, which makes me full just thinking about all the meats piled in it. Bacon was listed thrice on the menu description of it, just to give you a general idea. I was not as brave and was feeling roughage-y, so warm quinoa salad it was! As it had started sprinkling again, we left full and satisfied and climbed the sadistic stairs back to the hotel.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day2/omg-stairs.jpg&quot; alt=&quot;Not the stairs&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day2/omg-stairs.jpg&quot; alt=&quot;Not the stairs&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Tonight we are turning in at a more respectable time. Tomorrow, happy sore trails!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-3/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-3/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 3</title>
-		<link href="/blog/new-zealand-2014-day-3/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-3/"/>
 		<updated>2014-12-12T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-3/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-2/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-3/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-2/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Geoff says:&lt;/h2&gt;
 &lt;p&gt;I&#39;m the most sore I&#39;ve possibly ever been. We were not prepared.&lt;/p&gt;
 &lt;p&gt;Today&#39;s activity was a guided hike along the &lt;a href=&quot;http://en.wikipedia.org/wiki/Routeburn_Track&quot;&gt;Routeburn Track&lt;/a&gt;. All in all it was a fun hike with lots of amazing scenery. New Zealand&#39;s landscape is extremely diverse and it was very common to see lush, green mountains framing snow-capped peaks.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day3/routeburn-1.jpg&quot; alt=&quot;View from Routeburn Flats Hut, Routeburn Track&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day3/routeburn-1.jpg&quot; alt=&quot;View from Routeburn Flats Hut, Routeburn Track&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We hiked up to the Routeburn Flats Hut and back, which is the first of four huts along the trail. The round trip was around 13 kilometers (roughly eight miles). The entire trail is 32 kilometers in length and takes around 2-4 days to hike. Some crazy people can run from one end to the other in under 3 hours, though.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day3/routeburn-2.jpg&quot; alt=&quot;Routeburn River, Routeburn Track&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day3/routeburn-2.jpg&quot; alt=&quot;Routeburn River, Routeburn Track&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We learned a bunch of interesting tidbits from our guide, including the Maori creation myth and the formation of Lake Wakatipu. What I found the most fascinating was that New Zealand has almost no native mammals. Most were introduced by the Maori or Europeans. The islands were populated largely by birds and the flightless one, such as the kiwi, had no ground predators.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day3/routeburn-3.jpg&quot; alt=&quot;Routeburn Track entrance bridge&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day3/routeburn-3.jpg&quot; alt=&quot;Routeburn Track entrance bridge&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We ended the day with a delicious dinner at &lt;a href=&quot;http://www.finzdownunder.co.nz/&quot;&gt;finz&lt;/a&gt; on Steamer Wharf. Tomorrow we&#39;re leaving Queenstown and making our way towards our next destination, &lt;a href=&quot;http://en.wikipedia.org/wiki/Manapouri&quot;&gt;Manapouri&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day3/salmon.jpg&quot; alt=&quot;Char Grilled Salmon at finz&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day3/salmon.jpg&quot; alt=&quot;Char Grilled Salmon at finz&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Melissa says:&lt;/h2&gt;
 &lt;p&gt;We hiked eight miles. I am sore. On the plus side, I had Golden Gnocchi and Ginger Beer for dinner!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day3/gnocchi.jpg&quot; alt=&quot;Golden Gnocchi at finz&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-4/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day3/gnocchi.jpg&quot; alt=&quot;Golden Gnocchi at finz&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-4/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 4</title>
-		<link href="/blog/new-zealand-2014-day-4/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-4/"/>
 		<updated>2014-12-13T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-4/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-3/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-4/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-3/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We left Queenstown this morning, after our last delicous breakfast at Brown&#39;s Boutique. Our destination was Manapouri, a small town on the eastern side of &lt;a href=&quot;http://en.wikipedia.org/wiki/Fiordland_National_Park&quot;&gt;Fiordland National Park&lt;/a&gt;. However, Manapouri was just a jumping off point to the big event: an overnight cruise in &lt;a href=&quot;http://en.wikipedia.org/wiki/Doubtful_Sound&quot;&gt;Doubtful Sound&lt;/a&gt;. Doubtful Sound, as we later learned, is so named because Captain Cook was doubtful that he could get his ship back out to sea if he were to harbor there.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day4/deep-cove.jpg&quot; alt=&quot;Beautiful views of Doubtful Sound&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day4/deep-cove.jpg&quot; alt=&quot;Beautiful views of Doubtful Sound&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Doubtful Sound is a bit complicated to get at. After a boat ride across Lake Manapouri and a bus ride across some mountains, we arrived in Deep Cove, where our cruise ship, the Fiordland Navigator, was anchored. We had a private cabin which was small, but surprisingly comfortable for a being on a ship.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day4/doubtful-sound-1.jpg&quot; alt=&quot;Beautiful views of Doubtful Sound&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day4/doubtful-sound-1.jpg&quot; alt=&quot;Beautiful views of Doubtful Sound&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We slowly made our way out to the Tasman sea, stopping at various island and arms around the fjord. In the early afternoon, Melissa and I took a &amp;quot;tinder boat&amp;quot; ride along the coastlines where we learned about the native flora and fauna.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day4/tinder-boat.jpg&quot; alt=&quot;Exploring the fjords in a tinder boat&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day4/tinder-boat.jpg&quot; alt=&quot;Exploring the fjords in a tinder boat&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Our trip couldn&#39;t have been timed more perfectly. The fjordlands gets a lot of rain (6-9 meters a year, if I recall), however we were treated to blue skies and warm weather throughout the voyage.&lt;/p&gt;
 &lt;p&gt;We were hoping to catch a glimse of the rare &lt;a href=&quot;http://en.wikipedia.org/wiki/Fiordland_penguin&quot;&gt;Fiordland Crested Penguin&lt;/a&gt; and we got really lucky. A penguin couple were spotted hanging out on some rocks. Melissa was very excited, as she loves penguins!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day4/penguins.jpg&quot; alt=&quot;Fiordland Crested Penguins&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day4/penguins.jpg&quot; alt=&quot;Fiordland Crested Penguins&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;As we got closer to the open waters, we made a stop at an island where &lt;a href=&quot;http://en.wikipedia.org/wiki/Arctocephalus_forsteri&quot;&gt;New Zealand Fur Seals&lt;/a&gt; sleep and sun themselves during the day.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day4/seals.jpg&quot; alt=&quot;New Zealand Fur Seals&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day4/seals.jpg&quot; alt=&quot;New Zealand Fur Seals&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Around dinner time we came back into the calmer waters and were treated to an amazing selection of food in the ship&#39;s main saloon. We had lamb, beef, salmon, and lots of great dessert.&lt;/p&gt;
 &lt;p&gt;We watched a slide show in the evening and then promptly fell asleep after an amazing and tiring day on the water.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day4/cabin.jpg&quot; alt=&quot;Our cabin abord the Fiordland Navigator&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-5/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day4/cabin.jpg&quot; alt=&quot;Our cabin abord the Fiordland Navigator&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-5/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 5</title>
-		<link href="/blog/new-zealand-2014-day-5/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-5/"/>
 		<updated>2014-12-14T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-5/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-4/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-5/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-4/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We awoke this morning to the Fiordland Navigator&#39;s two &amp;quot;alarms&amp;quot;. The engines starting at 6:20am and the anchor being brought up shortly thereafter. We quickly showered and headed up for breakfast. Baked beans is a breakfast staple here (as in Australia) and I&#39;ve begun to enjoy them alongside my eggs. Still not a fan of Vegemite or Marmite, though.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day5/doubtful-sound.jpg&quot; alt=&quot;Doubtful Sound in the morning&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day5/doubtful-sound.jpg&quot; alt=&quot;Doubtful Sound in the morning&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;During our return journey through the fjord, a pod of dolphins was spotted near the boat. At first, we could just see the dolphins cresting the water at a distance. In time they swam closer and began to jump out of the water and swim alongside the boat.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day5/dolphin.jpg&quot; alt=&quot;Dolphins playing in Doubtful Sound&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day5/dolphin.jpg&quot; alt=&quot;Dolphins playing in Doubtful Sound&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Around 12pm we returned to Manapouri. Melissa and I stopped for lunch at a nearby cafe before hitting the road to &lt;a href=&quot;http://en.wikipedia.org/wiki/Dunedin&quot;&gt;Dunedin&lt;/a&gt;, our next destination. Pronounced doo-need-in, in case you were wondering.&lt;/p&gt;
 &lt;p&gt;It seems that I&#39;ve become a little too comfortable with driving here in New Zealand as I was pulled over for speeding! The maximum speed limit is 100kph which is about 62mph. I was ticketed doing 119kph, so about 74mph. Apparently they are pretty strict about the speed limit here since driving 74mph is pretty common in the states. I&#39;ve had my share of tickets state-side for sure, but none for lower than 80mph on the freeway.&lt;/p&gt;
 &lt;p&gt;We arrived in Dunedin around late afternoon. The trip took about four or five hours as the city lies on the opposite coast from the Fiordlands. Dunedin is an interesting city with a strong Scottish influence. It&#39;s a much larger city than we&#39;ve visited thus far. Our hotel for the next two nights is the Scenic Hotel near &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Octagon,_Dunedin&quot;&gt;The Octagon&lt;/a&gt;, the city&#39;s center, so named for it&#39;s octagon shape.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day5/dunedin.jpg&quot; alt=&quot;Statue and church in The Octagon, Dunedin&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day5/dunedin.jpg&quot; alt=&quot;Statue and church in The Octagon, Dunedin&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Sunday evening is pretty dead in Dunedin, which was a bit nice as it allowed us to quietly explore the area, take pictures, and window shop. We grabbed some dinner at &lt;a href=&quot;http://www.ratbagsib.co.nz/&quot;&gt;Ratbags&lt;/a&gt; where we had a delicious pizza topped with smoked chicken, cranberries, and brie.&lt;/p&gt;
 &lt;p&gt;After eating we returned to our hotel for the first night where we wouldn&#39;t have to wake up at 6am the next morning. I&#39;ve heard that you&#39;re supposed to relax on vaction, too.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-6/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-6/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 6</title>
-		<link href="/blog/new-zealand-2014-day-6/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-6/"/>
 		<updated>2014-12-15T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-6/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-5/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-6/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-5/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Today&#39;s blog is brought to you by Melissa since Geoff fell asleep immediately upon returning to the hotel.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Today was our first &amp;quot;late&amp;quot; morning day. We had the morning free to roam around Dunedin and so we did!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day6/whisper-dish.jpg&quot; alt=&quot;Whisper Dish at Otago Museum, Dunedin&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day6/whisper-dish.jpg&quot; alt=&quot;Whisper Dish at Otago Museum, Dunedin&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We perused our guide book and saw the &lt;a href=&quot;http://en.wikipedia.org/wiki/Otago_Museum&quot;&gt;Otago Museum&lt;/a&gt; was within walking distance so we made a beeline for it after breakfast. Even before entering the door, we were treated to a &amp;quot;Whisper Dish&amp;quot; exhibit, where from Geoff and I whispered to each other from afar. As most museums, we found various exhibits including wildlife, scientific discovery, taxidermy, indigenous life, and even historical artifacts from Egypt and Greece. Our favorite by far was the Tropical Rainforest exhibit. We were lucky enough to get in just as they had first released the butterflies for the day. That was quite a treat! Geoff was easily the butterflies&#39; pick of the day as he had, at one time, six of them just hanging out with him! I had a companion myself for part of the tour, but definitely not as spoiled as Geoff was. I think it was his consolation prize for having to be in 30C, 85% humidity! I told him that&#39;s how the Philippines felt iirc.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day6/butterflies.jpg&quot; alt=&quot;Butterflies, Tropical Rainforest at Otago Museum, Dunedin&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day6/butterflies.jpg&quot; alt=&quot;Butterflies, Tropical Rainforest at Otago Museum, Dunedin&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Ravenous at around 1pm, we walked back toward our hotel, on a hunt for lunch. We found a nice cafe overlooking the Octagon centre, where Geoff had a pulled pork sammy on rye and I had a Norwegian Benedict. To walk off our lunch, we walked through an outside crafters&#39; market, which normally happens on Fridays. It was serendipitous that they were here on a Monday as we were able to find some nice goods!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day6/market.jpg&quot; alt=&quot;Market at The Octagon, Dunedin&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day6/market.jpg&quot; alt=&quot;Market at The Octagon, Dunedin&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Happy with our purchases, we headed back to our hotel to get ready for our only scheduled activity today - wildlife tour on Otago Peninsula. Our tour started with some bird-watching, complete with binoculars. We waited a bit to see an albatross, but we&#39;re not disappointed when we spotted one.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day6/albatross.jpg&quot; alt=&quot;Albatross, Otago Peninsula&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day6/albatross.jpg&quot; alt=&quot;Albatross, Otago Peninsula&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Around 6ish, we headed toward the edge of the world, as we drove through farms filled with sheep, paradise birds, and black swans. After a kilometer hike, we arrived at the beach, hid behind a shed, and waited... for PENGUINS! We were not disappointed!!! We saw the &lt;a href=&quot;http://en.wikipedia.org/wiki/Yellow-eyed_penguin&quot;&gt;yellow-eyed penguins&lt;/a&gt;, coming up the shore, looking duck-like swimming ashore. Then they made their way toward the mountain, where they had their nests. They waddled fairly close to us, and some bravely (or naively) close to a resting sea lion. Not only that, we saw a cute couple kissing each other for a while! That is until they got rudely interrupted by another obviously oblivious penguin. We also saw a New Zealand exclusive: penguins and sheep coexisting. Going towards their nests, we spied a mum feeding her chick. On the way back, we also spied a sleeping blue penguin in her nest! Boy was she tiny!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day6/penguin.jpg&quot; alt=&quot;Yellow-eyed Penguin, Otago Peninsula&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day6/penguin.jpg&quot; alt=&quot;Yellow-eyed Penguin, Otago Peninsula&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We hiked a shorter but steeper path to see the fur seals. They were cute, but not as cute as the penguins!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day6/fur-seal.jpg&quot; alt=&quot;Fur seal, Otago Peninsula&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day6/fur-seal.jpg&quot; alt=&quot;Fur seal, Otago Peninsula&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Our tour ended quite late, around half past 9, so Geoff and I decided to order in. He had some Butter Chicken and I had some lovely Tofu Steak. We are so tired but were so happy to get so close to the penguins!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/nz14/day6/penguins-sealion.jpg&quot; alt=&quot;Yellow-eyed Penguins approaching a Sealion, Otago Peninsula&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day6/penguins-sealion.jpg&quot; alt=&quot;Yellow-eyed Penguins approaching a Sealion, Otago Peninsula&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Tomorrow, we go to the Castle!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-7/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-7/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 7</title>
-		<link href="/blog/new-zealand-2014-day-7/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-7/"/>
 		<updated>2014-12-16T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-7/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-6/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-7/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-6/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Tonight was our last night in Dunedin and pretty special as we dined and stayed the night at &lt;a href=&quot;http://en.wikipedia.org/wiki/Larnach_Castle&quot;&gt;Larnach Castle&lt;/a&gt; on Otago Peninsula.&lt;/p&gt;
 &lt;p&gt;In the morning we had our last breakfast at the Scenic, checked out, and headed downtown for a little shopping before driving to the castle. We stopped at the Scottish Shop, and found a few fun trinkets.&lt;/p&gt;
 &lt;p&gt;After that it was back to the windy roads of Otago Peninsula and straight to Larnach Castle. We decided to head up there a bit early in order to have time to explore the gardens and castle itself. Even though we arrvied before check-in, our room was ready to go. Oddly enough, our room was the &amp;quot;Scottish Room&amp;quot; and themed as such. Beautiful views of the peninsula greeted us from the balcony.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day7/scottish-room.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day7/thumb-scottish-room.jpg&quot; alt=&quot;Scottish Room at Larnach Castle lodge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day7/scottish-room.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day7/thumb-scottish-room.jpg&quot; alt=&quot;Scottish Room at Larnach Castle lodge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The castle grounds are well-kept and bursting with colorful flowers and plants from New Zealand and beyond. We hit some croquet balls on the lawn, played a game of ring toss (I totally won), and Melissa chased some swans around a pool.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day7/larnach-grounds.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day7/thumb-larnach-grounds.jpg&quot; alt=&quot;Larnach Castle grounds, Otago Peninsula, Dunedin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day7/larnach-grounds.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day7/thumb-larnach-grounds.jpg&quot; alt=&quot;Larnach Castle grounds, Otago Peninsula, Dunedin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Before heading into the castle proper, we took a quick break and ate at the cafe which used to be the castle&#39;s ballroom.&lt;/p&gt;
 &lt;p&gt;Larnach Castle is quite impressive, and the only castle from that era that exists in New Zealand. It&#39;s original owner, &lt;a href=&quot;http://en.wikipedia.org/wiki/William_Larnach&quot;&gt;William Larnach&lt;/a&gt;, was a wealthy banker from the gold rush era. We investigated each room in the castle and peeked out from the main tower. In the states, a castle like this would have all its rooms roped off, but we were free to enter every and enjoy the history up close.&lt;/p&gt;
 &lt;p&gt;Finishing up our tour of the castle, we went back to our room, relaxed, and caught up on blog posts. Just before dinner time we made our way back into the main castle.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day7/larnach-castle.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day7/thumb-larnach-castle.jpg&quot; alt=&quot;Larnach Castle, Otago Peninsula, Dunedin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day7/larnach-castle.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day7/thumb-larnach-castle.jpg&quot; alt=&quot;Larnach Castle, Otago Peninsula, Dunedin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Dinner started with some drinks in the library. There was an interesting mix of visitors including people from France, Finland, Australia, UK, Canada, and an island between India and Africa of which I cannot remember the name.&lt;/p&gt;
 &lt;p&gt;Shortly, we moved into the dining room for dinner. We ate a delicious three course meal and were entertained with stories and history of Larnach castle between courses. As with any family with money from the 1800s, there was tradgedy due to sickness, greed, and betrayal. An interesting tale, but long story short, William and his son, Douglas, both shot themelves due to family drama. The castle changed hands many times and fell into disrepair before being purchased by a couple who now preserve its historical significance.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day7/larnach-inside.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day7/thumb-larnach-inside.jpg&quot; alt=&quot;Inside Larnach Castle, Otago Peninsula, Dunedin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day7/larnach-inside.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day7/thumb-larnach-inside.jpg&quot; alt=&quot;Inside Larnach Castle, Otago Peninsula, Dunedin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We sat and chatted with the other guests for a while before turning in for the night. Tomorrow we fly to Auckland and spend the rest of our trip on the North Island.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-8/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-8/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 8</title>
-		<link href="/blog/new-zealand-2014-day-8/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-8/"/>
 		<updated>2014-12-17T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-8/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-7/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-8/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-7/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Today was another travel day as we flew from Dunedin to Auckland. This also marks the end of our travels in the South Island and the final leg of our trip.&lt;/p&gt;
 &lt;p&gt;We arrived in Auckland around noon, greeted by rainy weather and lots of traffic. Luckily, we had arranged for a ride from the airport to our accomodations, the Heritage Hotel.&lt;/p&gt;
 &lt;p&gt;Our room was pretty amazing at least. High on the seventh floor we had a great view of the city, a separate sitting area, and kitchen.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day8/heritage-hotel.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day8/thumb-heritage-hotel.jpg&quot; alt=&quot;Our room at the Heritage Hotel, Auckland&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day8/heritage-hotel.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day8/thumb-heritage-hotel.jpg&quot; alt=&quot;Our room at the Heritage Hotel, Auckland&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ravenous with hunger, we braved the rain and found a sports bar near the harbor where we scarfed down a couple burgers. Also, cricket remains a baffling sport.&lt;/p&gt;
 &lt;p&gt;We returned to the hotel to relax and plan out the remainder of our trip. Feeling extra lazy (also rain!), we ordered pizza and watched Australian and New Zealand cooking shows in the evening.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day8/auckland.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day8/thumb-auckland.jpg&quot; alt=&quot;View of Auckland from Heritage Hotel&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day8/auckland.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day8/thumb-auckland.jpg&quot; alt=&quot;View of Auckland from Heritage Hotel&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The weather in Auckland should improve tomorrow, just in time for our outdoor activities!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-9/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-9/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 9</title>
-		<link href="/blog/new-zealand-2014-day-9/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-9/"/>
 		<updated>2014-12-18T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-9/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-8/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-9/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-8/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Today was Melissa&#39;s birthday! The weather in Auckland mostly cooperated, too.&lt;/p&gt;
 &lt;p&gt;As usual, we got up extra early for breakfast at the hotel before venturing out for the day&#39;s activities. Our destination today was the island sanctuary of &lt;a href=&quot;http://en.wikipedia.org/wiki/Tiritiri_Matangi_Island&quot;&gt;Tiritiri Matangi&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We walked from our hotel to the pier and boarded the ferry which would take us to the island. It was overcast and misty, so we were a bit concerned that rain might ruin our fun. However, as we got closer to the island, the sun came out and the clouds started to disappear.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day9/wharf.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day9/thumb-wharf.jpg&quot; alt=&quot;Looking at from Pier 4, Auckland&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day9/wharf.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day9/thumb-wharf.jpg&quot; alt=&quot;Looking at from Pier 4, Auckland&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Once on the island we had the choice of going with the main tour group or a smaller, photography focused group. We opted for the second group so I could get some nice photos and enjoy a less crowded experience.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day9/bird-1.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day9/thumb-bird-1.jpg&quot; alt=&quot;A bird on Tiritiri Matangi Island&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day9/bird-1.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day9/thumb-bird-1.jpg&quot; alt=&quot;A bird on Tiritiri Matangi Island&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;No sooner had I taken a handful of photos when I realized that my camera&#39;s memory card was full. I deleted a few photos on the fly in order to make room, but an extra memory card is at the top of my list for camera accessories now!&lt;/p&gt;
 &lt;p&gt;We made our way towards a lighthouse and saw several types of birds and got some good photo opportunities. It was an easy hike, but took about two hours due to getting sidetracked by various birdcalls. Our guide, Martin, seemed to have a compulsive need to locate any bird that he heard calling nearby.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day9/bird-2.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day9/thumb-bird-2.jpg&quot; alt=&quot;A bird on Tiritiri Matangi Island&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day9/bird-2.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day9/thumb-bird-2.jpg&quot; alt=&quot;A bird on Tiritiri Matangi Island&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The guided portion of our tour ended at the lighthouse. We lunched and bought magnets at the gift shop.&lt;/p&gt;
 &lt;p&gt;We took a different path back from the lighthouse to the wharf, stopping by Hobbe&#39;s Beach. Near the wharf are Litte Blue Penguin nesting boxes so we were hoping to catch a glimse of them. Sadly, the penguins spend most of their day out at sea and return to their boxes around dusk.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day9/bird-3.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day9/thumb-bird-3.jpg&quot; alt=&quot;A bird on Tiritiri Matangi Island&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day9/bird-3.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day9/thumb-bird-3.jpg&quot; alt=&quot;A bird on Tiritiri Matangi Island&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Around 3pm we boarded the ferry back to Auckland. Once ashore, we stopped at a Thai restaurant near the pier. While the food was good, I was appalled to learn that they did not serve Thai Iced Tea. Blasphemy.&lt;/p&gt;
 &lt;p&gt;Tonight was another early night since we booked a really early tour for the following day.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-10/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-10/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 10</title>
-		<link href="/blog/new-zealand-2014-day-10/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-10/"/>
 		<updated>2014-12-19T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-10/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-9/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-10/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-9/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is our last full day in New Zealand. In what seems to be the consistent theme, we had to get up early to get breakfast before our tour started at 7:30am. Today took a bus tour from Auckland to &lt;a href=&quot;http://en.wikipedia.org/wiki/Waitomo_Caves&quot;&gt;Waitomo Caves&lt;/a&gt; and the Hobbiton movie set.&lt;/p&gt;
 &lt;p&gt;A shuttle picked us up from the hotel and took us to the bus station. We later learned that the station was one block from our hotel and we could have walked there more quickly. It took nearly three hours to reach Waitomo. The driver kept us entertained with historical facts about the various locations as we passed them, which helped.&lt;/p&gt;
 &lt;p&gt;Waitomo caves is an underground cave system with a river running through. The caves are home to glowworms which live on the ceilings. After a short tour through the caves, we got on a small boat and floated through the pitch dark caves with only the glowworms illumunated. It was spectacular! Unfortunately, photos were not allowed but we did purchase the souvenier photo along with other trinkets.&lt;/p&gt;
 &lt;p&gt;Upon exiting the caves, we had a buffet lunch outside. To be honest, it wasn&#39;t the best and the plates were a little gross and dirty. It was food, however, and better than eating on bus, I suppose. Oh, except for the birds trying to steal our food the entire time.&lt;/p&gt;
 &lt;p&gt;After lunch it was back to the bus for another hour and a half to Hobbiton. Zzz.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day10/hobbiton-1.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day10/thumb-hobbiton-1.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day10/hobbiton-1.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day10/thumb-hobbiton-1.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hobbiton, as you can imagine, is a pretty popular place so the tours a pretty tightly controlled. Aside from feeling a bit like herded cattle, the tour was a lot of fun. With the exception of a couple hobbit holes, none of the door open to more than two meters of space. All the indoor scenes were shot in Wellington.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day10/hobbiton-2.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day10/thumb-hobbiton-2.jpg&quot; alt=&quot;A hobbit hole&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day10/hobbiton-2.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day10/thumb-hobbiton-2.jpg&quot; alt=&quot;A hobbit hole&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We made our way past various landmarks from the movies, including the garden, the party grounds, Sam&#39;s house, and Bag End (Bilbo&#39;s house).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day10/hobbiton-3.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day10/thumb-hobbiton-3.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day10/hobbiton-3.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day10/thumb-hobbiton-3.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Our tour ended at the Green Dragon Inn where we were treated to our choice of the various Hobbit beers.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day10/hobbiton-4.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day10/thumb-hobbiton-4.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day10/hobbiton-4.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day10/thumb-hobbiton-4.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You&#39;ll never guess what happened next. We got back. on. the. bus. Two and a half more hours back to Auckland. I lost quite a few hands of Solitaire on that ride.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day10/hobbiton-5.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day10/thumb-hobbiton-5.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day10/hobbiton-5.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day10/thumb-hobbiton-5.jpg&quot; alt=&quot;Hobbiton movie set&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Back at the hotel and exhausted, we ordered in and went to sleep.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-11/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more New Zealand adventures, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-11/&quot;&gt;next day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Zealand 2014 - Day 11</title>
-		<link href="/blog/new-zealand-2014-day-11/"/>
+		<link href="https://www.geoffblair.com/blog/new-zealand-2014-day-11/"/>
 		<updated>2014-12-20T12:00:00Z</updated>
-		<id>/blog/new-zealand-2014-day-11/</id>
-		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;/blog/new-zealand-2014-day-10/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/new-zealand-2014-day-11/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;This is a series of posts chronicling our New Zealand trip. For more context, check out the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;first day&lt;/a&gt; or the &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-10/&quot;&gt;previous day&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Sadly, today was our last day in New Zealand. We didn&#39;t have anything in particular planned so we slept in a bit, checked out of our hotel, and had breakfast.&lt;/p&gt;
 &lt;p&gt;Our flight wasn&#39;t leaving until 8:30pm so we had a decent chunk of time to kill. Since we hadn&#39;t been able to see any actual &lt;a href=&quot;http://en.wikipedia.org/wiki/Kiwi&quot;&gt;kiwi&lt;/a&gt; birds on the trip (they are nocturnal) we decided to hit the &lt;a href=&quot;http://en.wikipedia.org/wiki/Auckland_Zoo&quot;&gt;Auckland Zoo&lt;/a&gt;, not far from our hotel.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day11/baboon.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day11/thumb-baboon.jpg&quot; alt=&quot;Baboon, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day11/baboon.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day11/thumb-baboon.jpg&quot; alt=&quot;Baboon, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The weather wasn&#39;t great as the rain had returned, but we were prepared with jackets and umbrella. The rain was tolerable since it wasn&#39;t coming down too hard and sporadically stopped.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day11/cheetah.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day11/thumb-cheetah.jpg&quot; alt=&quot;Cheetah, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day11/cheetah.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day11/thumb-cheetah.jpg&quot; alt=&quot;Cheetah, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The kiwi exhibit is a dark room where they trick the kiwis into thinking that it&#39;s night during the day so that visitors can watch them while awake. We were able to watch them hunting for bugs and what not for quite a while. Flash photography was prohibited and photos taken in the dark behind glass don&#39;t seem to turn out well anyway.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day11/red-panda.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day11/thumb-red-panda.jpg&quot; alt=&quot;Red Panda, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day11/red-panda.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day11/thumb-red-panda.jpg&quot; alt=&quot;Red Panda, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We wandered around the rest of the zoo taking a look at the various native and many non-native animals. We saw some orangutans who were hiding under blankets to stay dry in the rain. We also spotted some &lt;a href=&quot;http://en.wikipedia.org/wiki/Little_penguin&quot;&gt;Little Penguins&lt;/a&gt; taking shelter under an overturned boat.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/nz14/day11/little-penguins.jpg&quot;&gt;&lt;img src=&quot;/media/images/nz14/day11/thumb-little-penguins.jpg&quot; alt=&quot;Little Penguins under a boat, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/nz14/day11/little-penguins.jpg&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/nz14/day11/thumb-little-penguins.jpg&quot; alt=&quot;Little Penguins under a boat, Auckland Zoo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We left the zoo and headed to the Queen street mall where we had lunch and bought some last minute gifts. Back at the hotel, we met our driver and made our way to the Auckland airport.&lt;/p&gt;
 &lt;p&gt;We had an amazing time here in New Zealand! There&#39;s so much to do and see that we could easily spend another two weeks here. Even though we&#39;re sad to leave such a great place, we&#39;re looking forward to being home and spending the holidays with our families and cats. :)&lt;/p&gt;
 &lt;p&gt;Happy holidays!&lt;/p&gt;
@@ -335,9 +335,9 @@
 	
 	<entry>
 		<title>Coloring Bitmap Fonts in HTML5 Canvas</title>
-		<link href="/blog/coloring-bitmap-fonts-html5-canvas/"/>
+		<link href="https://www.geoffblair.com/blog/coloring-bitmap-fonts-html5-canvas/"/>
 		<updated>2016-04-10T12:00:00Z</updated>
-		<id>/blog/coloring-bitmap-fonts-html5-canvas/</id>
+		<id>https://www.geoffblair.com/blog/coloring-bitmap-fonts-html5-canvas/</id>
 		<content type="html">&lt;p&gt;When rendering text in HTML5 canvas, I mostly use the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text&quot;&gt;native text drawing methods&lt;/a&gt; like &lt;code&gt;fillText&lt;/code&gt;. However, a question came up on the LDG forum (now offline) a while back about rendering bitmap fonts with varying colors.&lt;/p&gt;
 &lt;p&gt;Bitmap fonts are simply images of text characters which are then rendered to the screen the same way you might render game sprites, with &lt;code&gt;drawImage&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The source image for a bitmap font would look something like this:&lt;/p&gt;
@@ -368,9 +368,9 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>Rain Effect in HTML5 Canvas</title>
-		<link href="/blog/rain-effect-html5-canvas/"/>
+		<link href="https://www.geoffblair.com/blog/rain-effect-html5-canvas/"/>
 		<updated>2016-04-13T12:00:00Z</updated>
-		<id>/blog/rain-effect-html5-canvas/</id>
+		<id>https://www.geoffblair.com/blog/rain-effect-html5-canvas/</id>
 		<content type="html">&lt;p&gt;While developing an outdoor environment for &lt;a href=&quot;http://store.steampowered.com/app/373470&quot;&gt;A Wizard&#39;s Lizard: Soul Thief&lt;/a&gt;, I wanted to create a rain effect to give the area a distinct feel.&lt;/p&gt;
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=EhVvrf5ahew&quot;&gt;this video&lt;/a&gt; to see the rain effect in action.&lt;/p&gt;
 &lt;p&gt;This effect is fairly simple to create so let&#39;s dive in to how it works. We&#39;re not going to cover every single line of code in this post, but you can check out the &lt;a href=&quot;https://github.com/geoffb/canvas-rain-demo&quot;&gt;full source on GitHub&lt;/a&gt;.&lt;/p&gt;
@@ -464,9 +464,9 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>Advice for Aspiring Game Developers</title>
-		<link href="/blog/advice-for-new-game-developers/"/>
+		<link href="https://www.geoffblair.com/blog/advice-for-new-game-developers/"/>
 		<updated>2016-10-10T12:00:00Z</updated>
-		<id>/blog/advice-for-new-game-developers/</id>
+		<id>https://www.geoffblair.com/blog/advice-for-new-game-developers/</id>
 		<content type="html">&lt;p&gt;&lt;em&gt;This post is an excerpt from an email I wrote to an aspiring game developer. Posting here in the event that it&#39;s useful to others.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Video games started out as passion and hobby of mine when I was in school. I made simple games to show off to my friends. When I did start programming professionally, it wasn&#39;t in game development. However, I kept working on my games as a hobby. A game I had made for a contest ended up landing me my first real job in game development. Since then I&#39;ve worked for several game development studios as well as developing and publishing my own independent games.&lt;/p&gt;
 &lt;p&gt;There are many paths to game development, of course. A common theme, however, is a dedication and passion for games. As with any type of programming or development, the best way to learn is to immerse yourself in it (read and watch as much information as possible) and practice (make small game prototypes to explore your ideas and learn coding).&lt;/p&gt;
@@ -493,42 +493,42 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>Shining Force Character Portraits</title>
-		<link href="/blog/shining-force-portraits/"/>
+		<link href="https://www.geoffblair.com/blog/shining-force-portraits/"/>
 		<updated>2017-11-30T12:00:00Z</updated>
-		<id>/blog/shining-force-portraits/</id>
+		<id>https://www.geoffblair.com/blog/shining-force-portraits/</id>
 		<content type="html">&lt;p&gt;As a big fan of &lt;a href=&quot;https://en.wikipedia.org/wiki/Shining_Force&quot;&gt;Shining Force&lt;/a&gt;, I took a stab at drawing the &lt;a href=&quot;http://fantasyanime.com/shiningforce/sflist.htm&quot;&gt;character portraits&lt;/a&gt; back in early 2016.&lt;/p&gt;
 &lt;p&gt;Portraits were drawn on my Samsung Galaxy S6 Edge in &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.adsk.sketchbook&amp;amp;hl=en&quot;&gt;SketchBook by Autodesk&lt;/a&gt; using a cheap touch pen.&lt;/p&gt;
 &lt;p&gt;Overall I&#39;m pretty happy with the style and results. However, drawing eyes seems to be an area for improvement.&lt;/p&gt;
 &lt;p&gt;I had intended to complete the entire set, but motivation lacks and life happens!&lt;/p&gt;
 &lt;p&gt;Maybe I&#39;ll finish them one day.&lt;/p&gt;
 &lt;h2&gt;Domingo&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/domingo.png&quot; width=&quot;500&quot; alt=&quot;Domingo&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/domingo.png&quot; width=&quot;500&quot; alt=&quot;Domingo&quot; /&gt;
 &lt;h2&gt;Gong&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/gong.png&quot; width=&quot;500&quot; alt=&quot;Gong&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/gong.png&quot; width=&quot;500&quot; alt=&quot;Gong&quot; /&gt;
 &lt;h2&gt;Hanzou&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/hanzou.png&quot; width=&quot;500&quot; alt=&quot;Hanzou&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/hanzou.png&quot; width=&quot;500&quot; alt=&quot;Hanzou&quot; /&gt;
 &lt;h2&gt;Jogurt&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/jogurt.png&quot; width=&quot;500&quot; alt=&quot;Jogurt&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/jogurt.png&quot; width=&quot;500&quot; alt=&quot;Jogurt&quot; /&gt;
 &lt;h2&gt;Lowe&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/lowe.png&quot; width=&quot;500&quot; alt=&quot;Lowe&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/lowe.png&quot; width=&quot;500&quot; alt=&quot;Lowe&quot; /&gt;
 &lt;h2&gt;Mae&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/mae.png&quot; width=&quot;500&quot; alt=&quot;Mae&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/mae.png&quot; width=&quot;500&quot; alt=&quot;Mae&quot; /&gt;
 &lt;h2&gt;Torasu&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/torasu.png&quot; width=&quot;500&quot; alt=&quot;Torasu&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/torasu.png&quot; width=&quot;500&quot; alt=&quot;Torasu&quot; /&gt;
 &lt;h2&gt;Zylo&lt;/h2&gt;
-&lt;img src=&quot;/media/images/sf/zylo.png&quot; width=&quot;500&quot; alt=&quot;Zylo&quot; /&gt;
+&lt;img src=&quot;https://www.geoffblair.com/media/images/sf/zylo.png&quot; width=&quot;500&quot; alt=&quot;Zylo&quot; /&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Ready, set, roguelike!</title>
-		<link href="/blog/ready-set-roguelike/"/>
+		<link href="https://www.geoffblair.com/blog/ready-set-roguelike/"/>
 		<updated>2020-02-29T12:00:00Z</updated>
-		<id>/blog/ready-set-roguelike/</id>
-		<content type="html">&lt;p&gt;As a big fan of &amp;quot;roguelite&amp;quot; games (&lt;a href=&quot;https://spelunkyworld.com&quot;&gt;Spelunky&lt;/a&gt;, &lt;a href=&quot;https://dead-cells.com&quot;&gt;Dead Cells&lt;/a&gt;, &lt;a href=&quot;https://www.klei.com/games/invisible-inc&quot;&gt;Invisible, Inc.&lt;/a&gt;, and &lt;a href=&quot;http://subsetgames.com/itb.html&quot;&gt;Intro the Breach&lt;/a&gt; are a few of my favorites), I&#39;ve often appreciated more traditional roguelikes; even though I don&#39;t play them quite as much.&lt;/p&gt;
-&lt;p&gt;Likewise, the &lt;a href=&quot;https://7drl.com&quot;&gt;7DRL game jam&lt;/a&gt; has long been on my radar and it&#39;s high time I used it as excuse to make a roguelike game for &lt;a href=&quot;https://itch.io/jam/7drl-challenge-2020&quot;&gt;this year&#39;s challenge&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;My general plan is to make something relatively traditional (turn-based, etc), and explore the permadeath mechanic in ways inspired by &lt;a href=&quot;http://www.wizardslizard.com&quot;&gt;A Wizard&#39;s Lizard&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I&#39;ll host the game itself on &lt;a href=&quot;https://gosub.itch.io&quot;&gt;my itch.io page&lt;/a&gt;, and &lt;em&gt;attempt&lt;/em&gt; to post a short update on this blog each day.&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/ready-set-roguelike/</id>
+		<content type="html">&lt;p&gt;As a big fan of &amp;quot;roguelite&amp;quot; games (&lt;a href=&quot;https://spelunkyworld.com/&quot;&gt;Spelunky&lt;/a&gt;, &lt;a href=&quot;https://dead-cells.com/&quot;&gt;Dead Cells&lt;/a&gt;, &lt;a href=&quot;https://www.klei.com/games/invisible-inc&quot;&gt;Invisible, Inc.&lt;/a&gt;, and &lt;a href=&quot;http://subsetgames.com/itb.html&quot;&gt;Intro the Breach&lt;/a&gt; are a few of my favorites), I&#39;ve often appreciated more traditional roguelikes; even though I don&#39;t play them quite as much.&lt;/p&gt;
+&lt;p&gt;Likewise, the &lt;a href=&quot;https://7drl.com/&quot;&gt;7DRL game jam&lt;/a&gt; has long been on my radar and it&#39;s high time I used it as excuse to make a roguelike game for &lt;a href=&quot;https://itch.io/jam/7drl-challenge-2020&quot;&gt;this year&#39;s challenge&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My general plan is to make something relatively traditional (turn-based, etc), and explore the permadeath mechanic in ways inspired by &lt;a href=&quot;http://www.wizardslizard.com/&quot;&gt;A Wizard&#39;s Lizard&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&#39;ll host the game itself on &lt;a href=&quot;https://gosub.itch.io/&quot;&gt;my itch.io page&lt;/a&gt;, and &lt;em&gt;attempt&lt;/em&gt; to post a short update on this blog each day.&lt;/p&gt;
 &lt;p&gt;Since the schedule is timezone-friendly, I&#39;m noting my start time here (~3pm MST) with a deadline for myself of ~3pm MST next Saturday.&lt;/p&gt;
 &lt;p&gt;Ship it!&lt;/p&gt;
 </content>
@@ -536,33 +536,33 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>7DRL 2020 - Day 1</title>
-		<link href="/blog/7drl-2020-day-1/"/>
+		<link href="https://www.geoffblair.com/blog/7drl-2020-day-1/"/>
 		<updated>2020-02-29T23:59:59Z</updated>
-		<id>/blog/7drl-2020-day-1/</id>
+		<id>https://www.geoffblair.com/blog/7drl-2020-day-1/</id>
 		<content type="html">&lt;p&gt;I had an existing turn-based tile engine prototype collecting dust, so I started with that as a base. The graphics are from &lt;a href=&quot;https://kenney.nl/assets/bit-pack&quot;&gt;Kenney&#39;s 1-Bit Pack&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/cemetery.png&quot; alt=&quot;Cemetery&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/cemetery.png&quot; alt=&quot;Cemetery&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;You start off as a skeleton, in a static cemetery &amp;quot;intro&amp;quot; floor. In the cemetery is an exit to the procedurally generated crypt. As you descend, new floors are (dumbly) generated. You can traverse back up to previously generated floors, which retain their state as you left them.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/crypt.png&quot; alt=&quot;Crypt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/crypt.png&quot; alt=&quot;Crypt&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;As of now, you can descend floors forever, but there&#39;s not much else to do.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>7DRL 2020 - Day 2</title>
-		<link href="/blog/7drl-2020-day-2/"/>
+		<link href="https://www.geoffblair.com/blog/7drl-2020-day-2/"/>
 		<updated>2020-03-01T23:59:59Z</updated>
-		<id>/blog/7drl-2020-day-2/</id>
+		<id>https://www.geoffblair.com/blog/7drl-2020-day-2/</id>
 		<content type="html">&lt;p&gt;Today was all about some infrastructure and playing with the core mechanics.&lt;/p&gt;
 &lt;p&gt;I ported over some sprite font rendering and put in the game&#39;s core flow: Title =&amp;gt; Play =&amp;gt; Game Over =&amp;gt; Repeat. The goal is to keep the game in an end-to-end playable state, and continually add content/mechanics to flesh out the experience.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/title.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/title.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I experimented with a couple core mechanics: permadeath and &amp;quot;hunger&amp;quot; (e.g. movement costs a resource). Instead of &amp;quot;hunger&amp;quot;, the player has a &amp;quot;life force&amp;quot; resource (indicated by the purple hourglass).&lt;/p&gt;
 &lt;p&gt;As a skeleton, the player does not consume the life force resource when moving around the map. When the player picks up this purple elixir, they are restored to their human form and granted a chunk of life force.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/cemetery2.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/cemetery2.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;As a human, each step costs you life force. When your life force reaches 0, you take damage for every step. (Your human body is deteriorating.)&lt;/p&gt;
 &lt;p&gt;When you die as human, either by running out of life force or being killed in combat, you revert back into a skeleton. Of course, if you die as a skeleton, that&#39;s game over.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/cemetery3.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/cemetery3.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I spent a little bit of time on the level generation, adding in some Zombie monsters and spawning them around the map. The Zombies are pretty dumb, and only wander around randomly, but provide at least &lt;em&gt;some&lt;/em&gt; hazard for the player to overcome.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/crypt1.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/crypt1.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Back on the infrastructure side, I pushed the game to itch.io and set up a quick and easy deploy script so I can &amp;quot;move fast and break things&amp;quot;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;Give the current prototype a whirl&lt;/a&gt;. I&#39;ll be pushing new (and hopefully unbroken) builds throughout the week.&lt;/p&gt;
 </content>
@@ -570,25 +570,25 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>7DRL 2020 - Day 3</title>
-		<link href="/blog/7drl-2020-day-3/"/>
+		<link href="https://www.geoffblair.com/blog/7drl-2020-day-3/"/>
 		<updated>2020-03-02T23:59:59Z</updated>
-		<id>/blog/7drl-2020-day-3/</id>
+		<id>https://www.geoffblair.com/blog/7drl-2020-day-3/</id>
 		<content type="html">&lt;p&gt;Limited time today so here&#39;s a quick run-down of what changed:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Added food items to the game which can only be collected while alive&lt;/li&gt;
 &lt;li&gt;Added pots and chests which contain randomized loot drops (hearts, food items, keys, etc)&lt;/li&gt;
 &lt;li&gt;A bunch of work on level design&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day3.png&quot; alt=&quot;Pots and chests&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day3.png&quot; alt=&quot;Pots and chests&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Give the &lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;latest build&lt;/a&gt; a try!&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>7DRL 2020 - Day 4</title>
-		<link href="/blog/7drl-2020-day-4/"/>
+		<link href="https://www.geoffblair.com/blog/7drl-2020-day-4/"/>
 		<updated>2020-03-03T23:59:59Z</updated>
-		<id>/blog/7drl-2020-day-4/</id>
+		<id>https://www.geoffblair.com/blog/7drl-2020-day-4/</id>
 		<content type="html">&lt;p&gt;Day 4 progress:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Added gold a resource to gather&lt;/li&gt;
@@ -600,27 +600,27 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;Play the latest!&lt;/a&gt; What&#39;s your lowest floor reached?&lt;/p&gt;
 &lt;p&gt;And now for some screenshots:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day4-a.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day4-b.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day4-c.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day4-d.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day4-a.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day4-b.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day4-c.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day4-d.png&quot; alt=&quot;Day 4 progress&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>7DRL 2020 - Day 5</title>
-		<link href="/blog/7drl-2020-day-5/"/>
+		<link href="https://www.geoffblair.com/blog/7drl-2020-day-5/"/>
 		<updated>2020-03-05T17:00:00Z</updated>
-		<id>/blog/7drl-2020-day-5/</id>
+		<id>https://www.geoffblair.com/blog/7drl-2020-day-5/</id>
 		<content type="html">&lt;p&gt;A cool new feature landed today: &lt;strong&gt;Affixes&lt;/strong&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day5-a.png&quot; alt=&quot;Combustible affix&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day5-a.png&quot; alt=&quot;Combustible affix&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Affixes are floor-wide modifiers which, when active, increase the difficulty in some way. Two affixes currently exist:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Combustible&lt;/strong&gt;: Monsters burst into flame when the die, leaving a hazard behind for several turns&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Vengeful&lt;/strong&gt;: Monsters leave behind a vengeful ghost when they die&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Affixes are currently applied every so many floors and are announced via some flavor text.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day5-b.png&quot; alt=&quot;Vengeful affix&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day5-b.png&quot; alt=&quot;Vengeful affix&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Other changes of note:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Skeleton form can no longer benefit from Heart pickups; in fact it&#39;s best to avoid them...&lt;/li&gt;
@@ -634,10 +634,10 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>7DRL 2020 - Day 6</title>
-		<link href="/blog/7drl-2020-day-6/"/>
+		<link href="https://www.geoffblair.com/blog/7drl-2020-day-6/"/>
 		<updated>2020-03-06T17:00:00Z</updated>
-		<id>/blog/7drl-2020-day-6/</id>
-		<content type="html">&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day6-a.png&quot; alt=&quot;Combustible affix&quot; /&gt;&lt;/p&gt;
+		<id>https://www.geoffblair.com/blog/7drl-2020-day-6/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day6-a.png&quot; alt=&quot;Combustible affix&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Some light changes today:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Skeleton form cannot consume health restore or food pickups&lt;/li&gt;
@@ -651,23 +651,23 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>7DRL 2020 - Day 7</title>
-		<link href="/blog/7drl-2020-day-7/"/>
+		<link href="https://www.geoffblair.com/blog/7drl-2020-day-7/"/>
 		<updated>2020-03-07T17:00:00Z</updated>
-		<id>/blog/7drl-2020-day-7/</id>
+		<id>https://www.geoffblair.com/blog/7drl-2020-day-7/</id>
 		<content type="html">&lt;p&gt;My 7DRL 2020 game, Catacombs, is done!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day7-a.png&quot; alt=&quot;Rise!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day7-a.png&quot; alt=&quot;Rise!&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Overall I feel pretty good about the challenge, and the game. I kept the game within scope, and delivered a small, decently polished experience.&lt;/p&gt;
 &lt;p&gt;First, a couple shout-outs to other creators whose assets I used:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://kenney.nl/assets/bit-pack&quot;&gt;Kenney&#39;s 1-bit Pack&lt;/a&gt; (I recolored using the &lt;a href=&quot;https://lospec.com/palette-list/dawnbringer-32&quot;&gt;DawnBringer 32&lt;/a&gt; palette to give it my own feel)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://opengameart.org/content/512-sound-effects-8-bit-style&quot;&gt;The Essential Retro Video Game Sound Collection&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/media/images/7drl2020/day7-b.png&quot; alt=&quot;Humanity Restored!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/7drl2020/day7-b.png&quot; alt=&quot;Humanity Restored!&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s do a mini post-mortem!&lt;/p&gt;
 &lt;p&gt;Things that went pretty well:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Started with an existing turn-based prototype, in my custom HTML5 stack. This really let me hit the ground running in terms of going straight to gameplay and content.&lt;/li&gt;
-&lt;li&gt;Leveraged existing tools, like &lt;a href=&quot;https://www.mapeditor.org&quot;&gt;Tiled&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Leveraged existing tools, like &lt;a href=&quot;https://www.mapeditor.org/&quot;&gt;Tiled&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Simple tweaks to standard rogue-like mechanics (permadeath, hunger clock)&lt;/li&gt;
 &lt;li&gt;Arcade style, endless meta game (easy to implement, no bosses, etc)&lt;/li&gt;
 &lt;/ul&gt;
@@ -681,29 +681,29 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 	
 	<entry>
 		<title>Gloomstone Devlog #1</title>
-		<link href="/blog/gloomstone-devlog-1/"/>
+		<link href="https://www.geoffblair.com/blog/gloomstone-devlog-1/"/>
 		<updated>2023-07-02T12:00:00Z</updated>
-		<id>/blog/gloomstone-devlog-1/</id>
+		<id>https://www.geoffblair.com/blog/gloomstone-devlog-1/</id>
 		<content type="html">&lt;h2&gt;What the heck is &amp;quot;Gloomstone&amp;quot;?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/gloomstone/gloomstone.png&quot;&gt;&lt;img src=&quot;/media/images/gloomstone/gloomstone.png&quot; alt=&quot;Gloomstone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/gloomstone/gloomstone.png&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/gloomstone/gloomstone.png&quot; alt=&quot;Gloomstone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&amp;quot;Gloomstone&amp;quot; is the working title for my in-progress first-person dungeon crawling game engine. Development is rather slow, being a side-project, but I&#39;ve been making more visible progress lately. I&#39;m trying to spend a few hours each week pushing it forward.&lt;/p&gt;
-&lt;p&gt;The engine is written in &lt;a href=&quot;https://www.typescriptlang.org&quot;&gt;TypeScript&lt;/a&gt; and uses &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API&quot;&gt;WebGL&lt;/a&gt; to render. My goal is to have as few dependencies as possible. As such, there are zero run-time dependencies, and only a few build-time dependencies: TypeScript, &lt;a href=&quot;https://esbuild.github.io&quot;&gt;esbuild&lt;/a&gt;, and &lt;a href=&quot;https://prettier.io&quot;&gt;Prettier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The engine is written in &lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;TypeScript&lt;/a&gt; and uses &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API&quot;&gt;WebGL&lt;/a&gt; to render. My goal is to have as few dependencies as possible. As such, there are zero run-time dependencies, and only a few build-time dependencies: TypeScript, &lt;a href=&quot;https://esbuild.github.io/&quot;&gt;esbuild&lt;/a&gt;, and &lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Architecturally, the engine is a &amp;quot;pure&amp;quot; &lt;a href=&quot;https://en.wikipedia.org/wiki/Entity_component_system&quot;&gt;Entity component system&lt;/a&gt;. &amp;quot;Pure&amp;quot;, to me, means that components have no behavior and systems have no state. Since classes are the very definition of coupling state and behavior, the &lt;code&gt;class&lt;/code&gt; keyword does not appear anywhere in the source code. Of course this decision has trade-offs, and it&#39;s been an interesting exercise.&lt;/p&gt;
 &lt;h2&gt;Tiled Integration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/gloomstone/tiled.png&quot;&gt;&lt;img src=&quot;/media/images/gloomstone/tiled.png&quot; alt=&quot;Editing a level in Tiled&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;From the beginning of this project, I decided that &lt;a href=&quot;https://www.mapeditor.org&quot;&gt;Tiled&lt;/a&gt;, a free and open source map editor, would be the source of truth for as much game data as possible. This helps strengthen the divide between source code and data, which I find to be in service of my architectural goals.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/gloomstone/tiled.png&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/gloomstone/tiled.png&quot; alt=&quot;Editing a level in Tiled&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From the beginning of this project, I decided that &lt;a href=&quot;https://www.mapeditor.org/&quot;&gt;Tiled&lt;/a&gt;, a free and open source map editor, would be the source of truth for as much game data as possible. This helps strengthen the divide between source code and data, which I find to be in service of my architectural goals.&lt;/p&gt;
 &lt;p&gt;Whenever possible, I try to ensure that Tiled&#39;s basic features, such as ad-hoc objects with a sprite, work out of the box and as expected in the engine.&lt;/p&gt;
 &lt;p&gt;Tiled&#39;s &lt;a href=&quot;https://doc.mapeditor.org/en/stable/manual/custom-properties/#custom-types&quot;&gt;Custom Types&lt;/a&gt; are used to define components, and &lt;a href=&quot;https://doc.mapeditor.org/en/stable/manual/using-templates/&quot;&gt;Templates&lt;/a&gt; for prefabricated entities.&lt;/p&gt;
 &lt;h2&gt;Doors&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/gloomstone/door.gif&quot;&gt;&lt;img src=&quot;/media/images/gloomstone/door.gif&quot; alt=&quot;Door mechanism&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/gloomstone/door.gif&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/gloomstone/door.gif&quot; alt=&quot;Door mechanism&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;After implementing basic collision with the static walls, I wanted to add some button and door mechanics to make the world more interactive.&lt;/p&gt;
 &lt;p&gt;Buttons and doors are decoupled: Buttons respond to an interaction by sending a signal to a target entity (which is defined in Tiled). A door is a receiver of this signal and takes care of toggling and animating its state.&lt;/p&gt;
 &lt;p&gt;(The button is not currently visualized in the gif above, but exists on the wall tile with the sewer grate.)&lt;/p&gt;
 &lt;h2&gt;Floor Entities&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/gloomstone/blood.png&quot;&gt;&lt;img src=&quot;/media/images/gloomstone/blood.png&quot; alt=&quot;Blood floor entity&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/gloomstone/blood.png&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/gloomstone/blood.png&quot; alt=&quot;Blood floor entity&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This was a simple feature, allowing entities be laid flat as well as upright. Useful for ambiance (like the blood puddle above), floor traps, etc.&lt;/p&gt;
 &lt;h2&gt;Spikes&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/media/images/gloomstone/spike.gif&quot;&gt;&lt;img src=&quot;/media/images/gloomstone/spike.gif&quot; alt=&quot;Spike mechanism&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/gloomstone/spike.gif&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/gloomstone/spike.gif&quot; alt=&quot;Spike mechanism&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Spikes are a nice example of some composite behavior. They include a floor entity for the spike chamber, and a billboard entity which receives a toggle signal (much like the previously mentioned doors). To drive the interval, I added a &amp;quot;timer&amp;quot; component which sends a signal every &lt;code&gt;N&lt;/code&gt; milliseconds to a target entity (in this case, itself).&lt;/p&gt;
 &lt;p&gt;There&#39;s a draw ordering bug when the spike retreats into its chamber, but overall I&#39;m happy with the effect.&lt;/p&gt;
 </content>
