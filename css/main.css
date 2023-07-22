@@ -157,6 +157,12 @@ main p {
   margin: 1.5em 0;
   text-align: justify;
 }
+main em {
+  font-style: italic;
+}
+main strong {
+  font-weight: bold;
+}
 main ul {
   margin: 1.5em 0;
   list-style-type: square;
