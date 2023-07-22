@@ -4,7 +4,6 @@
 
 - Style block quotes nicely
 - Support draft posts (publish in dev, not in prod)
-- Move njk templates into `_includes/layouts`
 - Display tags
 - List posts by tags
 
