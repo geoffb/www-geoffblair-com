@@ -124,7 +124,7 @@ The only tricky thing going on here is the calculation of the drop's start end e
 
 Here's the final rain effect:
 
-<iframe src="http://geoffb.github.io/canvas-rain-demo/" width="500" height="300"></iframe>
+<iframe src="//geoffb.github.io/canvas-rain-demo/" width="500" height="300"></iframe>
 
 Remember to take a look at the [full source on GitHub][2] to fill in any gaps.
 
