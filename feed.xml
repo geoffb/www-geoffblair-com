@@ -456,7 +456,7 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;p&gt;The only tricky thing going on here is the calculation of the drop&#39;s start end end points. We use a little bit of vector math to accomplish this by creating a vector which represents the drop&#39;s velocity then normalizing it and scaling it by the drop&#39;s length. A normalized vector (or &lt;a href=&quot;https://en.wikipedia.org/wiki/Unit_vector&quot;&gt;unit vector&lt;/a&gt;) is a vector with magnitude of 1.&lt;/p&gt;
 &lt;h2&gt;Wrapping Up&lt;/h2&gt;
 &lt;p&gt;Here&#39;s the final rain effect:&lt;/p&gt;
-&lt;iframe src=&quot;http://geoffb.github.io/canvas-rain-demo/&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://geoffb.github.io/canvas-rain-demo/&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;Remember to take a look at the &lt;a href=&quot;https://github.com/geoffb/canvas-rain-demo&quot;&gt;full source on GitHub&lt;/a&gt; to fill in any gaps.&lt;/p&gt;
 &lt;p&gt;We didn&#39;t discuss splashes in this post, but they can be accomplished in a very similar manner and rendered using the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc&quot;&gt;&lt;code&gt;arc&lt;/code&gt;&lt;/a&gt; canvas API.&lt;/p&gt;
 </content>
