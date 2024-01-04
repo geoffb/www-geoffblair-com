@@ -4,7 +4,7 @@
 	<subtitle>Read Geoff&#39;s blog for articles about independent game development, running a small business, his travels, and interests.</subtitle>
 	<link href="https://www.geoffblair.com/feed.xml" rel="self"/>
 	<link href="https://www.geoffblair.com"/>
-	<updated>2023-07-02T12:00:00Z</updated>
+	<updated>2024-01-03T12:00:00Z</updated>
 	<id>https://www.geoffblair.com</id>
 	<author>
 		<name>Geoff Blair</name>
@@ -706,6 +706,62 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/media/images/gloomstone/spike.gif&quot;&gt;&lt;img src=&quot;https://www.geoffblair.com/media/images/gloomstone/spike.gif&quot; alt=&quot;Spike mechanism&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Spikes are a nice example of some composite behavior. They include a floor entity for the spike chamber, and a billboard entity which receives a toggle signal (much like the previously mentioned doors). To drive the interval, I added a &amp;quot;timer&amp;quot; component which sends a signal every &lt;code&gt;N&lt;/code&gt; milliseconds to a target entity (in this case, itself).&lt;/p&gt;
 &lt;p&gt;There&#39;s a draw ordering bug when the spike retreats into its chamber, but overall I&#39;m happy with the effect.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2024 Roadmap</title>
+		<link href="https://www.geoffblair.com/blog/2024-roadmap/"/>
+		<updated>2024-01-03T12:00:00Z</updated>
+		<id>https://www.geoffblair.com/blog/2024-roadmap/</id>
+		<content type="html">&lt;p&gt;Happy New Year!&lt;/p&gt;
+&lt;p&gt;This post captures some personal goals for 2024 in order to (hopefully) keep myself on track.&lt;/p&gt;
+&lt;p&gt;Here they are, in no particular order:&lt;/p&gt;
+&lt;h2&gt;Participate in 7DRL&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https://7drl.com/&quot;&gt;7DRL Challenge&lt;/a&gt; is my favorite game jam (participants make a &lt;a href=&quot;https://en.wikipedia.org/wiki/Roguelike&quot;&gt;roguelike&lt;/a&gt; game in 7 days).&lt;/p&gt;
+&lt;p&gt;This will be my 5th year in a row and I don&#39;t want to lose my streak!&lt;/p&gt;
+&lt;p&gt;My past entries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2020 - &lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;Catacombs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021 - &lt;a href=&quot;https://gosub.itch.io/hacker&quot;&gt;H@CK3R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022 - &lt;a href=&quot;https://gosub.itch.io/sewermancer&quot;&gt;Sewermancer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2023 - &lt;a href=&quot;https://gosub.itch.io/jotun-grav&quot;&gt;Jotun Grav&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A sub-goal for this year is to make something better than Catacombs (my 2020 entry) as I feel that was my strongest game so far.&lt;/p&gt;
+&lt;h2&gt;Travel to Norway&lt;/h2&gt;
+&lt;p&gt;We&#39;re planning to take a trip to Norway this fall. While still in the initial stages, we&#39;re looking to spend time in &lt;a href=&quot;https://en.wikipedia.org/wiki/Oslo&quot;&gt;Oslo&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Bergen&quot;&gt;Bergen&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Troms%C3%B8&quot;&gt;Tromsø&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In Tromsø, we&#39;re hoping to be there at the right time for viewing the &lt;a href=&quot;https://en.wikipedia.org/wiki/Aurora&quot;&gt;northern lights&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I intend to post a summary each day, like we did for our &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;New Zealand trip in 2014&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Post once per month&lt;/h2&gt;
+&lt;p&gt;I would like to post here more often and once a month seems like an easy bar to hit. One post per month is the floor; hopefully I can post more than that.&lt;/p&gt;
+&lt;p&gt;Expect similar content to &lt;a href=&quot;https://www.geoffblair.com/blog/&quot;&gt;my existing posts&lt;/a&gt;, e.g. &lt;a href=&quot;https://www.geoffblair.com/blog/rain-effect-html5-canvas/&quot;&gt;gamedev articles&lt;/a&gt;, &lt;a href=&quot;https://www.geoffblair.com/blog/gloomstone-devlog-1/&quot;&gt;development logs&lt;/a&gt;, &lt;a href=&quot;https://www.geoffblair.com/blog/new-zealand-2014-day-1/&quot;&gt;travel&lt;/a&gt;, and sometimes &lt;a href=&quot;https://www.geoffblair.com/blog/shining-force-portraits/&quot;&gt;art&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This post takes care of January, at least!&lt;/p&gt;
+&lt;h2&gt;Snowboard in Colorado&lt;/h2&gt;
+&lt;p&gt;We&#39;ve lived in Colorado since 2018 and we&#39;ve yet to hit the local slopes.&lt;/p&gt;
+&lt;p&gt;This feels embarrassing as someone who really enjoys snowboarding and was very active in my slightly younger years.&lt;/p&gt;
+&lt;p&gt;I&#39;m not much for crowded resorts these days, so I&#39;ll be looking for a smaller place - somewhere a little off the beaten path where I won&#39;t spend too much time in line for the lifts.&lt;/p&gt;
+&lt;h2&gt;Release a game for $1&lt;/h2&gt;
+&lt;p&gt;Of all my goals, I&#39;m the most worried about this one!&lt;/p&gt;
+&lt;p&gt;I have a few prototypes in the workshop, at varying level of completeness. I&#39;ll need to pick something, scope it well, and maintain the motivation/discipline to work on it consistently.&lt;/p&gt;
+&lt;p&gt;Why $1? The exact price doesn&#39;t matter so much as the process and implications of charging money. I want the game to be finished, polished, and interesting enough that I feel good about attaching a price tag.&lt;/p&gt;
+&lt;p&gt;Ideally, this also gives me some grist for the mill in terms of posting each month.&lt;/p&gt;
+&lt;h2&gt;Maintain diet and exercise&lt;/h2&gt;
+&lt;p&gt;Around July 2023 we started a simple diet and exercise routine: counting calories and walking one mile on as many days as we can.&lt;/p&gt;
+&lt;p&gt;Writing down our calorie intake made us more aware of how much we were eating and quickly led to a reduction in calories consumed. I&#39;ve lost ~35 pounds so far.&lt;/p&gt;
+&lt;p&gt;My specific goals for 2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintain an intake of 1500-1800 calories per day&lt;/li&gt;
+&lt;li&gt;Lose a bit more body fat&lt;/li&gt;
+&lt;li&gt;Find a good indoor exercise (Colorado is fairly cold and windy in the winter and outside walks aren&#39;t always enjoyable)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This goal dovetails nicely with our Norway travel plans (several outdoor activities/hikes) and snowboarding, too.&lt;/p&gt;
+&lt;h2&gt;Post a 2024 postmortem&lt;/h2&gt;
+&lt;p&gt;When setting goals, it only makes sense to measure how much was accomplished.&lt;/p&gt;
+&lt;p&gt;I&#39;m reminded of this great quote (which also applies to game development, my health goals, and everything, really):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can&#39;t manage what you don&#39;t measure.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/subscribe&quot;&gt;Subscribe&lt;/a&gt; to follow along and see how this all turns out.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
