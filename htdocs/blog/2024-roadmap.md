@@ -4,6 +4,9 @@ date: 2024-1-3 12:00:00
 layout: post.njk
 tags:
   - post
+  - gamedev
+  - travel
+  - 7DRL
 ---
 
 Happy New Year!
@@ -39,7 +42,7 @@ I intend to post a summary each day, like we did for our [New Zealand trip in 20
 
 I would like to post here more often and once a month seems like an easy bar to hit. One post per month is the floor; hopefully I can post more than that.
 
-Expect similar content to [my existing posts](/blog/), e.g. [gamedev articles](/blog/rain-effect-html5-canvas/), [development logs](/blog/gloomstone-devlog-1/), [travel](/blog/new-zealand-2014-day-1/), and sometimes [art](/blog/shining-force-portraits/).
+Expect similar content to [my existing posts](/blog/), e.g. [gamedev articles](/tags/gamedev/), [development logs](/tags/devlog/), [travel](/tags/travel/), and sometimes [art](/tags/art/).
 
 This post takes care of January, at least!
 

@@ -11,5 +11,6 @@
 		{ "label": "Posts", "url": "/blog/" },
 		{ "label": "About", "url": "/about/" },
 		{ "label": "Subscribe", "url": "/subscribe/" }
-	]
+	],
+	"hiddenTags": ["post", "feature"]
 }

@@ -10,6 +10,15 @@ og_type: article
 
 {% block page_main %}
 <h1>{{ title }}</h1>
+{% if tags.length > 0 %}
+<p>
+	{% for tag in tags | sort %}
+	{% if site.hiddenTags.includes(tag) === false %}
+	<a href="/tags/{{ tag }}/">#{{ tag }}</a>
+	{% endif %}
+	{% endfor %}
+</p>
+{% endif %}
 <time>{{ date | format_date }}</time>
 {{ super() }}
 {% endblock %}
