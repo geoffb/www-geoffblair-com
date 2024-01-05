@@ -1,12 +1,10 @@
-{% extends "base.njk" %}
-
+{% macro postList(collectionKey, count) %}
 {% set posts = collections[collectionKey].slice().reverse() %}
-
-{% block page_main %}
-{{ super() }}
 <ul>
 	{% for post in posts %}
+	{% if count === undefined or loop.index <= count %}
 	<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+	{% endif %}
 	{% endfor %}
 </ul>
-{% endblock %}
+{% endmacro %}

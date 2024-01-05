@@ -4,7 +4,6 @@ date: 2024-1-3 12:00:00
 layout: post.njk
 tags:
   - post
-  - feature
 ---
 
 Happy New Year!
