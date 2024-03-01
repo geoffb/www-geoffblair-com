@@ -1,5 +1,8 @@
 {
   "editor.default_syntax" : "markdown",
+  "todo.workspace-ignore-names" : [
+    "dist"
+  ],
   "workspace.color" : 6,
   "workspace.name" : "Personal Website"
 }
