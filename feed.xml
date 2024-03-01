@@ -4,7 +4,7 @@
 	<subtitle>Read Geoff&#39;s blog for articles about independent game development, running a small business, his travels, and interests.</subtitle>
 	<link href="https://www.geoffblair.com/feed.xml" rel="self"/>
 	<link href="https://www.geoffblair.com"/>
-	<updated>2024-01-03T12:00:00Z</updated>
+	<updated>2024-02-29T23:59:59Z</updated>
 	<id>https://www.geoffblair.com</id>
 	<author>
 		<name>Geoff Blair</name>
@@ -762,6 +762,34 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;p&gt;You can&#39;t manage what you don&#39;t measure.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.geoffblair.com/subscribe&quot;&gt;Subscribe&lt;/a&gt; to follow along and see how this all turns out.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>7DRL 2024</title>
+		<link href="https://www.geoffblair.com/blog/7drl-2024/"/>
+		<updated>2024-02-29T23:59:59Z</updated>
+		<id>https://www.geoffblair.com/blog/7drl-2024/</id>
+		<content type="html">&lt;p&gt;As mentioned in my &lt;a href=&quot;https://www.geoffblair.com/blog/2024-roadmap/&quot;&gt;2024 roadmap&lt;/a&gt;, I&#39;m participating in &lt;a href=&quot;https://itch.io/jam/7drl-challenge-2024&quot;&gt;7DRL Challenge 2024&lt;/a&gt; for the fifth consecutive year.&lt;/p&gt;
+&lt;p&gt;This year I&#39;ve taken the week off work in order to spend some solid time on the jam. Since we&#39;re traveling quite a bit this year (our planned Norway vacation, an unexpected trip to Spain, and some US travel to see family), I&#39;m looking forward to this &amp;quot;staycation&amp;quot;.&lt;/p&gt;
+&lt;p&gt;From a technical standpoint, I&#39;m reusing then engine from my 2023 7DRL entry, &lt;a href=&quot;https://gosub.itch.io/jotun-grav&quot;&gt;Jotun Grav&lt;/a&gt;. 2023 wasn&#39;t my best showing - the first year I&#39;ve marked my entry &amp;quot;incomplete&amp;quot; - in part because I tried to write a new roguelike engine alongside the jam. However, after some massaging and engine feature work in the last year, I feel it&#39;s in a pretty good spot for 2024.&lt;/p&gt;
+&lt;p&gt;This engine is based on my latest generation of &lt;a href=&quot;https://en.wikipedia.org/wiki/Entity_component_system&quot;&gt;ECS architecture&lt;/a&gt; (a forthcoming post, perhaps!), is written in &lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;TypeScript&lt;/a&gt;, and targets the web browser.&lt;/p&gt;
+&lt;p&gt;My goal for this year is to make something &amp;quot;better&amp;quot; than &lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;Catacombs&lt;/a&gt; - my 2020 and, subjectively, best entry.&lt;/p&gt;
+&lt;p&gt;7DRL allows and encourages rough design ahead of the jam, so I&#39;m planning to go back to my roots with mechanics that involve death.&lt;/p&gt;
+&lt;p&gt;Some design elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The player is a Necromancer infiltrating a medieval stronghold (TBD: why?)&lt;/li&gt;
+&lt;li&gt;The Necromancer is weak in melee combat, and has a small health pool&lt;/li&gt;
+&lt;li&gt;However, the Necromancer can use skills on any corpse found in the world (existing and those of slain enemies)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some core Necromancer skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reanimate: Converts a corpse into a skeleton warrior that fights for the player&lt;/li&gt;
+&lt;li&gt;Explode: Causes target corpse to explode, dealing damage to nearby entities&lt;/li&gt;
+&lt;li&gt;Harvest: Consumes a corpse to gain &amp;quot;mana&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My hope is that there&#39;s interesting gameplay around managing your &amp;quot;pets&amp;quot; (reanimated skeletons), which act as a proxy for your health pool as well as your body (skeletons might aggro something you didn&#39;t want?).&lt;/p&gt;
+&lt;p&gt;That about the gist of it - I&#39;m sure things will evolve as I go, and I&#39;ll be curious to see how much of the original plans survive the week!&lt;/p&gt;
 </content>
 	</entry>
 </feed>

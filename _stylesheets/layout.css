@@ -51,6 +51,7 @@ main h6 {
 }
 main h1 {
   font-size: 2.5em;
+  line-height: 1.25em;
 }
 main h2 {
   font-size: 2em;
