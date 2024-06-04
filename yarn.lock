@@ -2349,14 +2349,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pug-error@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "pug-error@npm:2.0.0"
-  checksum: c5372d018c897c1d6a141dd803c50957feecfda1f3d84a6adc6149801315d6c7f8c28b05f3e186d98d774fc9718699d1e1caa675630dd3c4453f8c5ec4e4a986
-  languageName: node
-  linkType: hard
-
-"pug-error@npm:^2.1.0":
+"pug-error@npm:^2.0.0, pug-error@npm:^2.1.0":
   version: 2.1.0
   resolution: "pug-error@npm:2.1.0"
   checksum: 9aefacfa156f0eb439ddab86c7136f998a532481a80665c9fb6b998afeea5bc8c4f83eb6ad8a4c7804c44927737df913b768b713995e6892112bbc05762e5415
