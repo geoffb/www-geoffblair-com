@@ -14,7 +14,7 @@ Tonight was our last night in Dunedin and pretty special as we dined and stayed 
 
 In the morning we had our last breakfast at the Scenic, checked out, and headed downtown for a little shopping before driving to the castle. We stopped at the Scottish Shop, and found a few fun trinkets.
 
-After that it was back to the windy roads of Otago Peninsula and straight to Larnach Castle. We decided to head up there a bit early in order to have time to explore the gardens and castle itself. Even though we arrvied before check-in, our room was ready to go. Oddly enough, our room was the "Scottish Room" and themed as such. Beautiful views of the peninsula greeted us from the balcony.
+After that it was back to the windy roads of Otago Peninsula and straight to Larnach Castle. We decided to head up there a bit early in order to have time to explore the gardens and castle itself. Even though we arrived before check-in, our room was ready to go. Oddly enough, our room was the "Scottish Room" and themed as such. Beautiful views of the peninsula greeted us from the balcony.
 
 [![Scottish Room at Larnach Castle lodge][t3]][p3]
 
@@ -32,7 +32,7 @@ Finishing up our tour of the castle, we went back to our room, relaxed, and caug
 
 Dinner started with some drinks in the library. There was an interesting mix of visitors including people from France, Finland, Australia, UK, Canada, and an island between India and Africa of which I cannot remember the name.
 
-Shortly, we moved into the dining room for dinner. We ate a delicious three course meal and were entertained with stories and history of Larnach castle between courses. As with any family with money from the 1800s, there was tradgedy due to sickness, greed, and betrayal. An interesting tale, but long story short, William and his son, Douglas, both shot themelves due to family drama. The castle changed hands many times and fell into disrepair before being purchased by a couple who now preserve its historical significance.
+Shortly, we moved into the dining room for dinner. We ate a delicious three course meal and were entertained with stories and history of Larnach castle between courses. As with any family with money from the 1800s, there was tragedy due to sickness, greed, and betrayal. An interesting tale, but long story short, William and his son, Douglas, both shot themselves due to family drama. The castle changed hands many times and fell into disrepair before being purchased by a couple who now preserve its historical significance.
 
 [![Inside Larnach Castle, Otago Peninsula, Dunedin][t4]][p4]
 
