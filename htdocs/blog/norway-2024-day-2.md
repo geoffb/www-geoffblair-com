@@ -23,7 +23,7 @@ Next, we hopped back on the ferry for a quick trip over to the [Fram Museum](htt
 
 ![The Gjøa at the Fram Museum at Bygdøy in Oslo, Norway](/media/images/norway2024/fram-museum.jpeg)
 
-After spending as much time as we could learning about the polar expediations, we caught the ferry back to city hall just in time to board our scheduled [Silent Oslo Fjord Cruise](https://brimexplorer.com/tours/silent-oslo-fjord-cruise). The boat was fully electric, making for a quiet and smooth ride around the [Oslo Fjord](https://en.wikipedia.org/wiki/Oslofjord).
+After spending as much time as we could learning about the polar expeditions, we caught the ferry back to city hall just in time to board our scheduled [Silent Oslo Fjord Cruise](https://brimexplorer.com/tours/silent-oslo-fjord-cruise). The boat was fully electric, making for a quiet and smooth ride around the [Oslo Fjord](https://en.wikipedia.org/wiki/Oslofjord).
 
 We heard stories about many of the surrounding islands (of which there are apparently 240k), including the morbid history of "Deadman's Bay", where boats were quarantined and dumped the bodies of the dead, and "torture island", where prisoners were hung as a deterrent.
 
