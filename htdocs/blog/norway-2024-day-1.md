@@ -16,11 +16,11 @@ We arrived at the Oslo Gardermoen airport and met up with our driver for the ~40
 
 We are staying in the [Amerikalinjen](https://amerikalinjen.com) hotel for a couple of nights, which is located near the ["Oslo sentralstasjon"](https://en.wikipedia.org/wiki/Oslo_Central_Station) (Central train station).
 
-![Amerikalinjen Hotel in Oslo, Norway](/media/images/norway2024/amerikalinjen.jpeg)
+![Amerikalinjen Hotel in Oslo, Norway](/media/images/norway2024/amerikalinjen.webp)
 
 After checking in, we set out on foot to explore the city a bit. Walking down [Karl Johans gate](https://en.wikipedia.org/wiki/Karl_Johans_gate), we took note of interesting shops and restaurants to visit later. In particular, the [Freia](<https://en.wikipedia.org/wiki/Freia_(chocolate)>) chocolate shop!
 
-![Looking down Karl Johans gate in Olso, Norway](/media/images/norway2024/karl-johans-gate.jpeg)
+![Looking down Karl Johans gate in Olso, Norway](/media/images/norway2024/karl-johans-gate.webp)
 
 Getting hungry, we ate at the Royal Gastropub near the sentralstasjon. We returned to the hotel for an early night as we were tired from the long day of travel.
 
