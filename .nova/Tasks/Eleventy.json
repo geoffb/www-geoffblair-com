@@ -13,6 +13,6 @@
       "script" : "#!\/bin\/sh\nyarn develop"
     }
   },
-  "openLogOnRun" : "start",
+  "openLogOnRun" : "fail",
   "persistent" : true
 }
