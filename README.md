@@ -1,4 +1,4 @@
-# www.geoffblair.com
+# Geoff's Website
 
 [![Continuous Deployment](https://github.com/geoffb/www-geoffblair-com/actions/workflows/continuous-deployment.yml/badge.svg)](https://github.com/geoffb/www-geoffblair-com/actions/workflows/continuous-deployment.yml)
 
@@ -14,7 +14,7 @@ Personal website of Geoff Blair, hosted at [www.geoffblair.com](https://www.geof
 
 ## 🧰 Development
 
-Run the `yarn develop` command which will build, watch for changes, and serve the site to [localhost:8080](localhost:8080).
+Run the `yarn develop` command which will build, watch for changes, and serve the site at [localhost:8080](localhost:8080).
 
 ## 🚀 Deployment
 
