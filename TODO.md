@@ -8,6 +8,7 @@
 - JavaScript templates? (Like Less, but JS + esbuild -> JS bundle)
 - Lazy load images
 - Improve image optimization (might be an 11ty solution)
+- Template for "Day N" post series with previous/next/etc, e.g. New Zealand and Norway travel, or game jam devlogs
 
 ## Content
 

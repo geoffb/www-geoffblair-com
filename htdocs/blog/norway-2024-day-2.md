@@ -36,3 +36,5 @@ During the cruise we also learned that the sodded roofs (pictured above at the F
 Returning to the pier, we took another walk around the city looking for a good place to eat dinner. We settled on [Fjøla](http://fjola.no/fjola-ostbanehallen/), a nice restaurant within the Oslo Sentralstasjon. Iris had their iconic Fiskesuppe (fish soup) which she very much enjoyed, while I had a pulled brisket sandwich.
 
 After dinner, we turned in to get a good night's sleep before we continue our adventures tomorrow with a train ride from Oslo to Flåm.
+
+_[Continue to day 3](/blog/norway-2024-day-3/) or browse [all posts tagged #norway](/tags/norway/)._

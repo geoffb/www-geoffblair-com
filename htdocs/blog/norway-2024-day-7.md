@@ -38,3 +38,5 @@ At the station, we said goodbye to Torbjörn and did a bit of souvenir shopping 
 After a quick rest at the hotel, we went out to a Mexican restaurant on the docks for some comfort food of enchiladas and tacos.
 
 We picked up a pastry to share on the way back to the hotel, and turned in for the night to prepare for traveling to Tromsø tomorrow.
+
+_[Continue to day 8](/blog/norway-2024-day-8/) or browse [all posts tagged #norway](/tags/norway/)._

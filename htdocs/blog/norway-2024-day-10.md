@@ -26,3 +26,5 @@ All in all, it was nice to have some downtime after lots of hiking and outdoor a
 In the evening we went down to the restaurant for dinner and then headed back to our room to hang out and watch for the northern lights.
 
 We stayed up late looking towards the north, but the stormy weather and clouds predictably put a damper on our views for tonight. We still have tomorrow night, so we're keeping our fingers crossed for better weather!
+
+_Browse [all posts tagged #norway](/tags/norway/)._

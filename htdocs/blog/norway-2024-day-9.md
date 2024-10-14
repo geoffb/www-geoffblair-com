@@ -38,3 +38,5 @@ Hamn i Senja is a very nice resort with amazing cottages that overlook the sea a
 Being fairly remote, the only option for dinner was the attached restaurant, which had some great food. Iris tried their fiskesuppe while I had panfried cod with bacon mashed potatoes.
 
 The resort includes a small lighthouse offering panoramic views of the area while enjoying hot coffee. We spent some of the evening after dinner in the lighthouse hoping to see the aurora, but because of the rain and clouds we couldn't see anything spectacular. We're hopeful for better views over the next couple of nights.
+
+_[Continue to day 10](/blog/norway-2024-day-10/) or browse [all posts tagged #norway](/tags/norway/)._

@@ -38,3 +38,5 @@ Getting a bit hungry, we stopped for picnic lunch in a scenic spot along the riv
 After lunch, we returned to Aurland via the [Lærdal Tunnel](https://en.wikipedia.org/wiki/Lærdal_Tunnel), the longest road tunnel in the world.
 
 Once again we finished the day with an amazing three-course dinner back at 29|2 Aurland - A halibut ceviche appetizer, duck confit main, and [Tilslørte bondepiker](https://en.wikipedia.org/wiki/Tilslørte_bondepiker) for dessert.
+
+_[Continue to day 5](/blog/norway-2024-day-5/) or browse [all posts tagged #norway](/tags/norway/)._

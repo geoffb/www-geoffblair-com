@@ -36,3 +36,5 @@ We found a nice spot above the viewpoint to eat our packed lunch before heading 
 It didn't take long to see most of the small town and afterwards we took a nice walk back to 29|2 Aurland where we jumped into the outdoor hot tub to relax and unwind while taking in views of the mountains and waterfalls.
 
 We again finished up the day with superb dinner in the lodge - delicious hake and a brown butter parfait for desert.
+
+_[Continue to day 6](/blog/norway-2024-day-6/) or browse [all posts tagged #norway](/tags/norway/)._

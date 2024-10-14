@@ -34,3 +34,5 @@ Returning to the lodge, we rested for a bit before dinner time. Dinner was an am
 ![Cold potato and leek soup at 29|2 Aurland in Norway](/media/images/norway2024/aurland-dinner.webp)
 
 It was an eventful and exhausting day (in a good way) and we're looking forward to more activities around Aurland over the next few days.
+
+_[Continue to day 4](/blog/norway-2024-day-4/) or browse [all posts tagged #norway](/tags/norway/)._

@@ -40,3 +40,5 @@ After a bit more walking, we sat down for a dessert of blueberry cheescake, stra
 ![Enjoying dessert at the fish market in Bergen](/media/images/norway2024/bergen-dessert.webp)
 
 Full of sweets and a little exhausted from a day of travel and walking around the city, we returned to the hotel to get some rest for tomorrow's hike in the mountains overlooking Bergen.
+
+_[Continue to day 7](/blog/norway-2024-day-7/) or browse [all posts tagged #norway](/tags/norway/)._

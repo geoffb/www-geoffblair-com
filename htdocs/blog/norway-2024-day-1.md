@@ -25,3 +25,5 @@ After checking in, we set out on foot to explore the city a bit. Walking down [K
 Getting hungry, we ate at the Royal Gastropub near the sentralstasjon. We returned to the hotel for an early night as we were tired from the long day of travel.
 
 We're looking forward to experiencing more of Oslo tomorrow!
+
+_[Continue to day 2](/blog/norway-2024-day-2/) or browse [all posts tagged #norway](/tags/norway/)._
