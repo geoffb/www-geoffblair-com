@@ -19,7 +19,7 @@ What we think of as "talent" is a manifested interest in a thing. Interest resul
 
 The "interest" can come from a couple angles: You might be inherently interested in the activity, or you might be interested in the end result and disciplined enough to apply pursuit.
 
-Here's a the quote in context:
+Here's the quote in context:
 
 > One of the most interesting things that we see as we run across the country teaching this fantastic method is people continually say "I can't draw a straight line. I don't have the talent, Bob, to do what you're doing".
 >
