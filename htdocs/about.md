@@ -11,7 +11,7 @@ I'm a [game developer](/games/) and co-founder of [Lost Decade Games](http://www
 
 After spending nearly a decade as a full stack web developer at companies such as Yahoo! Games (now defunct) and Raptr (also defunct), I decided to focus on my lifelong obsession with game development by founding Lost Decade Games with [Matt Hackett](http://www.richtaur.com) in 2010. Matt and I hosted [Lostcast](http://www.lostdecadegames.com/lostcast/episodes/), a long-running podcast about indie game development, with an [HTML5](https://en.wikipedia.org/wiki/HTML5) slant.
 
-When not stuck behind a computer screen, I like to play disc golf, snowboard, [travel](/blog/new-zealand-2014-day-1/), and play board games.
+When not sitting behind a computer screen, I like to play disc golf, snowboard, [travel](/tags/travel/), and play board games.
 
 Take a look at the [hardware and software I use](/uses/) to get the job done.
 
