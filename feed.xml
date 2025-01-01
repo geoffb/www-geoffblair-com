@@ -4,7 +4,7 @@
 	<subtitle>Read Geoff&#39;s blog for articles about independent game development, running a small business, his travels, and interests.</subtitle>
 	<link href="https://www.geoffblair.com/feed.xml" rel="self"/>
 	<link href="https://www.geoffblair.com"/>
-	<updated>2024-12-03T12:00:00Z</updated>
+	<updated>2024-12-31T12:00:00Z</updated>
 	<id>https://www.geoffblair.com</id>
 	<author>
 		<name>Geoff Blair</name>
@@ -1031,6 +1031,55 @@ ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;p&gt;Once you have the technique down, all you need is a dream in your heart and the desire to put it on canvas.&lt;/p&gt;
 &lt;p&gt;— Bob Ross&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2024 Retrospective</title>
+		<link href="https://www.geoffblair.com/blog/2024-retrospective/"/>
+		<updated>2024-12-31T12:00:00Z</updated>
+		<id>https://www.geoffblair.com/blog/2024-retrospective/</id>
+		<content type="html">&lt;p&gt;It&#39;s the end of the year, and time to look back on 2024.&lt;/p&gt;
+&lt;h2&gt;Roadmap Goals&lt;/h2&gt;
+&lt;p&gt;Earlier this year, I posted my &lt;a href=&quot;https://www.geoffblair.com/blog/2024-roadmap/&quot;&gt;2024 Roadmap&lt;/a&gt; - let&#39;s see how I did!&lt;/p&gt;
+&lt;h3&gt;7DRL 2024&lt;/h3&gt;
+&lt;p&gt;I kept my 7DRL streak going with &lt;a href=&quot;https://gosub.itch.io/plum-parish&quot;&gt;The Razing of Plum Parish&lt;/a&gt;. This makes five years in a row!&lt;/p&gt;
+&lt;p&gt;I think it&#39;s a pretty strong entry. In many ways it&#39;s a step above &lt;a href=&quot;https://gosub.itch.io/catacombs&quot;&gt;Catacombs&lt;/a&gt; (my previous &amp;quot;best&amp;quot; entry, from 2020) which was a sub-goal for this year.&lt;/p&gt;
+&lt;p&gt;There&#39;s a nice lighting/LOS feature, better procedural dungeon generation, and character skills.&lt;/p&gt;
+&lt;p&gt;I wrote about &lt;a href=&quot;https://www.geoffblair.com/blog/7drl-2024/&quot;&gt;my plans for the jam&lt;/a&gt;, but sadly I did not write a recap afterwards. Something to improve for next year!&lt;/p&gt;
+&lt;h3&gt;Travel to Norway&lt;/h3&gt;
+&lt;p&gt;Iris and vacationed in Norway in September and it was amazing! I posted a summary of each day we were there, which you can read &lt;a href=&quot;https://www.geoffblair.com/blog/norway-2024-day-1/&quot;&gt;starting on the first day&lt;/a&gt; (or browse &lt;a href=&quot;https://www.geoffblair.com/tags/norway/&quot;&gt;all posts tagged #norway&lt;/a&gt;).&lt;/p&gt;
+&lt;h3&gt;Post once per month&lt;/h3&gt;
+&lt;p&gt;While I didn&#39;t make a post once each month, I did end up averaging at least a post per month, which counts for something. The Norway blog made up a bulk of my posting so next year I&#39;ll need to diversify a bit more and try to post during each month.&lt;/p&gt;
+&lt;p&gt;I do have a few drafts sitting unpublished that should have gone out. The upside is that I will have some content ready-ish in the beginning of 2025.&lt;/p&gt;
+&lt;h3&gt;Snowboard in Colorado&lt;/h3&gt;
+&lt;p&gt;I didn&#39;t snowboard in Colorado, or anywhere else. Bummer.&lt;/p&gt;
+&lt;p&gt;There&#39;s still time this season (in 2025) as Colorado gets snow into April regularly, and sometimes May.&lt;/p&gt;
+&lt;p&gt;We&#39;ll call this a roll-over goal for 2025.&lt;/p&gt;
+&lt;h3&gt;Release a game for $1&lt;/h3&gt;
+&lt;p&gt;Another miss! I was worried about this goal when I wrote the roadmap, and for good reason. Completing a game worth selling is a large amount of effort.&lt;/p&gt;
+&lt;p&gt;While I did do a bunch of hobby game development in 2024 (more on that in bit), it just wasn&#39;t a consolidated and product-focused effort.&lt;/p&gt;
+&lt;p&gt;I&#39;ve still got my eye on this goal, and 2025 might be the year!&lt;/p&gt;
+&lt;h3&gt;Maintain diet and exercise&lt;/h3&gt;
+&lt;p&gt;I did well on diet and exercise through the first half of the year, but I slipped a bit in the latter half.&lt;/p&gt;
+&lt;p&gt;I&#39;m &amp;quot;only&amp;quot; up about 10 pounds - not terrible, but not the direction I was hoping to go.&lt;/p&gt;
+&lt;p&gt;All in all, I&#39;m still in better shape than 2023 and ready to get back on the horse for 2025.&lt;/p&gt;
+&lt;h3&gt;Post a 2024 Retrospective&lt;/h3&gt;
+&lt;p&gt;You are reading it now!&lt;/p&gt;
+&lt;h2&gt;What else happened in 2024?&lt;/h2&gt;
+&lt;h3&gt;Plato&lt;/h3&gt;
+&lt;p&gt;I was fairly busy with Plato work and travel. We&#39;ve got some cool games and platform features cooking for early next year.&lt;/p&gt;
+&lt;p&gt;In April, I traveled with the CEO and CTO to Bilbao, Spain where we met and hung out with several folks from the Plato games team. We all had a blast and ate great food. Iris came along and we got a couple days of sight-seeing in Barcelona as well. (This trip would have made a great post! Maybe I&#39;ll still do it.)&lt;/p&gt;
+&lt;p&gt;In November, we had the annual Plato Summit in Las Vegas, Nevada. Fun was again had by all, and it was great to see everyone on the team in person.&lt;/p&gt;
+&lt;h3&gt;Odin&lt;/h3&gt;
+&lt;p&gt;Early in the year, I started learning a new (to me) programming language, &lt;a href=&quot;https://odin-lang.org/&quot;&gt;Odin&lt;/a&gt;. I have a half-done post with more details, and I really enjoyed it.&lt;/p&gt;
+&lt;h3&gt;Watt-Wise Game Jam&lt;/h3&gt;
+&lt;p&gt;I participated in the first ever &lt;a href=&quot;https://wattwise.games/&quot;&gt;Watt-Wise Game Jam&lt;/a&gt;, hosted by my friend and co-worker Chris Waldon and friends.&lt;/p&gt;
+&lt;p&gt;My entry was an old school first-person dungeon crawler, &lt;a href=&quot;https://gosub.itch.io/green-rpg&quot;&gt;Green RPG&lt;/a&gt;. It&#39;s fairly slight since the timing of the jam came between 7DRL and my Plato Spain trip, and I got distracted halfway through by Odin.&lt;/p&gt;
+&lt;h2&gt;Wrap-up&lt;/h2&gt;
+&lt;p&gt;All in all, 2024 was a good year.&lt;/p&gt;
+&lt;p&gt;I think I did well on my goals and I have some clear goals going into my roadmap for next year. I left some opportunities for posting on the table and I mean to correct that in 2025.&lt;/p&gt;
+&lt;p&gt;Happy new year!&lt;/p&gt;
 </content>
 	</entry>
 </feed>
