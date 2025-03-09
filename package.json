@@ -16,5 +16,5 @@
 		"less": "^4.2.1",
 		"prettier": "^3.4.2"
 	},
-	"packageManager": "yarn@4.6.0"
+	"packageManager": "yarn@4.7.0"
 }
