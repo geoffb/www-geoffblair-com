@@ -13,7 +13,7 @@
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"html-minifier": "^4.0.0",
-		"less": "^4.2.2",
+		"less": "^4.3.0",
 		"prettier": "^3.5.3"
 	},
 	"packageManager": "yarn@4.7.0"
