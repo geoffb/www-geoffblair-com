@@ -44,12 +44,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-plugin-syntaxhighlight@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@11ty/eleventy-plugin-syntaxhighlight@npm:5.0.0"
+"@11ty/eleventy-plugin-syntaxhighlight@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@11ty/eleventy-plugin-syntaxhighlight@npm:5.0.1"
   dependencies:
-    prismjs: "npm:^1.29.0"
-  checksum: 10/b6d2663a8fc2874e7893ce345e4a231bcdfbff58df79cc8974a39e34bef71bb0dfa8289a8123b7ed5324a4c842ad5f5021111189c0b43ba1a64a21001480b0c9
+    prismjs: "npm:^1.30.0"
+  checksum: 10/02dceeeebac934f0bafd1b7cb90f07d31bdf1b310d5669ddca4acf51599cd6b03ec815fd2e00b691d8778cfc81a5c36ef234adfd9c4e8e792fb5a7dc8e92bc86
   languageName: node
   linkType: hard
 
@@ -2280,7 +2280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prismjs@npm:^1.29.0":
+"prismjs@npm:^1.30.0":
   version: 1.30.0
   resolution: "prismjs@npm:1.30.0"
   checksum: 10/6b48a2439a82e5c6882f48ebc1564c3890e16463ba17ac10c3ad4f62d98dea5b5c915b172b63b83023a70ad4f5d7be3e8a60304420db34a161fae69dd4e3e2da
@@ -2568,7 +2568,7 @@ __metadata:
   dependencies:
     "@11ty/eleventy": "npm:^2.0.1"
     "@11ty/eleventy-plugin-rss": "npm:^1.2.0"
-    "@11ty/eleventy-plugin-syntaxhighlight": "npm:^5.0.0"
+    "@11ty/eleventy-plugin-syntaxhighlight": "npm:^5.0.1"
     html-minifier: "npm:^4.0.0"
     less: "npm:^4.3.0"
     prettier: "npm:^3.5.3"
